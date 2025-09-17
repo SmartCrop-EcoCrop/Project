@@ -419,12 +419,13 @@ Enfoque clave:
 <h2>2.3. Needfinding</h2>
 
 <h3>2.3.1. User Personas</h3>
-<h4>Persona 2: Santiago – Agricultor Independiente (Recién Incorporado)</h4>
+<h4>Persona 2: Angie – Agricultor Independiente (Recién Incorporado)</h4>
 <ul>
-  <li><b>Edad:</b> 20-25 años (basado en la entrevista).</li>
-  <li><b>Necesidad:</b> Superar la dependencia de los intermediarios y encontrar un canal directo para vender su cosecha a precios justos. También necesita un sistema digital de control de cultivos.</li>
-  <li><b>Frustración:</b> Pérdida de ganancias por intermediarios, falta de precios en tiempo real, apps existentes demasiado complicadas.</li>
-  <li><b>Objetivo:</b> Usar una aplicación que registre su cosecha, muestre precios claros y lo conecte directamente con compradores.</li>
+<figure>
+      <img src="UserPersona1Segmento" alt="Foto de Angie Sarmiento" width="200">
+      <figcaption>Imagen de la entrevistada (Angie)</figcaption>
+    </figure>
+  
 </ul>
 
 <hr>
