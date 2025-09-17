@@ -220,7 +220,7 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
     <p><strong>Medio:</strong> Meet</p>
     <p><strong>Entrevistador:</strong> Salcedo Champi Matias</p>
     
-    <!-- Imagen Santiago -->
+// <!-- Imagen Santiago -->
     <figure>
       <img src="LINK_IMAGEN_SANTIAGO" alt="Foto de Santiago Baldeon" width="200">
       <figcaption>Imagen del entrevistado (Santiago)</figcaption>
