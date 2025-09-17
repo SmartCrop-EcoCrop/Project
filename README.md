@@ -115,4 +115,68 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
     <li><strong>Simplicidad como ventaja competitiva:</strong> Resalta constantemente la usabilidad de EcoCrop en comparación con las aplicaciones complejas como Plantix o los sistemas difíciles de implementar como FarmOS.</li>
   </ol>
 </section>
+<!-- 2.2 Entrevistas - Diseño de entrevistas -->
+<section id="cap-2-2-entrevistas">
+  <h1>Capítulo 2: Entrevistas</h1>
+
+  <h2 id="2-2-1">2.2.1. Diseño de entrevistas</h2>
+  <p>Se elaboró un guion de entrevistas con preguntas abiertas, dirigidas a agricultores, asociaciones locales y empresas de insumos agrícolas. Las preguntas buscan identificar necesidades, procesos actuales, fricciones y expectativas respecto a una solución digital (EcoCrop).</p>
+
+  <!-- Segmento 1 -->
+  <article class="segmento" id="segmento-1">
+    <h3>Segmento 1: Agricultores</h3>
+    <ol>
+      <li>¿Cuáles son los principales retos que enfrenta en la venta de sus productos agrícolas?</li>
+      <li>¿Cómo gestiona actualmente la información de sus cultivos (producción, cosecha, precios)?</li>
+      <li>¿Le resulta complicado conectarse directamente con compradores o mercados sin intermediarios?</li>
+      <li>¿Ha tenido problemas con precios bajos por falta de información o negociaciones desiguales?</li>
+      <li>¿Qué tan importante es para usted tener acceso a información en tiempo real sobre precios de mercado?</li>
+      <li>¿Usa actualmente alguna aplicación móvil o página web para su negocio? ¿Qué limitaciones encuentra?</li>
+      <li>¿Qué herramientas digitales cree que le ayudarían a mejorar la organización de su producción?</li>
+      <li>¿Cuánto influye la falta de canales de venta modernos (online) en sus ingresos?</li>
+      <li>¿Le interesaría contar con una aplicación que le conecte directamente con compradores o asociaciones?</li>
+      <li>¿Qué características le harían confiar y usar regularmente una aplicación de este tipo?</li>
+    </ol>
+  </article>
+
+  <!-- Segmento 2 -->
+  <article class="segmento" id="segmento-2">
+    <h3>Segmento 2: Operativas y asociaciones agrícolas</h3>
+    <ol>
+      <li>¿Cuáles son los principales problemas que enfrentan al coordinar a los agricultores miembros?</li>
+      <li>¿Cómo organizan actualmente la recolección y distribución de productos agrícolas?</li>
+      <li>¿Qué dificultades tienen para negociar mejores precios en conjunto?</li>
+      <li>¿Cómo registran y gestionan la información de producción de los asociados?</li>
+      <li>¿Existen problemas de comunicación entre la asociación y los agricultores?</li>
+      <li>¿Qué herramientas digitales utilizan hoy en día para organizar sus operaciones?</li>
+      <li>¿Consideran necesario un sistema centralizado que unifique la información de producción, ventas y logística?</li>
+      <li>¿Cuáles serían las principales funcionalidades que debería tener una aplicación para apoyar a la asociación?</li>
+      <li>¿Qué importancia le dan a tener una plataforma que conecte directamente a la asociación con compradores y proveedores?</li>
+      <li>¿Cómo creen que la tecnología puede fortalecer la relación entre agricultores y su organización?</li>
+    </ol>
+  </article>
+
+  <!-- Segmento 3 -->
+  <article class="segmento" id="segmento-3">
+    <h3>Segmento 3: Empresas de Insumos Agrícolas</h3>
+    <ol>
+      <li>¿Cuáles son las principales dificultades que enfrentan al llegar a los agricultores o asociaciones?</li>
+      <li>¿Cómo gestionan actualmente la comunicación y la venta de sus productos a pequeños y medianos agricultores?</li>
+      <li>¿Qué importancia tiene para su empresa tener acceso a información confiable sobre las necesidades de los agricultores?</li>
+      <li>¿Qué retos enfrentan para ofrecer promociones o campañas específicas al público agrícola?</li>
+      <li>¿Les interesa contar con un canal digital para promocionar directamente sus insumos a agricultores organizados?</li>
+      <li>¿Qué factores influyen en que un agricultor elija sus productos frente a los de la competencia?</li>
+      <li>¿Qué papel juega la confianza y la información transparente en la relación con sus clientes agrícolas?</li>
+      <li>¿Qué funcionalidades valoraría más en una plataforma que conecte su empresa con agricultores y asociaciones?</li>
+      <li>¿Cómo creen que la digitalización de este sector podría impactar en sus ventas y posicionamiento?</li>
+      <li>¿Estarían dispuestos a invertir en publicidad o paquetes promocionales dentro de una aplicación usada por agricultores y asociaciones?</li>
+      <li>¿Qué características le harían confiar y usar regularmente una aplicación de este tipo?</li>
+    </ol>
+  </article>
+
+  <footer>
+    <p><strong>Nota:</strong> Las preguntas están formuladas para ser abiertas y fomentar respuestas detalladas que permitan extraer hallazgos cualitativos (fricciones, motivadores, necesidades latentes) y cuantitativos (frecuencia, disposición a pagar, uso de herramientas digitales).</p>
+  </footer>
+</section>
+
 
