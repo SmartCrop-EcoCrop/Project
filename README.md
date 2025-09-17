@@ -262,3 +262,157 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
     </p>
   </article>
 </section>
+<h2>2.2.3. Análisis de entrevistas</h2>
+
+<h3>Entrevistas Segmento 1 (Agricultores)</h3>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <thead>
+    <tr>
+      <th>Pregunta</th>
+      <th>Santiago (Agricultor Emprendedor)</th>
+      <th>Fabricio (Asociación)</th>
+      <th>Angie (Pequeña Agricultora)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>¿Cuáles son los principales retos que enfrenta en la venta de sus productos agrícolas?</td>
+      <td>Dependencia de intermediarios que reducen sus ganancias.</td>
+      <td>Falta de coordinación y conocimiento colectivo para gestionar cosechas y plagas.</td>
+      <td>Encontrar compradores que paguen precios justos y superar costos de transporte e intermediarios.</td>
+    </tr>
+    <tr>
+      <td>¿Cómo gestiona actualmente la información de sus cultivos?</td>
+      <td>Libretas manuales, lo que provoca pérdida de información.</td>
+      <td>Miembros usan cuadernos distintos, impidiendo centralizar información.</td>
+      <td>Libretas manuales, WhatsApp y Facebook → generan desorden e ineficiencia.</td>
+    </tr>
+    <tr>
+      <td>¿Le resulta complicado conectarse directamente con compradores sin intermediarios?</td>
+      <td>Sí, es la barrera más crítica.</td>
+      <td>Sí, buscan una app gratuita que facilite conexión y gestión colectiva.</td>
+      <td>Sí, considera que la falta de canales modernos le impide obtener precios justos.</td>
+    </tr>
+    <tr>
+      <td>¿Ha tenido problemas con precios bajos por falta de información?</td>
+      <td>Sí, es su principal problema: precios bajos e intermediarios reducen ingresos.</td>
+      <td>Sí, la falta de registros centralizados genera pérdidas evitables.</td>
+      <td>Sí, siente que precios injustos y transporte reducen mucho sus ganancias.</td>
+    </tr>
+    <tr>
+      <td>¿Qué tan importante es el acceso a información en tiempo real sobre precios?</td>
+      <td>No lo menciona directo, pero lo considera motivador clave.</td>
+      <td>Lo valoraría como mejora de conocimiento colectivo.</td>
+      <td>Lo considera clave para encontrar precios justos.</td>
+    </tr>
+    <tr>
+      <td>¿Usa alguna app o página web? ¿Qué limitaciones encuentra?</td>
+      <td>No, las apps actuales son complicadas y no hechas para pequeños agricultores.</td>
+      <td>No, buscan una app gratuita que centralice información de la asociación.</td>
+      <td>Usa WhatsApp y Facebook, pero no sirven para gestión.</td>
+    </tr>
+    <tr>
+      <td>¿Qué herramientas digitales le ayudarían a mejorar la organización?</td>
+      <td>Una app sencilla que gestione producción y conecte con compradores confiables.</td>
+      <td>Una herramienta colaborativa para registrar y compartir información entre miembros.</td>
+      <td>Una app que organice digitalmente costos y ventas.</td>
+    </tr>
+    <tr>
+      <td>¿Cuánto influye la falta de canales de venta online en sus ingresos?</td>
+      <td>Mucho, pierde hasta el 80% de ganancias con intermediarios.</td>
+      <td>Afecta la capacidad de comercializar colectivamente.</td>
+      <td>Críticamente, limita acceso a mercados justos.</td>
+    </tr>
+    <tr>
+      <td>¿Le interesaría una app que lo conecte directamente con compradores?</td>
+      <td>Sí, lo considera lo más importante para mejorar rentabilidad.</td>
+      <td>Sí, sería clave para compartir información y mejorar gestión colectiva.</td>
+      <td>Sí, lo ve como vía para evitar intermediarios.</td>
+    </tr>
+    <tr>
+      <td>¿Qué características le harían confiar y usar una app?</td>
+      <td>Simplicidad, facilidad de uso y resolver problema de intermediarios.</td>
+      <td>Que sea gratuita y centralice información para todos los miembros.</td>
+      <td>Que sea simple y conecte con compradores confiables.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Hallazgos clave</h4>
+<ul>
+  <li>Los agricultores dependen de métodos tradicionales e informales (libretas, WhatsApp, recomendaciones).</li>
+  <li>Las apps actuales no se adaptan a pequeños agricultores: son complicadas y poco efectivas.</li>
+  <li>La simplicidad es indispensable: buscan soluciones fáciles de usar y rápidas.</li>
+  <li>El impacto financiero es la principal preocupación: pérdidas por intermediarios y plagas.</li>
+  <li>Existe disposición a pagar si la solución es efectiva → modelo freemium es viable.</li>
+</ul>
+
+<h4>Conclusiones para EcoCrop</h4>
+<p>
+EcoCrop debe cerrar la brecha entre conocimiento informal y tecnología, posicionándose como un socio confiable y accesible.  
+Enfoque clave:
+</p>
+<ul>
+  <li>Diseño simple y accesible.</li>
+  <li>Resultados tangibles (ahorro, productividad, prevención de pérdidas).</li>
+  <li>Enfoque comunitario y de confianza.</li>
+</ul>
+
+<hr>
+
+<h3>Entrevistas Segmento 2 (Operativas y Asociaciones Agrícolas)</h3>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <thead>
+    <tr>
+      <th>Pregunta</th>
+      <th>Respuestas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>¿Cuáles son los principales problemas al coordinar agricultores?</td><td>(Pendiente de completar)</td></tr>
+    <tr><td>¿Cómo organizan recolección y distribución?</td><td>(Pendiente)</td></tr>
+    <tr><td>¿Qué dificultades tienen para negociar mejores precios?</td><td>(Pendiente)</td></tr>
+    <tr><td>¿Cómo registran y gestionan la información?</td><td>(Pendiente)</td></tr>
+    <tr><td>¿Existen problemas de comunicación?</td><td>(Pendiente)</td></tr>
+    <tr><td>¿Qué herramientas digitales utilizan?</td><td>(Pendiente)</td></tr>
+    <tr><td>¿Necesitan un sistema centralizado?</td><td>(Pendiente)</td></tr>
+    <tr><td>¿Qué funcionalidades debería tener una app?</td><td>(Pendiente)</td></tr>
+    <tr><td>¿Qué importancia tiene conectar con compradores/proveedores?</td><td>(Pendiente)</td></tr>
+    <tr><td>¿Cómo puede la tecnología fortalecer la relación?</td><td>(Pendiente)</td></tr>
+  </tbody>
+</table>
+
+<h4>Hallazgos clave</h4>
+<p>(Por completar con entrevistas).</p>
+
+<h4>Conclusiones para EcoCrop</h4>
+<p>(Por completar).</p>
+
+<hr>
+
+<h3>Entrevistas Segmento 3 (Empresas de Insumos Agrícolas)</h3>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <thead>
+    <tr>
+      <th>Pregunta</th>
+      <th>Respuestas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>¿Cuáles son las principales dificultades para llegar a agricultores?</td><td>(Pendiente)</td></tr>
+    <tr><td>¿Cómo gestionan comunicación y venta?</td><td>(Pendiente)</td></tr>
+    <tr><td>¿Qué importancia tiene acceder a información confiable de necesidades agrícolas?</td><td>(Pendiente)</td></tr>
+    <tr><td>¿Qué retos enfrentan para promociones o campañas?</td><td>(Pendiente)</td></tr>
+    <tr><td>¿Les interesa contar con un canal digital?</td><td>(Pendiente)</td></tr>
+    <tr><td>¿Qué factores influyen en que un agricultor elija sus productos?</td><td>(Pendiente)</td></tr>
+  </tbody>
+</table>
+
+<h4>Hallazgos clave</h4>
+<p>(Por completar).</p>
+
+<h4>Conclusiones para EcoCrop</h4>
+<p>(Por completar).</p>
