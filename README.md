@@ -178,5 +178,96 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
     <p><strong>Nota:</strong> Las preguntas están formuladas para ser abiertas y fomentar respuestas detalladas que permitan extraer hallazgos cualitativos (fricciones, motivadores, necesidades latentes) y cuantitativos (frecuencia, disposición a pagar, uso de herramientas digitales).</p>
   </footer>
 </section>
+<!-- 2.2.2 Registro de entrevistas -->
+<section id="cap-2-2-2-entrevistas">
+  <h2>2.2.2. Registro de entrevistas</h2>
 
+  <!-- Entrevista Fabrizio -->
+  <article class="entrevista">
+
+  <!-- Imagen Fabrizio -->
+    <figure>
+      <img src="LINK_IMAGEN_FABRIZIO" alt="Foto de Fabrizio Bussalleu" width="200">
+      <figcaption>Imagen del entrevistado (Fabrizio)</figcaption>
+    </figure>
+
+    <h3>Primer segmento: (Fabrizio)</h3>
+    <p><strong>Segmento:</strong> Agricultores</p>
+    <p><strong>Entrevistado:</strong> Fabrizio Bussalleu</p>
+    <p><strong>Edad:</strong> 27 años</p>
+    <p><strong>Rubro:</strong> Agricultura</p>
+    <p><strong>Ubicación:</strong> Piura - Las Lomas</p>
+    <p><strong>Medio:</strong> Meet</p>
+    <p><strong>Entrevistador:</strong> Salcedo Champi Matias</p>
+    
+    
+
+    <h4>Resumen:</h4>
+    <p>
+      Como representante de una asociación de productores, la principal preocupación de Fabricio es la falta de un sistema centralizado. 
+      Él destaca que cada miembro usa un método diferente (cuadernos), lo que impide que el grupo comparta información de manera efectiva 
+      sobre plagas y cosechas. La necesidad clave de su asociación es una herramienta colaborativa que les permita centralizar datos y tomar 
+      decisiones conjuntas.
+    </p>
+  </article>
+
+  <hr>
+
+  <!-- Entrevista Santiago -->
+  <article class="entrevista">
+
+  <!-- Imagen Santiago -->
+    <figure>
+      <img src="LINK_IMAGEN_SANTIAGO" alt="Foto de Santiago Baldeon" width="200">
+      <figcaption>Imagen del entrevistado (Santiago)</figcaption>
+    </figure>
+    <h3>Primer segmento: (Santiago)</h3>
+    <p><strong>Segmento:</strong> Agricultores</p>
+    <p><strong>Entrevistado:</strong> Santiago Baldeon</p>
+    <p><strong>Edad:</strong> 25 años</p>
+    <p><strong>Rubro:</strong> Agricultura</p>
+    <p><strong>Ubicación:</strong> Piura - Las Lomas</p>
+    <p><strong>Medio:</strong> Meet</p>
+    <p><strong>Entrevistador:</strong> Salcedo Champi Matias</p>
+    
+    
+
+    <h4>Resumen:</h4>
+    <p>
+      Santiago, un agricultor que recién se incorpora al negocio, identifica dos problemas principales: la dependencia de los intermediarios, 
+      que reducen sus ganancias, y la ineficiencia de los registros manuales en libretas, que provoca pérdida de información. 
+      Su necesidad más urgente es un canal directo para vender y una herramienta que le ayude a gestionar su producción de manera sencilla.
+    </p>
+  </article>
+
+  <hr>
+
+  <!-- Entrevista Angie -->
+  <article class="entrevista">
+
+  <!-- Imagen Angie -->
+    <figure>
+      <img src="LINK_IMAGEN_ANGIE" alt="Foto de Angie Sarmiento" width="200">
+      <figcaption>Imagen de la entrevistada (Angie)</figcaption>
+    </figure>
+    <h3>Primer segmento: (Angie)</h3>
+    <p><strong>Segmento:</strong> Agricultores</p>
+    <p><strong>Entrevistada:</strong> Angie Sarmiento</p>
+    <p><strong>Edad:</strong> 25 años</p>
+    <p><strong>Rubro:</strong> Agricultura</p>
+    <p><strong>Ubicación:</strong> Piura - Las Lomas</p>
+    <p><strong>Medio:</strong> Meet</p>
+    <p><strong>Entrevistador:</strong> Salcedo Champi Matias</p>
+    
+    
+
+    <h4>Resumen:</h4>
+    <p>
+      Angie, una pequeña agricultora con 6 hectáreas, se enfoca en la organización de su producción y la venta. 
+      Utiliza WhatsApp y Facebook de manera informal, pero busca una herramienta que la ayude a organizar mejor sus registros de costos y ventas. 
+      Su mayor problema es encontrar compradores que paguen precios justos, ya que los intermediarios y los costos de transporte reducen sus ganancias. 
+      Al igual que Santiago, valora una aplicación que le permita gestionar su producción de manera simple y la conecte con compradores directos o asociaciones confiables.
+    </p>
+  </article>
+</section>
 
