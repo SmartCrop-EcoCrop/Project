@@ -416,3 +416,116 @@ Enfoque clave:
 
 <h4>Conclusiones para EcoCrop</h4>
 <p>(Por completar).</p>
+<h2>2.3. Needfinding</h2>
+
+<h3>2.3.1. User Personas</h3>
+<h4>Persona 2: Santiago – Agricultor Independiente (Recién Incorporado)</h4>
+<ul>
+  <li><b>Edad:</b> 20-25 años (basado en la entrevista).</li>
+  <li><b>Necesidad:</b> Superar la dependencia de los intermediarios y encontrar un canal directo para vender su cosecha a precios justos. También necesita un sistema digital de control de cultivos.</li>
+  <li><b>Frustración:</b> Pérdida de ganancias por intermediarios, falta de precios en tiempo real, apps existentes demasiado complicadas.</li>
+  <li><b>Objetivo:</b> Usar una aplicación que registre su cosecha, muestre precios claros y lo conecte directamente con compradores.</li>
+</ul>
+
+<hr>
+
+<h3>2.3.2. User Task Matrix</h3>
+<table border="1" cellspacing="0" cellpadding="5">
+  <thead>
+    <tr>
+      <th>Tarea del Usuario</th>
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Registrar costos y ventas</td><td>Alta</td><td>Alta</td></tr>
+    <tr><td>Encontrar compradores directos</td><td>Alta</td><td>Alta</td></tr>
+    <tr><td>Identificar plagas y enfermedades</td><td>Alta</td><td>Alta</td></tr>
+    <tr><td>Gestionar registro de cosechas</td><td>Media</td><td>Alta</td></tr>
+    <tr><td>Compartir información con otros agricultores</td><td>Media</td><td>Alta</td></tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h3>2.3.3. User Journey Mapping</h3>
+<h4>Análisis de la Experiencia Actual de Angie (As-Is)</h4>
+
+<h5>Fase 1: Reconocimiento del Problema</h5>
+<p>Angie enfrenta dificultades al final de cada cosecha porque sus métodos manuales (libretas) no le permiten un control real de sus costos y ventas. Esto genera frustración y urgencia de cambio.</p>
+
+<h5>Fase 2: Búsqueda de Compradores</h5>
+<p>Usa WhatsApp y Facebook para vender, pero la búsqueda es desorganizada y dependiente de intermediarios. Siente incertidumbre y vulnerabilidad respecto a los precios.</p>
+
+<h5>Fase 3: Decisión y Venta</h5>
+<p>Se ve obligada a aceptar precios de intermediarios, lo que le genera resignación y sensación de desventaja.</p>
+
+<h5>Fase 4: Gestión de Registros</h5>
+<p>Intenta registrar la información en su libreta, pero el proceso manual es desordenado y propenso a errores, lo que la deja sin claridad financiera.</p>
+
+<h5>Fase 5: Logros y Mantenimiento</h5>
+<p>Completa el ciclo de venta, pero con insatisfacción. Reconoce que los mismos problemas se repetirán en la próxima temporada.</p>
+
+<p><b>Conclusión:</b> La experiencia de Angie es un ciclo de ineficiencia, con pérdidas económicas y frustración, lo que abre la oportunidad para una herramienta como EcoCrop.</p>
+
+<hr>
+
+<h3>2.3.4. Empathy Mapping (As-Is Scenario Mapping)</h3>
+<table border="1" cellspacing="0" cellpadding="5">
+  <thead>
+    <tr>
+      <th>Fase del Usuario</th>
+      <th>Doing</th>
+      <th>Thinking</th>
+      <th>Feeling</th>
+      <th>Puntos de Dolor</th>
+      <th>Oportunidad para EcoCrop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Reconocimiento del Problema</td>
+      <td>Observa un problema en el cultivo y lo anota en una libreta.</td>
+      <td>"Si no actúo rápido, perderé dinero."</td>
+      <td>Ansiedad y frustración.</td>
+      <td>Falta de información precisa.</td>
+      <td>Brindar control digital sobre la producción.</td>
+    </tr>
+    <tr>
+      <td>Búsqueda de Soluciones</td>
+      <td>Pregunta a vecinos, usa WhatsApp/Facebook.</td>
+      <td>"Espero que este intermediario me pague justo."</td>
+      <td>Incertidumbre y duda.</td>
+      <td>Información fragmentada y dependencia de redes informales.</td>
+      <td>Ofrecer información confiable y un canal justo.</td>
+    </tr>
+    <tr>
+      <td>Implementación de Soluciones</td>
+      <td>Usa pesticidas genéricos, vende a intermediarios.</td>
+      <td>"Ojalá cumplan lo acordado."</td>
+      <td>Desconfianza e impotencia.</td>
+      <td>Bajos precios y mal uso de insumos.</td>
+      <td>Plataforma transparente con conexión directa a compradores.</td>
+    </tr>
+    <tr>
+      <td>Evaluación y Frustración Recurrente</td>
+      <td>Cuenta ingresos en libreta manual.</td>
+      <td>"De nuevo no gané lo esperado."</td>
+      <td>Decepción y resignación.</td>
+      <td>Pérdidas económicas recurrentes.</td>
+      <td>Ofrecer solución que aumente rentabilidad y dé control.</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2>2.5. Ubiquitous Language</h2>
+<ul>
+  <li><b>Cultivo:</b> Conjunto de plantas sembradas en un lote.</li>
+  <li><b>Plaga:</b> Insecto, hongo o enfermedad que afecta el cultivo.</li>
+  <li><b>Reporte:</b> Registro de un evento en el sistema (plaga, clima, actividad).</li>
+  <li><b>Asociación:</b> Grupo de agricultores que comparte información en la aplicación.</li>
+  <li><b>API externa:</b> Servicio externo que provee datos de clima o condiciones ambientales.</li>
+</ul>
