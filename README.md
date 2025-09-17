@@ -177,20 +177,12 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
   <footer>
     <p><strong>Nota:</strong> Las preguntas están formuladas para ser abiertas y fomentar respuestas detalladas que permitan extraer hallazgos cualitativos (fricciones, motivadores, necesidades latentes) y cuantitativos (frecuencia, disposición a pagar, uso de herramientas digitales).</p>
   </footer>
-</section>
 <!-- 2.2.2 Registro de entrevistas -->
 <section id="cap-2-2-2-entrevistas">
   <h2>2.2.2. Registro de entrevistas</h2>
 
   <!-- Entrevista Fabrizio -->
   <article class="entrevista">
-
-  <!-- Imagen Fabrizio -->
-    <figure>
-      <img src="LINK_IMAGEN_FABRIZIO" alt="Foto de Fabrizio Bussalleu" width="200">
-      <figcaption>Imagen del entrevistado (Fabrizio)</figcaption>
-    </figure>
-
     <h3>Primer segmento: (Fabrizio)</h3>
     <p><strong>Segmento:</strong> Agricultores</p>
     <p><strong>Entrevistado:</strong> Fabrizio Bussalleu</p>
@@ -200,7 +192,11 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
     <p><strong>Medio:</strong> Meet</p>
     <p><strong>Entrevistador:</strong> Salcedo Champi Matias</p>
     
-    
+   // <!-- Imagen Fabrizio -->
+    <figure>
+      <img src="LINK_IMAGEN_FABRIZIO" alt="Foto de Fabrizio Bussalleu" width="200">
+      <figcaption>Imagen del entrevistado (Fabrizio)</figcaption>
+    </figure>
 
     <h4>Resumen:</h4>
     <p>
@@ -215,12 +211,6 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
 
   <!-- Entrevista Santiago -->
   <article class="entrevista">
-
-  <!-- Imagen Santiago -->
-    <figure>
-      <img src="LINK_IMAGEN_SANTIAGO" alt="Foto de Santiago Baldeon" width="200">
-      <figcaption>Imagen del entrevistado (Santiago)</figcaption>
-    </figure>
     <h3>Primer segmento: (Santiago)</h3>
     <p><strong>Segmento:</strong> Agricultores</p>
     <p><strong>Entrevistado:</strong> Santiago Baldeon</p>
@@ -230,7 +220,11 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
     <p><strong>Medio:</strong> Meet</p>
     <p><strong>Entrevistador:</strong> Salcedo Champi Matias</p>
     
-    
+    <!-- Imagen Santiago -->
+    <figure>
+      <img src="LINK_IMAGEN_SANTIAGO" alt="Foto de Santiago Baldeon" width="200">
+      <figcaption>Imagen del entrevistado (Santiago)</figcaption>
+    </figure>
 
     <h4>Resumen:</h4>
     <p>
@@ -244,12 +238,6 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
 
   <!-- Entrevista Angie -->
   <article class="entrevista">
-
-  <!-- Imagen Angie -->
-    <figure>
-      <img src="LINK_IMAGEN_ANGIE" alt="Foto de Angie Sarmiento" width="200">
-      <figcaption>Imagen de la entrevistada (Angie)</figcaption>
-    </figure>
     <h3>Primer segmento: (Angie)</h3>
     <p><strong>Segmento:</strong> Agricultores</p>
     <p><strong>Entrevistada:</strong> Angie Sarmiento</p>
@@ -259,7 +247,11 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
     <p><strong>Medio:</strong> Meet</p>
     <p><strong>Entrevistador:</strong> Salcedo Champi Matias</p>
     
-    
+   // <!-- Imagen Angie -->
+    <figure>
+      <img src="LINK_IMAGEN_ANGIE" alt="Foto de Angie Sarmiento" width="200">
+      <figcaption>Imagen de la entrevistada (Angie)</figcaption>
+    </figure>
 
     <h4>Resumen:</h4>
     <p>
@@ -270,4 +262,3 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
     </p>
   </article>
 </section>
-
