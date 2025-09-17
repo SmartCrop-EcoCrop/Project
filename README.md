@@ -13,7 +13,7 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
       <th>Plantix</th>
       <th>AgroSmart</th>
       <th>Taranis</th>
-      <th>EcoCrop (Tu Proyecto)</th>
+      <th>EcoCrop </th>
     </tr>
   </thead>
   <tbody>
@@ -75,3 +75,44 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
     </tr>
   </tbody>
 </table>
+<section id="estrategias-tacticas">
+  <h2>2.1.2. Estrategias y tácticas frente a competidores</h2>
+
+  <h3>Análisis FODA (SWOT) de EcoCrop</h3>
+  <ul>
+    <li><strong>Fortalezas:</strong>
+      <ul>
+        <li>Propuesta de valor única: Enfocado en resolver los problemas de intermediación y rentabilidad, un dolor de cabeza no abordado por la mayoría de los competidores.</li>
+        <li>Enfoque comunitario: A diferencia de las soluciones individuales, la app fomenta la colaboración y el aprendizaje mutuo, algo muy valorado por las asociaciones.</li>
+        <li>Simplicidad: Interfaz intuitiva y fácil de usar, diseñada para agricultores con poca experiencia tecnológica.</li>
+      </ul>
+    </li>
+    <li><strong>Debilidades:</strong>
+      <ul>
+        <li>Visibilidad inicial: Carece del reconocimiento de marca de competidores consolidados como Plantix.</li>
+        <li>Dependencia de la red: El éxito de las funciones de venta y comunidad depende de la adopción masiva por parte de los agricultores.</li>
+      </ul>
+    </li>
+    <li><strong>Oportunidades:</strong>
+      <ul>
+        <li>Nicho de mercado desatendido: El segmento de pequeños agricultores que buscan vender directamente está subexplotado.</li>
+        <li>Crecimiento del comercio justo: La tendencia de los consumidores a comprar directamente a los productores es una gran oportunidad de crecimiento.</li>
+      </ul>
+    </li>
+    <li><strong>Amenazas:</strong>
+      <ul>
+        <li>Posibles nuevas funcionalidades de competidores: Plantix podría añadir una funcionalidad de venta directa, aunque su enfoque de IA es su principal diferenciador.</li>
+        <li>Resistencia al cambio: Algunos agricultores podrían preferir sus métodos manuales tradicionales.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h3>Estrategias y tácticas de EcoCrop frente a la competencia</h3>
+  <ol>
+    <li><strong>Enfoque en la rentabilidad, no solo en la gestión:</strong> Posiciona a EcoCrop como la herramienta que ayuda a los agricultores a ganar más dinero. Tu mensaje clave es <em>"Más ganancias, menos intermediarios,"</em> no solo <em>"menos plagas."</em></li>
+    <li><strong>Construcción de comunidad:</strong> Implementa un programa de alianzas con asociaciones agrícolas, ofreciendo capacitaciones y soporte para que adopten la app como su herramienta oficial de gestión. Esto te dará una base de usuarios fiel y una ventaja de red difícil de replicar.</li>
+    <li><strong>Marketing basado en historias:</strong> Crea campañas de marketing que cuenten las historias reales de agricultores como Santiago, destacando cómo la app les ha ayudado a mejorar su calidad de vida y su negocio. Esto genera empatía y confianza, diferenciándote de los competidores más tecnológicos y corporativos.</li>
+    <li><strong>Simplicidad como ventaja competitiva:</strong> Resalta constantemente la usabilidad de EcoCrop en comparación con las aplicaciones complejas como Plantix o los sistemas difíciles de implementar como FarmOS.</li>
+  </ol>
+</section>
+
