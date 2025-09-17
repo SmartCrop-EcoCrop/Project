@@ -198,7 +198,7 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
       <figcaption>Imagen del entrevistado (Fabrizio)</figcaption>
     </figure>
 
-    <h4>Resumen:</h4>
+<h4>Resumen:</h4>
     <p>
       Como representante de una asociación de productores, la principal preocupación de Fabricio es la falta de un sistema centralizado. 
       Él destaca que cada miembro usa un método diferente (cuadernos), lo que impide que el grupo comparta información de manera efectiva 
@@ -226,7 +226,7 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
       <figcaption>Imagen del entrevistado (Santiago)</figcaption>
     </figure>
 
-    <h4>Resumen:</h4>
+<h4>Resumen:</h4>
     <p>
       Santiago, un agricultor que recién se incorpora al negocio, identifica dos problemas principales: la dependencia de los intermediarios, 
       que reducen sus ganancias, y la ineficiencia de los registros manuales en libretas, que provoca pérdida de información. 
@@ -253,7 +253,7 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
       <figcaption>Imagen de la entrevistada (Angie)</figcaption>
     </figure>
 
-    <h4>Resumen:</h4>
+<h4>Resumen:</h4>
     <p>
       Angie, una pequeña agricultora con 6 hectáreas, se enfoca en la organización de su producción y la venta. 
       Utiliza WhatsApp y Facebook de manera informal, pero busca una herramienta que la ayude a organizar mejor sus registros de costos y ventas. 
