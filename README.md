@@ -4,7 +4,7 @@ Product: SmartCrop
 
 # UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
 
-![alt text](images\commons\PNG_LogoUPC.png)
+![alt text](images/commons/PNG_LogoUPC.png)
 
 
 ## Ingeniería de Software
