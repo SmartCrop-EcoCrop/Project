@@ -289,7 +289,7 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
     <p><strong>Entrevistador:</strong> Salcedo Champi Matias</p>
     <!-- Imagen Fabricio -->
     <figure>
-      <img src="images/SSFABRICIO.png" alt="Foto de Fabricio Ninalaya" width="200" lenght = "800">
+      <img src="images/SSFABRICIO.png" alt="Foto de Fabricio Ninalaya" width="800" >
     </figure>
 <h4>Resumen:</h4>
     <p>
