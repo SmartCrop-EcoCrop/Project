@@ -402,24 +402,76 @@ Enfoque clave:
 
 <h3>Entrevistas Segmento 2 (Operativas y Asociaciones Agrícolas)</h3>
 
-<table border="1" cellspacing="0" cellpadding="5">
+<table border="1" cellspacing="0" cellpadding="8">
   <thead>
     <tr>
       <th>Pregunta</th>
-      <th>Respuestas</th>
+      <th>Fabricio (Asociación de productores)</th>
+      <th>Arturo (Dirigente agrícola)</th>
+      <th>Luis Ramírez (Representante en Cajamarca)</th>
     </tr>
   </thead>
   <tbody>
-    <tr><td>¿Cuáles son los principales problemas al coordinar agricultores?</td><td>(Pendiente de completar)</td></tr>
-    <tr><td>¿Cómo organizan recolección y distribución?</td><td>(Pendiente)</td></tr>
-    <tr><td>¿Qué dificultades tienen para negociar mejores precios?</td><td>(Pendiente)</td></tr>
-    <tr><td>¿Cómo registran y gestionan la información?</td><td>(Pendiente)</td></tr>
-    <tr><td>¿Existen problemas de comunicación?</td><td>(Pendiente)</td></tr>
-    <tr><td>¿Qué herramientas digitales utilizan?</td><td>(Pendiente)</td></tr>
-    <tr><td>¿Necesitan un sistema centralizado?</td><td>(Pendiente)</td></tr>
-    <tr><td>¿Qué funcionalidades debería tener una app?</td><td>(Pendiente)</td></tr>
-    <tr><td>¿Qué importancia tiene conectar con compradores/proveedores?</td><td>(Pendiente)</td></tr>
-    <tr><td>¿Cómo puede la tecnología fortalecer la relación?</td><td>(Pendiente)</td></tr>
+    <tr>
+      <td>Problemas al coordinar agricultores</td>
+      <td>Cada miembro usa un método distinto (cuadernos), lo que dificulta centralizar datos.</td>
+      <td>Los socios entregan información incompleta, falta compromiso en registros.</td>
+      <td>No hay claridad sobre quién sembró qué ni en qué cantidades.</td>
+    </tr>
+    <tr>
+      <td>Organización de recolección y distribución</td>
+      <td>Dependen de llamadas o reuniones, sin planificación previa.</td>
+      <td>Se coordina a último momento, generando retrasos.</td>
+      <td>No existe calendario único, varios entregan al mismo tiempo y falta transporte.</td>
+    </tr>
+    <tr>
+      <td>Dificultades para negociar precios</td>
+      <td>No logran mostrar datos conjuntos de producción.</td>
+      <td>Compradores no confían por falta de información consolidada.</td>
+      <td>No demuestran volúmenes reales, compradores grandes ofrecen menos.</td>
+    </tr>
+    <tr>
+      <td>Gestión de información de producción</td>
+      <td>Se lleva de manera manual, sin uniformidad.</td>
+      <td>En cuadernos o Excel dispersos.</td>
+      <td>En hojas de Excel y WhatsApp, pero sin formatos unificados.</td>
+    </tr>
+    <tr>
+      <td>Problemas de comunicación</td>
+      <td>No hay canal centralizado de información.</td>
+      <td>Información llega tarde o se pierde.</td>
+      <td>Algunos socios no usan internet o cambian de número.</td>
+    </tr>
+    <tr>
+      <td>Herramientas digitales usadas</td>
+      <td>WhatsApp de manera básica.</td>
+      <td>Principalmente llamadas y WhatsApp.</td>
+      <td>WhatsApp y Excel, pero no todos saben usarlos.</td>
+    </tr>
+    <tr>
+      <td>Necesidad de un sistema centralizado</td>
+      <td>Muy necesaria para compartir datos de plagas y cosechas.</td>
+      <td>Clave para dar confianza y ordenar la producción.</td>
+      <td>Ideal para conocer producción en tiempo real y mejorar logística.</td>
+    </tr>
+    <tr>
+      <td>Funcionalidades esperadas en una aplicación</td>
+      <td>Registro colaborativo, alertas de plagas, centralización de datos.</td>
+      <td>Reportes de producción, gestión de ventas, precios en tiempo real.</td>
+      <td>Registro único, calendario de cosechas, alertas de entregas, transporte compartido.</td>
+    </tr>
+    <tr>
+      <td>Conexión directa con compradores/proveedores</td>
+      <td>Alta importancia para eliminar intermediarios.</td>
+      <td>Clave para obtener mejores precios y confianza.</td>
+      <td>Fundamental para negociar con fuerza y cumplir entregas.</td>
+    </tr>
+    <tr>
+      <td>Cómo puede ayudar la tecnología</td>
+      <td>Centralizando información y mejorando decisiones.</td>
+      <td>Dando transparencia y facilitando coordinación.</td>
+      <td>Brindando la misma información a todos, reduciendo desconfianza.</td>
+    </tr>
   </tbody>
 </table>
 
