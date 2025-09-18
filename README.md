@@ -194,7 +194,7 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
     
    // <!-- Imagen Fabrizio -->
     <figure>
-      <img src="LINK_IMAGEN_FABRIZIO" alt="Foto de Fabrizio Bussalleu" width="200">
+      <img src="images/SSFABRIZIO.png" alt="Foto de Fabrizio Bussalleu" width="200">
       <figcaption>Imagen del entrevistado (Fabrizio)</figcaption>
     </figure>
 
@@ -222,7 +222,7 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
     
 // <!-- Imagen Santiago -->
     <figure>
-      <img src="LINK_IMAGEN_SANTIAGO" alt="Foto de Santiago Baldeon" width="200">
+      <img src="images/SSANTI.png" alt="Foto de Santiago Baldeon" width="200">
       <figcaption>Imagen del entrevistado (Santiago)</figcaption>
     </figure>
 
@@ -249,7 +249,7 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
     
    // <!-- Imagen Angie -->
     <figure>
-      <img src="LINK_IMAGEN_ANGIE" alt="Foto de Angie Sarmiento" width="200">
+      <img src="images/SSANGIE.png" alt="Foto de Angie Sarmiento" width="200">
       <figcaption>Imagen de la entrevistada (Angie)</figcaption>
     </figure>
 
@@ -260,6 +260,55 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
       Su mayor problema es encontrar compradores que paguen precios justos, ya que los intermediarios y los costos de transporte reducen sus ganancias. 
       Al igual que Santiago, valora una aplicación que le permita gestionar su producción de manera simple y la conecte con compradores directos o asociaciones confiables.
     </p>
+  </article>
+    <!-- Entrevista Arturo -->
+  <article class="entrevista">
+    <h3>Segundo segmento: (Arturo)</h3>
+    <p><strong>Segmento:</strong> Representante de asosiacion agricola</p>
+    <p><strong>Entrevistada:</strong> Arturo Ore Diaz</p>
+    <p><strong>Edad:</strong> 28 años</p>
+    <p><strong>Rubro:</strong> Agricultura</p>
+    <p><strong>Ubicación:</strong> Piura </p>
+    <p><strong>Medio:</strong> Meet</p>
+    <p><strong>Entrevistador:</strong> Salcedo Champi Matias</p>
+    
+   // <!-- Imagen Arturo -->
+    <figure>
+      <img src="images/SSARTURO.png" alt="Foto de Arturo Ore" width="200">
+      <figcaption>Imagen de la entrevistada (Angie)</figcaption>
+    </figure>
+    <h4>Resumen:</h4>
+    <p>
+  Arturo Ore Diaz, representante de una asociación agrícola, enfrenta el reto de coordinar a varios productores que registran su información de forma distinta, lo que dificulta la organización. 
+  Actualmente utilizan libretas y llamadas telefónicas, pero esto genera retrasos y pérdida de datos en la planificación de cosechas y distribución. 
+  Su principal preocupación es contar con una herramienta digital centralizada que unifique la información de producción y ventas de los asociados. 
+  Para él, una aplicación que permita coordinar mejor la logística y negociar precios justos en conjunto con compradores sería clave para fortalecer la asociación.
+    </p>
+ </article>
+  <!-- Entrevista Fabricio -->
+  <article class="entrevista">
+    <h3>Segundo segmento: (Fabricio)</h3>
+    <p><strong>Segmento:</strong> Representante de asosiacion agricola</p>
+    <p><strong>Entrevistada:</strong> Fabrizio Ninalaya</p>
+    <p><strong>Edad:</strong> 25 años</p>
+    <p><strong>Rubro:</strong> Agricultura </p>
+    <p><strong>Ubicación:</strong> Lambayeque </p>
+    <p><strong>Medio:</strong> Meet</p>
+    <p><strong>Entrevistador:</strong> Salcedo Champi Matias</p>
+    
+   // <!-- Imagen Fabricio -->
+    <figure>
+      <img src="images/SSFABRICIO.png" alt="Foto de Fabricio Ninalaya" width="200">
+      <figcaption>Imagen de la entrevistado (Fabricio)</figcaption>
+    </figure>
+<h4>Resumen:</h4>
+    <p>
+  Fabricio Ninalaya, presidenta de una asociación de pequeños agricultores, resalta las dificultades para negociar precios justos debido a la falta de información confiable y actualizada sobre la producción. 
+  Ella comenta que la comunicación con los agricultores suele ser lenta, ya que dependen de reuniones presenciales y llamadas, lo que retrasa la toma de decisiones. 
+  Considera necesario un sistema digital que centralice datos de cosechas, ventas y logística para mejorar la organización interna. 
+  Para María, una aplicación que conecte directamente a la asociación con compradores y proveedores sería fundamental para aumentar la rentabilidad y fortalecer la confianza entre los miembros.
+    </p>
+
   </article>
 </section>
 <h2>2.2.3. Análisis de entrevistas</h2>
@@ -419,7 +468,7 @@ Enfoque clave:
 <h2>2.3. Needfinding</h2>
 
 <h3>2.3.1. User Personas</h3>
-<h4>Persona 2: Angie – Agricultor Independiente (Recién Incorporado)</h4>
+<h4>Segmento 1: Angie – Agricultor Independiente (Recién Incorporado)</h4>
 <ul>
 <figure>
       <img src="UserPersona1Segmento" alt="Foto de Angie Sarmiento" width="200">
