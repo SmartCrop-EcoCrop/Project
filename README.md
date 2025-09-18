@@ -191,11 +191,9 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
     <p><strong>Ubicación:</strong> Piura - Las Lomas</p>
     <p><strong>Medio:</strong> Meet</p>
     <p><strong>Entrevistador:</strong> Salcedo Champi Matias</p>
-    
-   // <!-- Imagen Fabrizio -->
+    <!-- Imagen Fabrizio -->
     <figure>
-      <img src="images/SSFABRIZIO.png" alt="Foto de Fabrizio Bussalleu" width="200">
-      <figcaption>Imagen del entrevistado (Fabrizio)</figcaption>
+      <img src="images/SSFABRIZIO.png" alt="Foto de Fabrizio Bussalleu" width="800">
     </figure>
 
 <h4>Resumen:</h4>
@@ -219,11 +217,9 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
     <p><strong>Ubicación:</strong> Piura - Las Lomas</p>
     <p><strong>Medio:</strong> Meet</p>
     <p><strong>Entrevistador:</strong> Salcedo Champi Matias</p>
-    
-// <!-- Imagen Santiago -->
+    <!-- Imagen Santiago -->
     <figure>
-      <img src="images/SSANTI.png" alt="Foto de Santiago Baldeon" width="200">
-      <figcaption>Imagen del entrevistado (Santiago)</figcaption>
+      <img src="images/SSANTI.png" alt="Foto de Santiago Baldeon" width="800">
     </figure>
 
 <h4>Resumen:</h4>
@@ -246,11 +242,9 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
     <p><strong>Ubicación:</strong> Piura - Las Lomas</p>
     <p><strong>Medio:</strong> Meet</p>
     <p><strong>Entrevistador:</strong> Salcedo Champi Matias</p>
-    
-   // <!-- Imagen Angie -->
+    <!-- Imagen Angie -->
     <figure>
-      <img src="images/SSANGIE.png" alt="Foto de Angie Sarmiento" width="200">
-      <figcaption>Imagen de la entrevistada (Angie)</figcaption>
+      <img src="images/SSANGIE.png" alt="Foto de Angie Sarmiento" width="800">
     </figure>
 
 <h4>Resumen:</h4>
@@ -271,11 +265,9 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
     <p><strong>Ubicación:</strong> Piura </p>
     <p><strong>Medio:</strong> Meet</p>
     <p><strong>Entrevistador:</strong> Salcedo Champi Matias</p>
-    
-   // <!-- Imagen Arturo -->
+    <!-- Imagen Arturo -->
     <figure>
-      <img src="images/SSARTURO.png" alt="Foto de Arturo Ore" width="200">
-      <figcaption>Imagen de la entrevistada (Angie)</figcaption>
+      <img src="images/SSARTURO.png" alt="Foto de Arturo Ore" width="800">
     </figure>
     <h4>Resumen:</h4>
     <p>
@@ -295,11 +287,9 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
     <p><strong>Ubicación:</strong> Lambayeque </p>
     <p><strong>Medio:</strong> Meet</p>
     <p><strong>Entrevistador:</strong> Salcedo Champi Matias</p>
-    
-   // <!-- Imagen Fabricio -->
+    <!-- Imagen Fabricio -->
     <figure>
-      <img src="images/SSFABRICIO.png" alt="Foto de Fabricio Ninalaya" width="200">
-      <figcaption>Imagen de la entrevistado (Fabricio)</figcaption>
+      <img src="images/SSFABRICIO.png" alt="Foto de Fabricio Ninalaya" width="200" lenght = "800">
     </figure>
 <h4>Resumen:</h4>
     <p>
