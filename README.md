@@ -156,27 +156,9 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
     </ol>
   </article>
 
-  <!-- Segmento 3 -->
-  <article class="segmento" id="segmento-3">
-    <h3>Segmento 3: Empresas de Insumos Agrícolas</h3>
-    <ol>
-      <li>¿Cuáles son las principales dificultades que enfrentan al llegar a los agricultores o asociaciones?</li>
-      <li>¿Cómo gestionan actualmente la comunicación y la venta de sus productos a pequeños y medianos agricultores?</li>
-      <li>¿Qué importancia tiene para su empresa tener acceso a información confiable sobre las necesidades de los agricultores?</li>
-      <li>¿Qué retos enfrentan para ofrecer promociones o campañas específicas al público agrícola?</li>
-      <li>¿Les interesa contar con un canal digital para promocionar directamente sus insumos a agricultores organizados?</li>
-      <li>¿Qué factores influyen en que un agricultor elija sus productos frente a los de la competencia?</li>
-      <li>¿Qué papel juega la confianza y la información transparente en la relación con sus clientes agrícolas?</li>
-      <li>¿Qué funcionalidades valoraría más en una plataforma que conecte su empresa con agricultores y asociaciones?</li>
-      <li>¿Cómo creen que la digitalización de este sector podría impactar en sus ventas y posicionamiento?</li>
-      <li>¿Estarían dispuestos a invertir en publicidad o paquetes promocionales dentro de una aplicación usada por agricultores y asociaciones?</li>
-      <li>¿Qué características le harían confiar y usar regularmente una aplicación de este tipo?</li>
-    </ol>
-  </article>
+ 
 
-  <footer>
-    <p><strong>Nota:</strong> Las preguntas están formuladas para ser abiertas y fomentar respuestas detalladas que permitan extraer hallazgos cualitativos (fricciones, motivadores, necesidades latentes) y cuantitativos (frecuencia, disposición a pagar, uso de herramientas digitales).</p>
-  </footer>
+  
 <!-- 2.2.2 Registro de entrevistas -->
 <section id="cap-2-2-2-entrevistas">
   <h2>2.2.2. Registro de entrevistas</h2>
@@ -476,45 +458,25 @@ Enfoque clave:
 </table>
 
 <h4>Hallazgos clave</h4>
-<p>(Por completar con entrevistas).</p>
+<p>
+  Las asociaciones agrícolas aún dependen de registros manuales y herramientas fragmentadas como WhatsApp y Excel, lo que genera duplicidad de información, retrasos en la logística y dificultades para coordinar. 
+  Además, la falta de datos consolidados debilita su poder de negociación frente a compradores, y la comunicación incompleta limita la transparencia dentro de la organización.
+</p>
 
 <h4>Conclusiones para EcoCrop</h4>
-<p>(Por completar).</p>
+<p>
+  EcoCrop debe priorizar el desarrollo de un sistema centralizado, simple y accesible que permita unificar registros de producción, gestionar calendarios de cosechas, coordinar la logística y conectar directamente con compradores. 
+  De esta manera, la aplicación no solo resolverá problemas operativos, sino que también fortalecerá la confianza entre los miembros y mejorará la rentabilidad al reducir la dependencia de intermediarios.
+</p>
 
 <hr>
-
-<h3>Entrevistas Segmento 3 (Empresas de Insumos Agrícolas)</h3>
-
-<table border="1" cellspacing="0" cellpadding="5">
-  <thead>
-    <tr>
-      <th>Pregunta</th>
-      <th>Respuestas</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>¿Cuáles son las principales dificultades para llegar a agricultores?</td><td>(Pendiente)</td></tr>
-    <tr><td>¿Cómo gestionan comunicación y venta?</td><td>(Pendiente)</td></tr>
-    <tr><td>¿Qué importancia tiene acceder a información confiable de necesidades agrícolas?</td><td>(Pendiente)</td></tr>
-    <tr><td>¿Qué retos enfrentan para promociones o campañas?</td><td>(Pendiente)</td></tr>
-    <tr><td>¿Les interesa contar con un canal digital?</td><td>(Pendiente)</td></tr>
-    <tr><td>¿Qué factores influyen en que un agricultor elija sus productos?</td><td>(Pendiente)</td></tr>
-  </tbody>
-</table>
-
-<h4>Hallazgos clave</h4>
-<p>(Por completar).</p>
-
-<h4>Conclusiones para EcoCrop</h4>
-<p>(Por completar).</p>
-<h2>2.3. Needfinding</h2>
 
 <h3>2.3.1. User Personas</h3>
 <h4>Segmento 1: Angie – Agricultor Independiente (Recién Incorporado)</h4>
 <ul>
 <figure>
-      <img src="UserPersona1Segmento" alt="Foto de Angie Sarmiento" width="200">
-      <figcaption>Imagen de la entrevistada (Angie)</figcaption>
+      <img src="images/EmpathyMapSeg1Angie.png" alt="Foto de Angie Sarmiento" width="800">
+      
     </figure>
   
 </ul>
