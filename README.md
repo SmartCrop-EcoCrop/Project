@@ -180,11 +180,8 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
 
 <h4>Resumen:</h4>
     <p>
-      Como representante de una asociación de productores, la principal preocupación de Fabricio es la falta de un sistema centralizado. 
-      Él destaca que cada miembro usa un método diferente (cuadernos), lo que impide que el grupo comparta información de manera efectiva 
-      sobre plagas y cosechas. La necesidad clave de su asociación es una herramienta colaborativa que les permita centralizar datos y tomar 
-      decisiones conjuntas.
-    </p>
+    Fabrizio Bussalleu es un agricultor de 27 años de Piura - Las Lomas. Señala que sus principales problemas son la inestabilidad de precios y la falta de canales seguros para vender directamente. Actualmente gestiona datos en hojas de Excel, pero reconoce que no siempre están actualizadas ni son accesibles desde el campo. Ha intentado usar grupos de WhatsApp para ventas, pero los considera poco confiables y desorganizados. Fabrizio destaca que los compradores locales suelen tener más información y ventaja en la negociación, por lo que considera vital el acceso a precios en tiempo real. Manifestó interés en una aplicación que le permita planificar la producción según la demanda, conectarlo con compradores o asociaciones, y que sea fácil de usar y respaldada por una institución para generar confianza y aumentar la rentabilidad.
+  </p>
   </article>
 
   <hr>
@@ -275,10 +272,10 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
     </figure>
 <h4>Resumen:</h4>
     <p>
-  Fabricio Ninalaya, presidenta de una asociación de pequeños agricultores, resalta las dificultades para negociar precios justos debido a la falta de información confiable y actualizada sobre la producción. 
-  Ella comenta que la comunicación con los agricultores suele ser lenta, ya que dependen de reuniones presenciales y llamadas, lo que retrasa la toma de decisiones. 
+  Fabricio Ninalaya, presidente de una asociación de pequeños agricultores, resalta las dificultades para negociar precios justos debido a la falta de información confiable y actualizada sobre la producción. 
+  Ell comenta que la comunicación con los agricultores suele ser lenta, ya que dependen de reuniones presenciales y llamadas, lo que retrasa la toma de decisiones. 
   Considera necesario un sistema digital que centralice datos de cosechas, ventas y logística para mejorar la organización interna. 
-  Para María, una aplicación que conecte directamente a la asociación con compradores y proveedores sería fundamental para aumentar la rentabilidad y fortalecer la confianza entre los miembros.
+  Para Fabricio, una aplicación que conecte directamente a la asociación con compradores y proveedores sería fundamental para aumentar la rentabilidad y fortalecer la confianza entre los miembros.
     </p>
 
   </article>
@@ -292,7 +289,7 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
     <tr>
       <th>Pregunta</th>
       <th>Santiago (Agricultor Emprendedor)</th>
-      <th>Fabricio (Asociación)</th>
+      <th>Fabrizio (Agricultor)</th>
       <th>Angie (Pequeña Agricultora)</th>
     </tr>
   </thead>
@@ -300,65 +297,66 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
     <tr>
       <td>¿Cuáles son los principales retos que enfrenta en la venta de sus productos agrícolas?</td>
       <td>Dependencia de intermediarios que reducen sus ganancias.</td>
-      <td>Falta de coordinación y conocimiento colectivo para gestionar cosechas y plagas.</td>
+      <td>Inestabilidad de precios y falta de lugares seguros para vender directamente.</td>
       <td>Encontrar compradores que paguen precios justos y superar costos de transporte e intermediarios.</td>
     </tr>
     <tr>
       <td>¿Cómo gestiona actualmente la información de sus cultivos?</td>
       <td>Libretas manuales, lo que provoca pérdida de información.</td>
-      <td>Miembros usan cuadernos distintos, impidiendo centralizar información.</td>
+      <td>Hojas de Excel en la computadora de su hijo, pero no siempre actualizadas ni accesibles en el campo.</td>
       <td>Libretas manuales, WhatsApp y Facebook → generan desorden e ineficiencia.</td>
     </tr>
     <tr>
       <td>¿Le resulta complicado conectarse directamente con compradores sin intermediarios?</td>
       <td>Sí, es la barrera más crítica.</td>
-      <td>Sí, buscan una app gratuita que facilite conexión y gestión colectiva.</td>
+      <td>Sí, porque no conoce compradores fuera de su zona ni tiene medios para promocionarse.</td>
       <td>Sí, considera que la falta de canales modernos le impide obtener precios justos.</td>
     </tr>
     <tr>
       <td>¿Ha tenido problemas con precios bajos por falta de información?</td>
       <td>Sí, es su principal problema: precios bajos e intermediarios reducen ingresos.</td>
-      <td>Sí, la falta de registros centralizados genera pérdidas evitables.</td>
+      <td>Sí, los compradores suelen tener más información y ventaja en la negociación.</td>
       <td>Sí, siente que precios injustos y transporte reducen mucho sus ganancias.</td>
     </tr>
     <tr>
       <td>¿Qué tan importante es el acceso a información en tiempo real sobre precios?</td>
       <td>No lo menciona directo, pero lo considera motivador clave.</td>
-      <td>Lo valoraría como mejora de conocimiento colectivo.</td>
+      <td>Muy importante, lo considera una herramienta clave para no ser engañado.</td>
       <td>Lo considera clave para encontrar precios justos.</td>
     </tr>
     <tr>
       <td>¿Usa alguna app o página web? ¿Qué limitaciones encuentra?</td>
       <td>No, las apps actuales son complicadas y no hechas para pequeños agricultores.</td>
-      <td>No, buscan una app gratuita que centralice información de la asociación.</td>
+      <td>Intentó usar grupos de WhatsApp, pero los considera poco confiables y desorganizados.</td>
       <td>Usa WhatsApp y Facebook, pero no sirven para gestión.</td>
     </tr>
     <tr>
       <td>¿Qué herramientas digitales le ayudarían a mejorar la organización?</td>
       <td>Una app sencilla que gestione producción y conecte con compradores confiables.</td>
-      <td>Una herramienta colaborativa para registrar y compartir información entre miembros.</td>
+      <td>Una app que le permita planificar siembra y producción de acuerdo a la demanda.</td>
       <td>Una app que organice digitalmente costos y ventas.</td>
     </tr>
     <tr>
       <td>¿Cuánto influye la falta de canales de venta online en sus ingresos?</td>
       <td>Mucho, pierde hasta el 80% de ganancias con intermediarios.</td>
-      <td>Afecta la capacidad de comercializar colectivamente.</td>
+      <td>Influye bastante, lo limita a compradores locales que pagan menos.</td>
       <td>Críticamente, limita acceso a mercados justos.</td>
     </tr>
     <tr>
       <td>¿Le interesaría una app que lo conecte directamente con compradores?</td>
       <td>Sí, lo considera lo más importante para mejorar rentabilidad.</td>
-      <td>Sí, sería clave para compartir información y mejorar gestión colectiva.</td>
+      <td>Sí, sería una oportunidad para ampliar sus opciones de venta.</td>
       <td>Sí, lo ve como vía para evitar intermediarios.</td>
     </tr>
     <tr>
       <td>¿Qué características le harían confiar y usar una app?</td>
       <td>Simplicidad, facilidad de uso y resolver problema de intermediarios.</td>
-      <td>Que sea gratuita y centralice información para todos los miembros.</td>
+      <td>Respaldo institucional, claridad en el uso y mostrar ganancias visibles.</td>
       <td>Que sea simple y conecte con compradores confiables.</td>
     </tr>
   </tbody>
 </table>
+
 
 <h4>Hallazgos clave</h4>
 <ul>
@@ -472,32 +470,68 @@ Enfoque clave:
 <hr>
 
 <h3>2.3.1. User Personas</h3>
-<h4>Segmento 1: Angie – Agricultor Independiente (Recién Incorporado)</h4>
+<h4>Segmento 1: Fabrizio Bussalleu – Agricultor Independiente </h4>
 <ul>
 <figure>
-      <img src="images/EmpathyMapSeg1Angie.png" alt="Foto de Angie Sarmiento" width="800">
-      
-    </figure>
+      <img src="images/userpersonaseg1.png" alt="Foto de Fabrizio Bussalleu" width="800">
+</figure>
   
 </ul>
-
+<h4>Segmento 2: Arturo Ore Diaz – Asosiacion agricola </h4>
+<ul>
+<figure>
+      <img src="images/userpersonaseg2.png" alt="Foto de Arturo Ore Diaz" width="800">
+</figure>
+  
+</ul>
 <hr>
 
 <h3>2.3.2. User Task Matrix</h3>
 <table border="1" cellspacing="0" cellpadding="5">
   <thead>
-    <tr>
-      <th>Tarea del Usuario</th>
+    <tr style="background-color:#b30000; color:white; text-align:center;">
+      <th rowspan="2">User Task Matrix</th>
+      <th colspan="2">Segmento 1 (Agricultores)</th>
+      <th colspan="2">Segmento 2 (Asociaciones de agricultores)</th>
+    </tr>
+    <tr style="background-color:#b30000; color:white; text-align:center;">
+      <th>Frecuencia</th>
+      <th>Importancia</th>
       <th>Frecuencia</th>
       <th>Importancia</th>
     </tr>
   </thead>
   <tbody>
-    <tr><td>Registrar costos y ventas</td><td>Alta</td><td>Alta</td></tr>
-    <tr><td>Encontrar compradores directos</td><td>Alta</td><td>Alta</td></tr>
-    <tr><td>Identificar plagas y enfermedades</td><td>Alta</td><td>Alta</td></tr>
-    <tr><td>Gestionar registro de cosechas</td><td>Media</td><td>Alta</td></tr>
-    <tr><td>Compartir información con otros agricultores</td><td>Media</td><td>Alta</td></tr>
+    <tr>
+      <td>Identificación de plagas</td>
+      <td>Alta</td><td>Alta</td>
+      <td>Alta</td><td>Alta</td>
+    </tr>
+    <tr>
+      <td>Control de plagas</td>
+      <td>Alta</td><td>Alta</td>
+      <td>Alta</td><td>Alta</td>
+    </tr>
+    <tr>
+      <td>Consulta con otros agricultores</td>
+      <td>Media</td><td>Media</td>
+      <td>Media</td><td>Alta</td>
+    </tr>
+    <tr>
+      <td>Uso de aplicaciones móviles</td>
+      <td>Baja</td><td>Media</td>
+      <td>Alta</td><td>Alta</td>
+    </tr>
+    <tr>
+      <td>Capacitación en nuevas tecnologías</td>
+      <td>Baja</td><td>Media</td>
+      <td>Media</td><td>Alta</td>
+    </tr>
+    <tr>
+      <td>Recepción de actualizaciones</td>
+      <td>Baja</td><td>Media</td>
+      <td>Alta</td><td>Alta</td>
+    </tr>
   </tbody>
 </table>
 
@@ -526,52 +560,21 @@ Enfoque clave:
 <hr>
 
 <h3>2.3.4. Empathy Mapping (As-Is Scenario Mapping)</h3>
-<table border="1" cellspacing="0" cellpadding="5">
-  <thead>
-    <tr>
-      <th>Fase del Usuario</th>
-      <th>Doing</th>
-      <th>Thinking</th>
-      <th>Feeling</th>
-      <th>Puntos de Dolor</th>
-      <th>Oportunidad para EcoCrop</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Reconocimiento del Problema</td>
-      <td>Observa un problema en el cultivo y lo anota en una libreta.</td>
-      <td>"Si no actúo rápido, perderé dinero."</td>
-      <td>Ansiedad y frustración.</td>
-      <td>Falta de información precisa.</td>
-      <td>Brindar control digital sobre la producción.</td>
-    </tr>
-    <tr>
-      <td>Búsqueda de Soluciones</td>
-      <td>Pregunta a vecinos, usa WhatsApp/Facebook.</td>
-      <td>"Espero que este intermediario me pague justo."</td>
-      <td>Incertidumbre y duda.</td>
-      <td>Información fragmentada y dependencia de redes informales.</td>
-      <td>Ofrecer información confiable y un canal justo.</td>
-    </tr>
-    <tr>
-      <td>Implementación de Soluciones</td>
-      <td>Usa pesticidas genéricos, vende a intermediarios.</td>
-      <td>"Ojalá cumplan lo acordado."</td>
-      <td>Desconfianza e impotencia.</td>
-      <td>Bajos precios y mal uso de insumos.</td>
-      <td>Plataforma transparente con conexión directa a compradores.</td>
-    </tr>
-    <tr>
-      <td>Evaluación y Frustración Recurrente</td>
-      <td>Cuenta ingresos en libreta manual.</td>
-      <td>"De nuevo no gané lo esperado."</td>
-      <td>Decepción y resignación.</td>
-      <td>Pérdidas económicas recurrentes.</td>
-      <td>Ofrecer solución que aumente rentabilidad y dé control.</td>
-    </tr>
-  </tbody>
-</table>
+<h4>Segmento 1: Fabrizio Bussalleu – Agricultor Independiente </h4>
+<ul>
+<figure>
+      <img src="images/EmpathyMapSeg1Fabrizio.png" alt="Foto de Fabrizio Bussalleu" width="800">
+</figure>
+  
+</ul>
+<h4>Segmento 2: Arturo Ore Diaz – Asosiacion agricola </h4>
+<ul>
+<figure>
+      <img src="images/EmpathyMapSeg2Arturo.png" alt="Foto de Arturo Ore Diaz" width="800">
+</figure>
+  
+</ul>
+
 
 <hr>
 
