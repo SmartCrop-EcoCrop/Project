@@ -1011,102 +1011,31 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
 <hr>
 
 <h3>2.3.3. User Journey Mapping</h3>
-<style>
-    .journey-map {
-        width: 100%;
-        border-collapse: collapse;
-        font-family: sans-serif;
-        font-size: 14px;
-        color: #333;
-    }
-    .journey-map th, .journey-map td {
-        border: 1px solid #ccc;
-        padding: 12px;
-        text-align: center;
-        vertical-align: top;
-    }
-    .journey-map th {
-        background-color: #f2f2f2;
-        font-weight: bold;
-    }
-    .journey-map .phase-header {
-        background-color: #e0eaf3;
-        font-weight: bold;
-        padding: 10px;
-    }
-    .user-actions { background-color: #ffebcd; }
-    .touchpoints { background-color: #d4edda; }
-    .thoughts { background-color: #e0eaf3; }
-    .emotions { background-color: #fff3cd; }
-    .emotions .level {
-        height: 15px;
-        border-radius: 5px;
-    }
-    .emotion-encantado { background-color: #28a745; }
-    .emotion-neutro { background-color: #ffc107; }
-    .emotion-frustrado { background-color: #dc3545; }
-    .oportunidades { background-color: #e9ecef; }
-</style>
+<h4>Fases del User Journey de Fabricio Ninalaya (Pequeño Agricultor)</h4>
+<img src="images/userjourneyseg1.png" alt="user journey de seg 1" width="800">
+<p><strong>Reconocimiento:</strong> Fabricio <b>nota daños y síntomas inusuales en sus cultivos</b>, lo que le genera una preocupación inmediata por la posibilidad de plagas o enfermedades. Es el punto inicial donde su experiencia y observación diaria le indican que algo anda mal.</p>
 
-<h3>User Journey Map - Arturo Ore (Dirigente Agrícola)</h3>
+<p><strong>Investigación y Reconocimiento:</strong> En esta fase, Fabricio busca información de manera <b>informal y reactiva</b>. Le toma fotos a los cultivos afectados y las envía a sus conocidos, amigos o a un agrónomo por <b>WhatsApp</b>, esperando que alguien lo ayude a identificar el problema de forma rápida. La búsqueda de información es fragmentada y depende de la disponibilidad y el conocimiento de terceros.</p>
 
-<table class="journey-map">
-    <thead>
-        <tr>
-            <th rowspan="2"></th>
-            <th colspan="5" class="phase-header">Fases del User Journey</th>
-        </tr>
-        <tr>
-            <th>Reconocimiento</th>
-            <th>Investigación y Reconocimiento</th>
-            <th>Decisión</th>
-            <th>Uso Continuo</th>
-            <th>Logros y Mantenimiento</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td class="user-actions"><b>User Actions</b></td>
-            <td>Arturo identifica la falta de datos consolidados como un problema clave.</td>
-            <td>Busca soluciones preguntando a otros dirigentes o asistiendo a eventos.</td>
-            <td>Decide seguir con métodos tradicionales: llamadas, WhatsApp y Excel.</td>
-            <td>Intenta coordinar a los socios a través de comunicaciones informales.</td>
-            <td>Evalúa los resultados de las negociaciones, que a menudo son desfavorables.</td>
-        </tr>
-        <tr>
-            <td class="touchpoints"><b>Touchpoints</b></td>
-            <td>Reuniones de la asociación. Problemas de negociación con compradores.</td>
-            <td>Conversaciones con colegas y otros dirigentes. Asistencia a ferias agrícolas.</td>
-            <td>Consultas con los socios sobre su disposición a usar nuevas herramientas.</td>
-            <td>Uso de WhatsApp para comunicarse y Excel para intentar llevar un registro.</td>
-            <td>Presentaciones de resultados a los socios. Feedback de los compradores.</td>
-        </tr>
-        <tr>
-            <td class="thoughts"><b>Thoughts</b></td>
-            <td>"Nuestra asociación necesita un sistema más organizado".</td>
-            <td>"¿Hay alguna herramienta que nos ayude a centralizar todo?". "Nadie usa nada que sea realmente eficiente".</td>
-            <td>"Quizás es demasiado complicado o caro para nuestros socios". "Mejor seguir con lo que conocemos".</td>
-            <td>"Esto es un caos, la información se pierde". "No puedo tener una visión clara de la producción".</td>
-            <td>"No conseguimos un buen precio porque no tenemos datos sólidos". "Perdimos la cosecha porque la alerta llegó tarde".</td>
-        </tr>
-        <tr>
-            <td class="emotions"><b>Emotions</b></td>
-            <td><div class="level" style="background-color: #ffc107;"></div><br>Neutro</td>
-            <td><div class="level" style="background-color: #dc3545;"></div><br>Frustrado/a</td>
-            <td><div class="level" style="background-color: #dc3545;"></div><br>Muy frustrado/a</td>
-            <td><div class="level" style="background-color: #dc3545;"></div><br>Muy frustrado/a</td>
-            <td><div class="level" style="background-color: #dc3545;"></div><br>Muy frustrado/a</td>
-        </tr>
-        <tr>
-            <td class="oportunidades"><b>Oportunidades</b></td>
-            <td>Ofrecer una plataforma que resuelva el dolor de la falta de organización.</td>
-            <td>Presentar un caso de éxito que muestre los beneficios de la centralización de datos.</td>
-            <td>Demostrar que la solución es accesible y fácil de implementar, incluso para personas con baja alfabetización digital.</td>
-            <td>Brindar un sistema que facilite la comunicación masiva y la gestión centralizada de la información.</td>
-            <td>Ofrecer reportes automáticos que fortalezcan el poder de negociación de la asociación.</td>
-        </tr>
-    </tbody>
-</table>
+<p><strong>Decisión:</strong> Basado en la recomendación que recibe, Fabricio <b>decide qué insumo o método utilizar</b>. Generalmente, opta por productos que ya conoce o por las sugerencias que le dan en la tienda agrícola. Esta decisión no está fundamentada en un diagnóstico preciso, sino en la confianza en la palabra de otra persona.</p>
+
+<p><strong>Uso Continuo:</strong> Fabricio <b>aplica el tratamiento seleccionado</b> y comienza un proceso de monitoreo manual y constante. Observa de cerca sus plantas para ver si el tratamiento funciona y si los síntomas de la enfermedad o plaga desaparecen. La efectividad del método es una incógnita hasta que ve los resultados.</p>
+
+<p><strong>Logros y Mantenimiento:</strong> En esta fase final, Fabricio <b>evalúa el impacto del tratamiento</b>. A menudo se enfrenta a la <b>frustración de ver que las pérdidas continúan</b> o que el producto no fue tan efectivo como esperaba. Este resultado negativo lo obliga a reiniciar todo el proceso, lo que se traduce en una pérdida de tiempo, dinero y esfuerzo.</p>
+
+
+<h4>Fases del User Journey de Fabricio Ninalaya (Representante Agricola)</h4>
+<img src="images/userjourneyseg2.png" alt="user journey de seg 2" width="800">
+<p><strong>Reconocimiento:</strong> Arturo reconoce que la falta de organización y datos confiables en la asociación es un problema grave que afecta la capacidad de negociación y la respuesta a problemas colectivos.</p>
+
+<p><strong>Investigación y Reconocimiento:</strong> Busca soluciones preguntando a otros líderes de asociaciones, asistiendo a reuniones o ferias agrícolas, y conversando con los socios.</p>
+
+<p><strong>Decisión:</strong> Decide seguir usando los métodos actuales como los grupos de WhatsApp y las llamadas, a pesar de sus limitaciones, por la falta de una alternativa digital accesible y confiable que se adapte a sus necesidades.</p>
+
+<p><strong>Uso Continuo:</strong> Intenta coordinar la información y las actividades de los socios de forma manual y fragmentada. Se esfuerza por llevar un control en cuadernos o Excel.</p>
+
+<p><strong>Logros y Mantenimiento:</strong> Evalúa los resultados de las negociaciones con compradores y la efectividad de las medidas tomadas ante plagas o eventos climáticos. A menudo se frustra por no obtener los resultados esperados debido a la falta de información consolidada.</p>
+<hr>
 
 <h3>2.3.4. Empathy Mapping (As-Is Scenario Mapping)</h3>
 <h4>Segmento 1: Fabricio Ninalaya – Agricultor Independiente </h4>
