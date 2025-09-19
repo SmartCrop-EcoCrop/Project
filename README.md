@@ -649,13 +649,39 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
 <section id="cap-2-2-2-entrevistas">
   <h2>2.2.2. Registro de entrevistas</h2>
 
+  
+
+  <!-- Entrevista Fabricio -->
+  <article class="entrevista">
+    <h3>Primer segmento: (Fabricio)</h3>
+    <p><strong>Segmento:</strong> Agricultores</p>
+    <p><strong>Entrevistado:</strong> Fabricio Ninalaya</p>
+    <p><strong>Edad:</strong> 35 años</p>
+    <p><strong>Rubro:</strong> Hortalizas</p>
+    <p><strong>Ubicación:</strong> Cusco</p>
+    <p><strong>Medio:</strong> Presencial</p>
+    <p><strong>Entrevistador:</strong> Salcedo Champi Matias</p>
+    <!-- Imagen Fabricio -->
+    <figure>
+      <img src="images/SSFABRICIO.png" alt="Foto de Fabricio Ninalaya" width="800">
+    </figure>
+
+  <h4>Resumen:</h4>
+      
+  <p>
+    Fabricio Ninalaya, agricultor de hortalizas en Cusco, señala que las plagas y las enfermedades fúngicas afectan gravemente su producción, deteriorando sus cultivos en poco tiempo. Reconoce que la gestión actual de información es mínima y se basa en la memoria y comunicaciones informales, lo que limita la prevención y el control. Considera que una aplicación con detección de plagas en tiempo real, alertas climáticas y recomendaciones técnicas sería una herramienta valiosa. También expresó que la falta de capacitación y los costos son barreras, pero confía en que con un sistema accesible y soporte adecuado, los agricultores podrían mejorar sus rendimientos y reducir pérdidas.
+  </p>
+  </article>
+
+  <hr>
+
   <!-- Entrevista Fabrizio -->
   <article class="entrevista">
     <h3>Primer segmento: (Fabrizio)</h3>
     <p><strong>Segmento:</strong> Agricultores</p>
     <p><strong>Entrevistado:</strong> Fabrizio Bussalleu</p>
     <p><strong>Edad:</strong> 27 años</p>
-    <p><strong>Rubro:</strong> Agricultura</p>
+    <p><strong>Rubro:</strong> Café y cacao</p>
     <p><strong>Ubicación:</strong> Piura - Las Lomas</p>
     <p><strong>Medio:</strong> Meet</p>
     <p><strong>Entrevistador:</strong> Salcedo Champi Matias</p>
@@ -664,106 +690,84 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
       <img src="images/SSFABRIZIO.png" alt="Foto de Fabrizio Bussalleu" width="800">
     </figure>
 
-<h4>Resumen:</h4>
+  <h4>Resumen:</h4>
     <p>
-    Fabrizio Bussalleu es un agricultor de 27 años de Piura - Las Lomas. Señala que sus principales problemas son la inestabilidad de precios y la falta de canales seguros para vender directamente. Actualmente gestiona datos en hojas de Excel, pero reconoce que no siempre están actualizadas ni son accesibles desde el campo. Ha intentado usar grupos de WhatsApp para ventas, pero los considera poco confiables y desorganizados. Fabrizio destaca que los compradores locales suelen tener más información y ventaja en la negociación, por lo que considera vital el acceso a precios en tiempo real. Manifestó interés en una aplicación que le permita planificar la producción según la demanda, conectarlo con compradores o asociaciones, y que sea fácil de usar y respaldada por una institución para generar confianza y aumentar la rentabilidad.
-  </p>
+    Fabrizio Bussalleu, agricultor de 27 años en Piura, trabaja principalmente con café y cacao. Explica que enfrenta pérdidas constantes por plagas como la broca y la roya, lo que impacta directamente en su economía. Actualmente utiliza hojas de Excel para registrar información, pero admite que no están actualizadas ni disponibles en campo. También ha probado grupos de WhatsApp para coordinar ventas, pero los considera poco confiables y desordenados. Fabrizio subraya que los compradores locales tienen ventaja porque manejan más información sobre precios, por lo que considera clave contar con datos en tiempo real que le permitan negociar mejor. Se mostró muy interesado en una aplicación sencilla que conecte agricultores con compradores, brinde reportes y genere confianza mediante respaldo institucional.
+    </p>
   </article>
 
-  <hr>
 
-  <!-- Entrevista Santiago -->
+   <!-- Entrevista Santiago -->
   <article class="entrevista">
     <h3>Primer segmento: (Santiago)</h3>
     <p><strong>Segmento:</strong> Agricultores</p>
     <p><strong>Entrevistado:</strong> Santiago Baldeon</p>
-    <p><strong>Edad:</strong> 25 años</p>
-    <p><strong>Rubro:</strong> Agricultura</p>
-    <p><strong>Ubicación:</strong> Piura - Las Lomas</p>
-    <p><strong>Medio:</strong> Meet</p>
+    <p><strong>Edad:</strong> 45 años</p>
+    <p><strong>Rubro:</strong> Papa y maíz</p>
+    <p><strong>Ubicación:</strong> Huancavelica</p>
+    <p><strong>Medio:</strong> Presencial</p>
     <p><strong>Entrevistador:</strong> Salcedo Champi Matias</p>
     <!-- Imagen Santiago -->
     <figure>
-      <img src="images/SSANTI.png" alt="Foto de Santiago Baldeon" width="800">
+      <img src="images/SSANTIAGO.png" alt="Foto de Santiago Baldeon" width="800">
     </figure>
 
-<h4>Resumen:</h4>
+  <h4>Resumen:</h4>
     <p>
-      Santiago, un agricultor que recién se incorpora al negocio, identifica dos problemas principales: la dependencia de los intermediarios, 
-      que reducen sus ganancias, y la ineficiencia de los registros manuales en libretas, que provoca pérdida de información. 
-      Su necesidad más urgente es un canal directo para vender y una herramienta que le ayude a gestionar su producción de manera sencilla.
+    Santiago Baldeon, agricultor de papa y maíz en Huancavelica, afirma que sus mayores dificultades son las heladas, la escasez de agua y la resistencia de las plagas a los pesticidas. Su gestión de información es casi inexistente, pues depende de apuntes personales y experiencias pasadas. Utiliza WhatsApp para recibir alertas, aunque admite que no siempre le resultan útiles o confiables. Santiago considera vital contar con un sistema tecnológico que anticipe riesgos climáticos y detecte plagas de manera temprana, pues esto reduciría pérdidas y permitiría planificar mejor su producción. También resalta que la capacitación y el acompañamiento técnico son indispensables para que los agricultores adopten nuevas herramientas de manera exitosa.
     </p>
-  </article>
+ 
+   <h3>Segundo segmento: (Erick)</h3>
+    <p><strong>Segmento:</strong> Dirigentes</p>
+    <p><strong>Entrevistado:</strong> Erick Mendoza</p>
+    <p><strong>Edad:</strong> 40 años</p>
+    <p><strong>Rubro:</strong> Papa</p>
+    <p><strong>Ubicación:</strong> Ayacucho</p>
+    <p><strong>Medio:</strong> Presencial</p>
+    <p><strong>Entrevistador:</strong> Salcedo Champi Matias</p>
+    <!-- Imagen Erick -->
+    <figure>
+      <img src="images/SSERICK.png" alt="Foto de Erick Mendoza" width="800">
+    </figure>
 
-  <hr>
-
-  <!-- Entrevista Angie -->
-  <article class="entrevista">
-    <h3>Primer segmento: (Angie)</h3>
-    <p><strong>Segmento:</strong> Agricultores</p>
-    <p><strong>Entrevistada:</strong> Angie Sarmiento</p>
-    <p><strong>Edad:</strong> 25 años</p>
-    <p><strong>Rubro:</strong> Agricultura</p>
-    <p><strong>Ubicación:</strong> Piura - Las Lomas</p>
+  <h4>Resumen:</h4>
+    <p>
+    Erick Mendoza, gerente de operaciones de una asociación de papa en Ayacucho, explica que la mayor dificultad es la dispersión de la información, pues no tienen un registro claro de lo sembrado ni de las plagas presentes. Usan principalmente llamadas y WhatsApp, pero la información se pierde y no todos los agricultores participan. Erick considera esencial un sistema centralizado con alertas de plagas y clima, además de reportes de producción que consoliden el estado de la asociación. Destaca que la tecnología permitiría pasar de un manejo reactivo a uno preventivo, mejorando la planificación, la confianza y la sostenibilidad. Identifica como barreras el costo, la desconfianza en la tecnología y el nivel de alfabetización digital, pero asegura que con capacitación y soporte técnico se podrían superar.
+    </p>
+<h3>Segundo segmento: (Alonso)</h3>
+    <p><strong>Segmento:</strong> Dirigentes</p>
+    <p><strong>Entrevistado:</strong> Alonso Muñiz</p>
+    <p><strong>Edad:</strong> 42 años</p>
+    <p><strong>Rubro:</strong> Frutas</p>
+    <p><strong>Ubicación:</strong> San Martín</p>
     <p><strong>Medio:</strong> Meet</p>
     <p><strong>Entrevistador:</strong> Salcedo Champi Matias</p>
-    <!-- Imagen Angie -->
+    <!-- Imagen Alonso -->
     <figure>
-      <img src="images/SSANGIE.png" alt="Foto de Angie Sarmiento" width="800">
+      <img src="images/SSALONSO.png" alt="Foto de Alonso Muñiz" width="800">
     </figure>
 
-<h4>Resumen:</h4>
+  <h4>Resumen:</h4>
     <p>
-      Angie, una pequeña agricultora con 6 hectáreas, se enfoca en la organización de su producción y la venta. 
-      Utiliza WhatsApp y Facebook de manera informal, pero busca una herramienta que la ayude a organizar mejor sus registros de costos y ventas. 
-      Su mayor problema es encontrar compradores que paguen precios justos, ya que los intermediarios y los costos de transporte reducen sus ganancias. 
-      Al igual que Santiago, valora una aplicación que le permita gestionar su producción de manera simple y la conecte con compradores directos o asociaciones confiables.
+    Alonso Muñiz, coordinador técnico de una cooperativa de frutas en San Martín, comenta que uno de los principales problemas es la falta de información oportuna por parte de los agricultores, ya que reportan plagas cuando el daño ya está avanzado. Explica que cada técnico usa registros en Excel, pero no existe un sistema único ni en tiempo real. Para las alertas, dependen de llamadas o mensajes, lo que retrasa la reacción. Alonso ve como prioridad la detección temprana de plagas, alertas automáticas y reportes que respalden la calidad ante compradores y financistas. Reconoce que el costo y la conectividad son barreras, pero afirma que una solución tecnológica consolidada daría a la cooperativa más competitividad y confianza en el mercado.
     </p>
-  </article>
-    <!-- Entrevista Arturo -->
-  <article class="entrevista">
-    <h3>Segundo segmento: (Arturo)</h3>
-    <p><strong>Segmento:</strong> Representante de asosiacion agricola</p>
-    <p><strong>Entrevistada:</strong> Arturo Ore Diaz</p>
-    <p><strong>Edad:</strong> 28 años</p>
-    <p><strong>Rubro:</strong> Agricultura</p>
-    <p><strong>Ubicación:</strong> Piura </p>
+     <h3>Segundo segmento: (Arturo)</h3>
+    <p><strong>Segmento:</strong> Dirigentes</p>
+    <p><strong>Entrevistado:</strong> Arturo Ore</p>
+    <p><strong>Edad:</strong> 50 años</p>
+    <p><strong>Rubro:</strong> Café</p>
+    <p><strong>Ubicación:</strong> Junín</p>
     <p><strong>Medio:</strong> Meet</p>
     <p><strong>Entrevistador:</strong> Salcedo Champi Matias</p>
     <!-- Imagen Arturo -->
     <figure>
       <img src="images/SSARTURO.png" alt="Foto de Arturo Ore" width="800">
     </figure>
-    <h4>Resumen:</h4>
-    <p>
-  Arturo Ore Diaz, representante de una asociación agrícola, enfrenta el reto de coordinar a varios productores que registran su información de forma distinta, lo que dificulta la organización. 
-  Actualmente utilizan libretas y llamadas telefónicas, pero esto genera retrasos y pérdida de datos en la planificación de cosechas y distribución. 
-  Su principal preocupación es contar con una herramienta digital centralizada que unifique la información de producción y ventas de los asociados. 
-  Para él, una aplicación que permita coordinar mejor la logística y negociar precios justos en conjunto con compradores sería clave para fortalecer la asociación.
-    </p>
- </article>
-  <!-- Entrevista Fabricio -->
-  <article class="entrevista">
-    <h3>Segundo segmento: (Fabricio)</h3>
-    <p><strong>Segmento:</strong> Representante de asosiacion agricola</p>
-    <p><strong>Entrevistada:</strong> Fabrizio Ninalaya</p>
-    <p><strong>Edad:</strong> 25 años</p>
-    <p><strong>Rubro:</strong> Agricultura </p>
-    <p><strong>Ubicación:</strong> Lambayeque </p>
-    <p><strong>Medio:</strong> Meet</p>
-    <p><strong>Entrevistador:</strong> Salcedo Champi Matias</p>
-    <!-- Imagen Fabricio -->
-    <figure>
-      <img src="images/SSFABRICIO.png" alt="Foto de Fabricio Ninalaya" width="800" >
-    </figure>
-<h4>Resumen:</h4>
-    <p>
-  Fabricio Ninalaya, presidente de una asociación de pequeños agricultores, resalta las dificultades para negociar precios justos debido a la falta de información confiable y actualizada sobre la producción. 
-  Ell comenta que la comunicación con los agricultores suele ser lenta, ya que dependen de reuniones presenciales y llamadas, lo que retrasa la toma de decisiones. 
-  Considera necesario un sistema digital que centralice datos de cosechas, ventas y logística para mejorar la organización interna. 
-  Para Fabricio, una aplicación que conecte directamente a la asociación con compradores y proveedores sería fundamental para aumentar la rentabilidad y fortalecer la confianza entre los miembros.
-    </p>
 
+  <h4>Resumen:</h4>
+    <p>
+    Arturo Ore, dirigente agrícola de la Asociación de Productores de Café en Junín, resalta que uno de los mayores retos es la falta de unificación en el manejo técnico de los socios. Cada agricultor trabaja de forma distinta, lo que dificulta conocer el estado real de los cultivos. Actualmente, la información se comparte en reuniones o por WhatsApp, pero se pierde fácilmente y no existe un sistema centralizado. Arturo considera prioritario contar con una plataforma que muestre en tiempo real la detección de plagas y emita alertas técnicas, además de gestionar insumos de manera colectiva. Afirma que esto permitiría tomar decisiones rápidas y coordinadas, mejorar la credibilidad frente a compradores y aumentar la sostenibilidad de la asociación.
+    </p>
   </article>
 </section>
 <h2>2.2.3. Análisis de entrevistas</h2>
@@ -1011,6 +1015,7 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
 <hr>
 
 <h3>2.3.3. User Journey Mapping</h3>
+<p>En esta sección, se presentan los User Journey Maps de cada segmento representado para ilustrar la experiencia actual (As-Is) de los usuarios sin la solución propuesta por EcoCrop. El propósito es visualizar el viaje completo del usuario desde el reconocimiento inicial de un problema hasta la gestión continua, reflejando las interacciones, emociones, y frustraciones en cada fase. Esta representación permite entender cómo los usuarios actualmente manejan los desafíos en el control de plagas y dónde existen oportunidades para mejorar su experiencia a través de soluciones tecnológicas.</p>
 <h4>Fases del User Journey de Fabricio Ninalaya (Pequeño Agricultor)</h4>
 <img src="images/userjourneyseg1.png" alt="user journey de seg 1" width="800">
 <p><strong>Reconocimiento:</strong> Fabricio <b>nota daños y síntomas inusuales en sus cultivos</b>, lo que le genera una preocupación inmediata por la posibilidad de plagas o enfermedades. Es el punto inicial donde su experiencia y observación diaria le indican que algo anda mal.</p>
