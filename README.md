@@ -220,7 +220,13 @@ Nuestra visión es ser el principalmente un soporte para los agricultores, promo
 
 | <div align="center">Foto</div> | <div align="center">Descripción</div> |
 |------|-------------|
-| <p align="center"><img width="auto" height="auto" src=""> </p> |  |
+| <p align="center"><img width="auto" height="auto" src=""> </p> | Soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), actualmente cursando el 5to ciclo de la carrera.
+   
+   Durante mi formación he adquirido conocimientos en diversas tecnologías y buenas prácticas de desarrollo. Mis principales fortalezas se encuentran en C++, HTML y Java, lenguajes en los que me desenvuelvo con mayor seguridad, aplicando conceptos de programación estructurada y orientada a objetos, así como el diseño de interfaces y el desarrollo de aplicaciones.
+
+   Adicionalmente, he trabajado con SQL para la gestión de bases de datos, y con tecnologías web que me permiten tener una visión integral del desarrollo de software.
+
+   Me considero una persona responsable, comprometida y con facilidad para el trabajo en equipo, cualidades que me impulsan a mejorar constantemente.  |
 | <p align="center"><img width="auto" height="auto" src="images/commons/Fernandoprofile.png"></p> | Mi Nombre es Fernando Sanchez Guevara, tengo 21 años, actualmente me encuentro en el quinto ciclo de la carrera de Ingeniería de Software. Me considero alguien disiplinado respecto con la puntualidad y desarrollar de la mejor manera los deberes asignados. Ademas, me preocupo por mi equipo, tratando de que no tengan ningun problema respecto al trabajo, y darles la mano para poder ayudar cuando lo necesiten. | 
 | <p align="center"><img width="auto" height="auto" src=""></p>  |                                                                                                                                          |
 | <p align="center"><img width="auto" height="auto" src=""></p>         | |
@@ -598,22 +604,22 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
   <h1>Capítulo 2: Entrevistas</h1>
 
   <h2 id="2-2-1">2.2.1. Diseño de entrevistas</h2>
-  <p>Se elaboró un guion de entrevistas con preguntas abiertas, dirigidas a agricultores, asociaciones locales y empresas de insumos agrícolas. Las preguntas buscan identificar necesidades, procesos actuales, fricciones y expectativas respecto a una solución digital (EcoCrop).</p>
+  <p>Se elaboró un guion de entrevistas con preguntas abiertas, dirigidas a agricultores, asociaciones locales y empresas de insumos agrícolas. Las preguntas buscan identificar necesidades, procesos actuales, fricciones y expectativas respecto a una solución digital (EcoCrop - SmartCrop), enfocada en detección de plagas, monitoreo climático y uso de sensores IoT.</p>
 
   <!-- Segmento 1 -->
   <article class="segmento" id="segmento-1">
     <h3>Segmento 1: Agricultores</h3>
     <ol>
-      <li>¿Cuáles son los principales retos que enfrenta en la venta de sus productos agrícolas?</li>
-      <li>¿Cómo gestiona actualmente la información de sus cultivos (producción, cosecha, precios)?</li>
-      <li>¿Le resulta complicado conectarse directamente con compradores o mercados sin intermediarios?</li>
-      <li>¿Ha tenido problemas con precios bajos por falta de información o negociaciones desiguales?</li>
-      <li>¿Qué tan importante es para usted tener acceso a información en tiempo real sobre precios de mercado?</li>
-      <li>¿Usa actualmente alguna aplicación móvil o página web para su negocio? ¿Qué limitaciones encuentra?</li>
-      <li>¿Qué herramientas digitales cree que le ayudarían a mejorar la organización de su producción?</li>
-      <li>¿Cuánto influye la falta de canales de venta modernos (online) en sus ingresos?</li>
-      <li>¿Le interesaría contar con una aplicación que le conecte directamente con compradores o asociaciones?</li>
-      <li>¿Qué características le harían confiar y usar regularmente una aplicación de este tipo?</li>
+      <li>¿Cuáles son los principales problemas que enfrenta en el cuidado y mantenimiento de sus cultivos (plagas, riego, temperaturas, enfermedades)?</li>
+      <li>¿Ha sufrido pérdidas de producción por plagas o por condiciones climáticas extremas? ¿Puede describir algún caso reciente?</li>
+      <li>¿Cómo identifica y controla actualmente las plagas en sus cultivos (insumos, asesoría técnica, observación manual)?</li>
+      <li>¿Le sería útil identificar plagas automáticamente mediante fotos o imágenes tomadas por cámaras? ¿Por qué?</li>
+      <li>¿Mide actualmente la temperatura, humedad u otras variables del terreno? ¿Con qué frecuencia y cómo lo hace?</li>
+      <li>¿Qué tipo de alertas o información en tiempo real (ej. plagas detectadas, riesgo de heladas, calor extremo) le serían más valiosas?</li>
+      <li>¿Usa hoy alguna herramienta digital (apps, sensores, cámaras, WhatsApp, Excel) para gestionar sus cultivos? ¿Qué limitaciones encuentra?</li>
+      <li>¿Qué tan dispuesto estaría a usar sensores o cámaras instaladas en el campo si le ayudan a prevenir pérdidas? ¿Qué le preocuparía (coste, mantenimiento, conectividad)?</li>
+      <li>¿Qué características harían que confíe y use regularmente una app como SmartCrop (precisión en detección, recomendaciones prácticas, soporte técnico, costo)?</li>
+      <li>¿Qué tipo de capacitación o soporte necesitaría para adoptar una solución digital en su trabajo diario?</li>
     </ol>
   </article>
 
@@ -621,18 +627,20 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
   <article class="segmento" id="segmento-2">
     <h3>Segmento 2: Operativas y asociaciones agrícolas</h3>
     <ol>
-      <li>¿Cuáles son los principales problemas que enfrentan al coordinar a los agricultores miembros?</li>
-      <li>¿Cómo organizan actualmente la recolección y distribución de productos agrícolas?</li>
-      <li>¿Qué dificultades tienen para negociar mejores precios en conjunto?</li>
-      <li>¿Cómo registran y gestionan la información de producción de los asociados?</li>
-      <li>¿Existen problemas de comunicación entre la asociación y los agricultores?</li>
-      <li>¿Qué herramientas digitales utilizan hoy en día para organizar sus operaciones?</li>
-      <li>¿Consideran necesario un sistema centralizado que unifique la información de producción, ventas y logística?</li>
-      <li>¿Cuáles serían las principales funcionalidades que debería tener una aplicación para apoyar a la asociación?</li>
-      <li>¿Qué importancia le dan a tener una plataforma que conecte directamente a la asociación con compradores y proveedores?</li>
-      <li>¿Cómo creen que la tecnología puede fortalecer la relación entre agricultores y su organización?</li>
+      <li>¿Cuáles son los principales retos que enfrentan al coordinar la producción y manejo técnico de los agricultores asociados?</li>
+      <li>¿Con qué frecuencia enfrentan problemas colectivos por plagas o eventos climáticos que afectan a varios productores?</li>
+      <li>¿Cómo registran y gestionan actualmente la información de producción, incidencias sanitarias y medidas tomadas por los asociados?</li>
+      <li>¿Tienen canales eficientes para comunicar alertas técnicas (plagas, heladas, sequía) a todos los agricultores? ¿Qué limitaciones tienen?</li>
+      <li>¿Consideran necesario un sistema centralizado que muestre en tiempo real el estado de cultivos, detección de plagas y datos de sensores? ¿Por qué?</li>
+      <li>¿Qué funcionalidades priorizarían en una plataforma para la asociación: detección de plagas, alertas climáticas, reportes automáticos, gestión de insumos, contacto con técnicos?</li>
+      <li>¿Les interesaría que la aplicación genere reportes periódicos (ej. de riesgo, producción, recomendaciones) para presentarlos a compradores, financistas o autoridades?</li>
+      <li>¿Qué nivel de soporte técnico y capacitación necesitarían para desplegar sensores y cámaras entre sus asociados?</li>
+      <li>¿Qué barreras ven para la adopción masiva de una solución IoT/IA en su organización (coste, conectividad, desconfianza, alfabetización digital)?</li>
+      <li>¿Cómo creen que la tecnología puede fortalecer la capacidad de respuesta frente a plagas y mejorar la productividad y sostenibilidad de la asociación?</li>
     </ol>
   </article>
+
+
 
  
 
