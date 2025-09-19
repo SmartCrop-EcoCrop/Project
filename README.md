@@ -947,6 +947,7 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
 <hr>
 
 <h3>2.3.1. User Personas</h3>
+<strong>Enlace: </strong><p>https://www.canva.com/design/DAGzNGFwzm4/sG8gDCgwX-ibVuli3j4Yrg/edit</p>
 <h4>Segmento 1: Fabricio Ninalaya – Agricultor Independiente </h4>
 <ul>
 <figure>
@@ -1015,6 +1016,7 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
 <hr>
 
 <h3>2.3.3. User Journey Mapping</h3>
+<strong>Enlace: </strong><p>https://www.canva.com/design/DAGzEVdOJkM/8Du192V0EiwTjmea2haBoQ/edit</p>
 <p>En esta sección, se presentan los User Journey Maps de cada segmento representado para ilustrar la experiencia actual (As-Is) de los usuarios sin la solución propuesta por EcoCrop. El propósito es visualizar el viaje completo del usuario desde el reconocimiento inicial de un problema hasta la gestión continua, reflejando las interacciones, emociones, y frustraciones en cada fase. Esta representación permite entender cómo los usuarios actualmente manejan los desafíos en el control de plagas y dónde existen oportunidades para mejorar su experiencia a través de soluciones tecnológicas.</p>
 <h4>Fases del User Journey de Fabricio Ninalaya (Pequeño Agricultor)</h4>
 <img src="images/userjourneyseg1.png" alt="user journey de seg 1" width="800">
@@ -1043,6 +1045,7 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
 <hr>
 
 <h3>2.3.4. Empathy Mapping (As-Is Scenario Mapping)</h3>
+<strong>Enlace: </strong><p>https://www.canva.com/design/DAGzNPkgJo8/h-ulAkB81trDug_X9C_QnQ/edit</p>
 <h4>Segmento 1: Fabricio Ninalaya – Agricultor Independiente </h4>
 <ul>
 <figure>
