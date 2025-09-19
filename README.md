@@ -767,139 +767,178 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
   </article>
 </section>
 <h2>2.2.3. Análisis de entrevistas</h2>
+
 <h3>Entrevistas Segmento 1 (Agricultores)</h3>
 <table border="1" cellspacing="0" cellpadding="5">
 <thead>
 <tr>
 <th>Pregunta</th>
-<th>Santiago Baldeon (Agricultor Tecnológico)</th>
-<th>Fabrizio Bussalleu (Agricultor Tradicional)</th>
-<th>Fabricio Ninalaya (Pequeño Agricultor)</th>
+<th>Santiago Baldeon (Agricultor de papa y maíz)</th>
+<th>Fabrizio Bussalleu (Agricultor de café y cacao)</th>
+<th>Fabricio Ninalaya (Agricultor de hortalizas)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><b>¿Cuáles son las plagas o enfermedades que más le preocupan?</b></td>
-<td>La arañita roja y el oídio en mis cultivos de arándanos. Son plagas que si no se detectan en los primeros días, el costo para controlarlas se dispara y afecta la calidad para la exportación.</td>
-<td>La rancha en la papa, como siempre. Es una plaga que mi abuelo ya combatía. Aparece con la humedad y si te descuidas, te quedas sin cosecha. Es una lucha de todos los años.</td>
-<td>En mis hortalizas, la mosca blanca y los pulgones. Como mi parcela es pequeña, una plaga se extiende rapidísimo. Perder una parte de la cosecha es perder la ganancia de todo el mes.</td>
+<td>¿Cuáles son los principales problemas que enfrenta en el cuidado y mantenimiento de sus cultivos (plagas, riego, temperaturas, enfermedades)?</td>
+<td>Los cambios bruscos de temperatura y la aparición de plagas nuevas y resistentes. El riego es un desafío porque no siempre hay suficiente agua.</td>
+<td>Las plagas son mi mayor dolor de cabeza. He tenido problemas con la roya del café y la broca, que son muy difíciles de controlar sin asistencia técnica.</td>
+<td>Principalmente las plagas y enfermedades fúngicas que se propagan rápido. También me preocupa el riego, porque las sequías y lluvias intensas han sido muy impredecibles.</td>
 </tr>
 <tr>
-<td><b>¿Cómo detecta estas plagas actualmente?</b></td>
-<td>Hago monitoreo semanal con mi agrónomo, revisando hojas con una lupa. Uso trampas pegajosas. Es efectivo pero muy manual y consume bastante tiempo. A veces es difícil cubrir todo el campo a tiempo.</td>
-<td>"Pateando chacra", como se dice. Camino y reviso las plantas. Confío en mi vista y en mi experiencia para saber cuándo algo anda mal. El problema es que no puedo estar en todos lados a la vez.</td>
-<td>Reviso mis plantas todos los días al regar. Les tengo que dar una mirada rápida. A veces pido ayuda en un grupo de Facebook, subo una foto y pregunto qué puede ser.</td>
+<td>¿Ha sufrido pérdidas de producción por plagas o por condiciones climáticas extremas? ¿Puede describir algún caso reciente?</td>
+<td>Sí, el año pasado, una helada inesperada afectó gran parte de mi cosecha de papa. Perdí casi el 60% de la producción.</td>
+<td>En la última cosecha, una plaga de broca fue muy fuerte y me costó mucho controlarla. Al final, vendí café de menor calidad y perdí casi la mitad de mis ingresos esperados.</td>
+<td>Hace unos meses, una enfermedad afectó a mis lechugas. Tuve que arrancar y desechar una buena parte de los cultivos, lo que fue una gran pérdida de tiempo y dinero.</td>
 </tr>
 <tr>
-<td><b>Una vez detectada, ¿qué hace y a quién consulta?</b></td>
-<td>Consulto con mi asesor para definir el producto químico o biológico a usar. Busco en internet fichas técnicas para asegurar la dosis correcta y no incumplir con las certificaciones.</td>
-<td>Voy a la tienda de agroquímicos del pueblo. El vendedor me recomienda algo. A veces funciona, a veces no. Otras veces le pregunto a mi compadre, que tiene más hectáreas y más experiencia.</td>
-<td>Pruebo primero con remedios caseros para no gastar. Si no funciona, tengo que comprar el químico más barato que encuentre, aunque a veces no sea el más efectivo y tenga que aplicar varias veces.</td>
+<td>¿Cómo identifica y controla actualmente las plagas en sus cultivos (insumos, asesoría técnica, observación manual)?</td>
+<td>Hago la observación manual a diario y pido ayuda a un técnico local. Él me recomienda qué químicos usar.</td>
+<td>Me guío por la experiencia y lo que veo. A veces pregunto a otros agricultores en la zona. Uso los insumos que me recomiendan en la tienda agrícola, pero no siempre sé si son los correctos.</td>
+<td>Principalmente con la observación manual. Si veo algo raro, le tomo una foto con mi celular y la envío por WhatsApp a un amigo que sabe del tema o al agrónomo.</td>
 </tr>
 <tr>
-<td><b>¿Cómo le afectan las heladas o el calor extremo?</b></td>
-<td>El estrés por calor puede arruinar la floración y bajar el calibre de la fruta. Una helada tardía es catastrófica. Invierto en mallas y sistemas de riego para mitigarlo, pero es un costo alto.</td>
-<td>La helada es un terror. En una noche te quema todo. Te acuestas con el campo verde y amaneces con el campo negro. Es una pérdida total. No hay mucho que uno pueda hacer, solo rezar.</td>
-<td>El sol fuerte de mediodía me marchita las lechugas y el culantro. Tengo que regar más y gastar más en agua. Una helada quema todo, no hay forma de recuperarse de eso.</td>
+<td>¿Le sería útil identificar plagas automáticamente mediante fotos o imágenes tomadas por cámaras? ¿Por qué?</td>
+<td>Sí, muy útil. A veces, las plagas se confunden con otras cosas. Me ayudaría a saber exactamente qué es y cómo tratarla, sin tener que esperar por el agrónomo.</td>
+<td>Claro. Sería como tener un técnico en mi bolsillo. Podría actuar rápido, antes de que la plaga se extienda y cause más daño.</td>
+<td>Me encantaría. A veces no sé qué plaga es, y si la app me lo dijera, podría comprar el producto adecuado de inmediato y no perder tiempo probando.</td>
 </tr>
 <tr>
-<td><b>¿De dónde obtiene la información del clima?</b></td>
-<td>Uso un par de aplicaciones en el celular y la página del SENAMHI. El problema es que el pronóstico es muy general, no me da la temperatura o humedad exacta a nivel de mi parcela.</td>
-<td>Escucho la radio por la mañana. A veces aciertan, a veces no. Uno aprende más mirando las nubes y sintiendo el viento. La tecnología a veces se equivoca mucho.</td>
-<td>Lo que avisan en la tele o en la radio. No es muy confiable para nuestra zona, que tiene un microclima muy particular.</td>
+<td>¿Mide actualmente la temperatura, humedad u otras variables del terreno? ¿Con qué frecuencia y cómo lo hace?</td>
+<td>No, no tengo esas herramientas. Me guío por lo que siento y veo en el clima.</td>
+<td>No, no tengo sensores. Simplemente observo el estado de las plantas y el suelo para saber si necesitan agua.</td>
+<td>Tengo un termómetro básico, pero no mido la humedad del suelo ni otras variables. Lo hago de forma manual con un pequeño instrumento y con poca frecuencia.</td>
 </tr>
 <tr>
-<td><b>¿Qué "asistente digital" le gustaría tener en su celular?</b></td>
-<td>Me encantaría una alerta que me diga "Riesgo alto de arañita roja en el Lote 3 por condiciones de temperatura y humedad". Y que me recomiende 2 o 3 productos autorizados para tratarla.</td>
-<td>Algo simple. Que me mande un mensaje claro: "Alerta: Esta noche hay peligro de helada". Nada más. Y que si le tomo foto a una hoja enferma, me diga qué bicho es y con qué veneno se mata.</td>
-<td>Una alarma que me avise del clima y que me diga con qué producto económico puedo controlar una plaga. También sería bueno un sitio para preguntar a otros agricultores si les funcionó o no.</td>
+<td>¿Qué tipo de alertas o información en tiempo real (ej. plagas detectadas, riesgo de heladas, calor extremo) le serían más valiosas?</td>
+<td>Las alertas de heladas o de lluvias muy fuertes me servirían mucho. Saber si una plaga está por llegar a mi zona también me ayudaría a prepararme.</td>
+<td>Las alertas de plagas serían lo más importante para mí. Si una app me dice "¡cuidado, se detectó esta plaga cerca!", podría tomar medidas preventivas.</td>
+<td>Alertas de riesgo de plagas y enfermedades. También me serviría mucho saber si viene una helada o si la temperatura subirá mucho para poder proteger mis cultivos.</td>
 </tr>
 <tr>
-<td><b>¿Le interesaría recibir alertas si una plaga aparece en un campo cercano?</b></td>
-<td>Definitivamente. Tener un mapa de focos de plaga en mi zona sería una herramienta estratégica para aplicar controles preventivos y ahorrar costos. Es inteligencia de mercado.</td>
-<td>¡Claro! Así uno ya está preparado. Si la plaga está en el campo del vecino, es seguro que va a llegar al mío. Nos ayudaría a cuidarnos entre todos.</td>
-<td>Sí, eso sería muy útil. A veces uno se entera cuando ya es muy tarde. Si me avisan antes, puedo poner barreras o aplicar algún preventivo.</td>
+<td>¿Usa hoy alguna herramienta digital (apps, sensores, cámaras, WhatsApp, Excel) para gestionar sus cultivos? ¿Qué limitaciones encuentra?</td>
+<td>Solo uso WhatsApp para comunicarme con un agrónomo y buscar precios en internet. Es desordenado y no es un sistema real.</td>
+<td>Principalmente WhatsApp. Me mandan fotos y videos. El problema es que es desorganizado y la información se pierde. No es una herramienta de gestión.</td>
+<td>Uso WhatsApp para comunicarme y Excel en la computadora de mi hijo para llevar algunas cuentas. La limitación es que la información no está centralizada y no tengo acceso en el campo.</td>
+</tr>
+<tr>
+<td>¿Qué tan dispuesto estaría a usar sensores o cámaras instaladas en el campo si le ayudan a prevenir pérdidas? ¿Qué le preocuparía (coste, mantenimiento, conectividad)?</td>
+<td>Estaría muy dispuesto, pero me preocuparía el costo. Si la inversión me ayuda a prevenir pérdidas grandes, valdría la pena. También me preocupa la conectividad en mi zona.</td>
+<td>Me gustaría. El costo es mi principal preocupación, seguido de la conectividad en mi campo. El mantenimiento de los equipos también sería un factor a considerar.</td>
+<td>Sí, estaría dispuesto. El costo es lo que más me frena. También la conectividad; en algunas áreas del campo la señal es muy débil o nula.</td>
+</tr>
+<tr>
+<td>¿Qué características harían que confíe y use regularmente una app como SmartCrop (precisión en detección, recomendaciones prácticas, soporte técnico, costo)?</td>
+<td>La precisión en la detección es clave. También que me dé recomendaciones prácticas y sencillas, no solo datos técnicos. Un buen soporte técnico también daría confianza.</td>
+<td>La precisión y la facilidad de uso. Necesito algo que sea simple de entender y que me diga qué hacer, sin mucha teoría. El soporte técnico en mi idioma sería fundamental.</td>
+<td>La precisión es lo primero. Que las recomendaciones sean claras y que no me cueste mucho aprender a usarla. El soporte técnico es muy importante porque a veces los sistemas fallan.</td>
+</tr>
+<tr>
+<td>¿Qué tipo de capacitación o soporte necesitaría para adoptar una solución digital en su trabajo diario?</td>
+<td>Necesitaría una capacitación cara a cara, que alguien me enseñe a usar la app en mi propio campo. Y un soporte constante para resolver dudas.</td>
+<td>Necesitaría algo muy práctico, con demostraciones. Un video o tutoriales que pueda ver varias veces, y alguien a quien llamar si tengo problemas.</td>
+<td>Una capacitación muy práctica. Que un técnico venga y me muestre cómo funciona, paso a paso. También me gustaría tener un manual de uso fácil de entender.</td>
 </tr>
 </tbody>
 </table>
+
 <h4>Hallazgos clave</h4>
 <ul>
-<li><b>Dolor Universal:</b> La pérdida de cosecha por plagas y clima es el problema central y más costoso para todos los perfiles de agricultores, sin importar su nivel tecnológico o tamaño.</li>
-<li><b>Métodos de Detección Insuficientes:</b> La inspección visual es el método común, pero todos reconocen que es lenta, subjetiva y, a menudo, tardía. Existe una clara necesidad de detección temprana.</li>
-<li><b>Brecha de Información:</b> Los agricultores buscan información confiable y específica. El agricultor tecnológico busca precisión de datos (microclima), el tradicional busca confirmación de su experiencia, y el pequeño busca soluciones accesibles y validadas por otros.</li>
-<li><b>Disposición a la Tecnología:</b> A pesar de las diferencias, todos muestran interés en recibir alertas y diagnósticos en su celular, siempre que la herramienta sea fácil de usar y resuelva un problema concreto (avisar de heladas, identificar una plaga con una foto).</li>
+<li>La principal preocupación de los agricultores son las pérdidas financieras causadas por plagas, enfermedades y eventos climáticos extremos como heladas o sequías.</li>
+<li>Los métodos actuales de detección de plagas son informales y poco eficientes (observación manual, consultas por WhatsApp a técnicos, experiencia personal), lo que genera retrasos y diagnósticos imprecisos.</li>
+<li>Existe una alta disposición a usar tecnologías como la identificación de plagas por fotos y alertas en tiempo real, ya que las perciben como herramientas que les permitirían actuar de forma proactiva y no reactiva.</li>
+<li>La principal barrera para la adopción de sensores o cámaras es el costo, seguido por la conectividad y el mantenimiento. Los agricultores están dispuestos a invertir si el retorno se traduce en una prevención tangible de pérdidas.</li>
+<li>La confianza en una nueva app se basa en la precisión de su detección, la simplicidad de uso y la disponibilidad de un soporte técnico accesible y en su idioma.</li>
 </ul>
-<h4>Conclusiones para EcoCrop</h4>
-<p>
-EcoCrop tiene una oportunidad clara para posicionar <b>SmartCrop</b> como una herramienta de prevención y diagnóstico esencial. El enfoque debe ser modular y adaptarse a los diferentes perfiles:
-</p>
-<ul>
-<li><b>Propuesta de Valor Central:</b> Las alertas tempranas (plagas y clima) y el diagnóstico por imagen son las funcionalidades con mayor potencial de adopción masiva.</li>
-<li><b>Simplicidad ante todo:</b> La interfaz debe ser extremadamente intuitiva ("tomar una foto y recibir una respuesta"), especialmente para atraer a agricultores como Fabrizio y Fabricio.</li>
-<li><b>Confianza y Comunidad:</b> Integrar una función para compartir conocimientos o validar tratamientos entre agricultores puede ser un diferenciador clave, creando un efecto de red y confianza.</li>
-</ul>
-<hr>
+
+<h4>Conclusiones para SmartCrop</h4>
+<p>SmartCrop debe enfocarse en resolver la principal preocupación del agricultor: minimizar las pérdidas económicas. La propuesta de valor debe centrarse en la precisión de las alertas y la efectividad de las recomendaciones. El diseño de la solución debe ser extremadamente simple e intuitivo para superar la brecha de alfabetización digital. Para la adopción, es vital ofrecer un soporte técnico de calidad y considerar un modelo de negocio que demuestre claramente el retorno de la inversión, quizás a través de un modelo freemium o paquetes accesibles que incluyan el hardware y el mantenimiento. La capacitación debe ser práctica y presencial en la medida de lo posible.</p>
+
 <h3>Entrevistas Segmento 2 (Operativas y Asociaciones Agrícolas)</h3>
 <table border="1" cellspacing="0" cellpadding="8">
 <thead>
 <tr>
 <th>Pregunta</th>
-<th>Arturo Ore (Gerente de Cooperativa de Exportación)</th>
-<th>Alonso Muñiz (Dirigente de Asociación Local)</th>
-<th>Erick Mendoza (Coordinador Técnico Agrónomo)</th>
+<th>Arturo Ore (Dirigente agrícola, Asociación de Productores de Café)</th>
+<th>Alonso Muñiz (Coordinador técnico, Cooperativa de Frutas)</th>
+<th>Erick Mendoza (Gerente de Operaciones, Asociación de Papa)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><b>¿Cómo coordinan la respuesta ante una plaga que afecta a varios socios?</b></td>
-<td>Emitimos un comunicado técnico oficial vía correo y WhatsApp, con el protocolo a seguir. El problema es la trazabilidad: no sabemos con certeza quién aplicó qué, ni cuándo. Esto es un riesgo para las certificaciones.</td>
-<td>Creamos un grupo de WhatsApp y ahí avisamos "¡Cuidado, ha aparecido la roya!". Pero se vuelve un caos de fotos, opiniones y audios. La información importante se pierde y no todos la leen.</td>
-<td>Yo tengo que visitar campo por campo para verificar la incidencia. Hago un informe en Excel y lo envío, pero para entonces, la plaga ya se movió. No tengo una visión panorámica en tiempo real.</td>
+<td>¿Cuáles son los principales retos que enfrentan al coordinar la producción y manejo técnico de los agricultores asociados?</td>
+<td>La falta de unificación en el manejo técnico. Cada socio lo hace a su manera, y es difícil saber en qué estado están los cultivos de todos.</td>
+<td>Es complicado obtener información precisa y a tiempo. Los agricultores no siempre nos informan de las plagas o problemas que tienen, y cuando lo hacen, ya es tarde.</td>
+<td>La dispersión de la información. No tenemos un registro claro de qué está sembrado cada agricultor ni de las plagas que los afectan. Esto nos impide tomar decisiones de forma colectiva.</td>
 </tr>
 <tr>
-<td><b>¿Llevan un registro centralizado de incidencias fitosanitarias?</b></td>
-<td>Sí, en un sistema de hojas de cálculo, pero depende del reporte manual de los técnicos. Es lento y propenso a errores. No es dinámico. Necesitamos data en vivo para la toma de decisiones.</td>
-<td>No, para nada. Todo es informal. La memoria de cada socio y lo que se comenta en las reuniones. No tenemos datos para saber si un año es peor que otro o qué zonas son las más afectadas.</td>
-<td>Yo llevo mi propio registro en una base de datos de Access para mis informes, pero no es una herramienta colaborativa. Es mi data, no la data de la asociación. No hay un sistema unificado.</td>
+<td>¿Con qué frecuencia enfrentan problemas colectivos por plagas o eventos climáticos que afectan a varios productores?</td>
+<td>Muy a menudo. Cuando una plaga ataca a un socio, casi siempre se expande a las parcelas de los vecinos. Los eventos climáticos extremos son un problema colectivo que no podemos prever.</td>
+<td>Casi cada temporada tenemos un problema generalizado. El año pasado, una plaga se extendió por toda la cooperativa. Fue un caos coordinar la respuesta.</td>
+<td>Es un riesgo constante. Una helada o una plaga grande afecta la producción total de la asociación. No tenemos cómo monitorear y alertar a todos a la vez de forma eficiente.</td>
 </tr>
 <tr>
-<td><b>¿Sería valioso tener un 'mapa de calor' de focos de plaga en tiempo real?</b></td>
-<td>Sería una herramienta revolucionaria para nosotros. Podríamos gestionar el riesgo, optimizar la asignación de recursos técnicos y demostrar a nuestros compradores que tenemos un control proactivo de la sanidad del cultivo.</td>
-<td>Sería muy bueno. Podríamos alertar a los socios que están cerca de un foco de plaga para que actúen rápido. Ayudaría a la colaboración y a que todos se sientan parte de una red de protección.</td>
-<td>Esa es la herramienta que siempre he soñado. Me permitiría priorizar mis visitas a las zonas críticas en lugar de ir a ciegas. Podría pasar de ser un 'bombero' que apaga incendios a un estratega que los previene.</td>
+<td>¿Cómo registran y gestionan actualmente la información de producción, incidencias sanitarias y medidas tomadas por los asociados?</td>
+<td>La información nos la dan en reuniones o por WhatsApp. Nosotros la anotamos en cuadernos o a veces la pasamos a un Excel. Es un proceso muy manual y lento.</td>
+<td>Cada técnico lleva un registro en Excel, pero no hay un sistema único. No tenemos visibilidad en tiempo real de lo que está pasando en el campo.</td>
+<td>En la mayoría de los casos, la información no se registra de manera formal. Confían en la memoria o en comunicaciones por teléfono. No tenemos una base de datos centralizada.</td>
 </tr>
 <tr>
-<td><b>¿Qué datos consolidados les ayudarían a dar un mejor servicio?</b></td>
-<td>Necesito reportes de incidencia por variedad y sector, efectividad de los tratamientos, y correlación con datos climáticos. Data dura para optimizar el plan de manejo agronómico de toda la cooperativa.</td>
-<td>Nos ayudaría saber qué insumos se necesitan más para poder hacer compras por volumen y conseguir mejores precios para todos. Y también para demostrar a la municipalidad qué plagas nos afectan más y pedir ayuda.</td>
-<td>Historiales de plagas por parcela, reportes automáticos de monitoreo, umbrales de alerta. Necesito data para justificar mis recomendaciones técnicas y medir el impacto de mi trabajo de forma objetiva.</td>
+<td>¿Tienen canales eficientes para comunicar alertas técnicas (plagas, heladas, sequía) a todos los agricultores? ¿Qué limitaciones tienen?</td>
+<td>Usamos un grupo de WhatsApp, pero la información se pierde, no todos lo leen y no es un sistema formal. Se presta para confusión.</td>
+<td>No son eficientes. A veces la información se da por teléfono, de persona a persona. Esto retrasa la respuesta y no garantiza que la alerta llegue a todos a tiempo.</td>
+<td>Usamos los grupos de WhatsApp, pero las limitaciones son que muchos mensajes se pierden y que no todos los agricultores están en el grupo o lo revisan constantemente.</td>
 </tr>
 <tr>
-<td><b>Si los socios usaran una app para detectar plagas, ¿cómo se beneficiaría la organización?</b></td>
-<td>Nos daría una trazabilidad y un volumen de datos que hoy es imposible conseguir. Mejoraría nuestra capacidad de negociación, nuestro cumplimiento de normas y el valor agregado de nuestro producto.</td>
-<td>Si la información de esa app se junta, tendríamos por primera vez datos reales de lo que pasa en nuestra zona. Podríamos organizarnos mejor para las campañas de fumigación y ayudarnos mutuamente.</td>
-<td>Yo sería el principal beneficiario. Podría ver la data que ellos generan desde mi oficina, dar soporte remoto y ser mucho más eficiente. Dejaría de ser un cuello de botella.</td>
+<td>¿Consideran necesario un sistema centralizado que muestre en tiempo real el estado de cultivos, detección de plagas y datos de sensores? ¿Por qué?</td>
+<td>Totalmente necesario. Nos ayudaría a tomar decisiones conjuntas y rápidas. Podríamos saber dónde hay un problema y mandar la ayuda necesaria antes de que se extienda.</td>
+<td>Sería ideal. Un sistema así nos daría una visión completa de la salud de todos los cultivos, nos permitiría asignar recursos de forma más inteligente y planificar las cosechas de forma más precisa.</td>
+<td>Es vital. Nos permitiría pasar de un manejo reactivo a uno preventivo. Podríamos detectar problemas en una zona y alertar a los demás. Mejoraría la coordinación y la confianza.</td>
 </tr>
 <tr>
-<td><b>¿Qué funcionalidad es indispensable en una plataforma así?</b></td>
-<td>Un dashboard de control para el administrador, con reportes personalizables y un sistema de alertas segmentadas. Y que sea compatible con las normas de certificación GlobalG.A.P.</td>
-<td>Un canal de comunicación que sea ordenado, no como WhatsApp. Un lugar para poner solo las alertas importantes. Y que sea muy, muy fácil de usar para que nuestros socios mayores no se asusten.</td>
-<td>La georreferenciación de las alertas es clave. Necesito ver en un mapa dónde está el problema. Y la capacidad de que el agricultor pueda subir fotos para que yo pueda hacer un pre-diagnóstico a distancia.</td>
+<td>¿Qué funcionalidades priorizarían en una plataforma para la asociación: detección de plagas, alertas climáticas, reportes automáticos, gestión de insumos, contacto con técnicos?</td>
+<td>La detección de plagas y las alertas automáticas son la prioridad. También sería muy útil la gestión de insumos para coordinar compras a granel y obtener mejores precios.</td>
+<td>Detección de plagas en tiempo real y alertas. También los reportes automáticos que nos permitan demostrar a los compradores la calidad y el estado de la producción. Y la gestión de insumos.</td>
+<td>Alertas climáticas y de plagas, y un sistema de reportes de producción que nos dé una visión consolidada del estado de la asociación. El contacto directo con técnicos también sería muy valioso.</td>
+</tr>
+<tr>
+<td>¿Les interesaría que la aplicación genere reportes periódicos (ej. de riesgo, producción, recomendaciones) para presentarlos a compradores, financistas o autoridades?</td>
+<td>Sí, nos daría más credibilidad. Hoy, los compradores no confían en nuestros datos porque no tenemos un sistema formal. Los reportes mejorarían nuestra capacidad de negociación.</td>
+<td>Absolutamente. La falta de información consolidada nos debilita. Los reportes serían una herramienta poderosa para conseguir mejores precios y financiamiento, demostrando la calidad y volumen de nuestra producción.</td>
+<td>Sí, es una necesidad. Estos reportes nos darían una posición de fuerza al negociar precios y cerrar contratos. Nos ayudaría a mostrar profesionalismo y transparencia.</td>
+</tr>
+<tr>
+<td>¿Qué nivel de soporte técnico y capacitación necesitarían para desplegar sensores y cámaras entre sus asociados?</td>
+<td>Un soporte constante y capacitación presencial para los coordinadores de la asociación. Ellos serían los encargados de guiar a los demás.</td>
+<td>Necesitaríamos una capacitación integral, que abarque desde la instalación hasta el uso de la plataforma. La asistencia técnica para solucionar problemas en el campo sería crucial.</td>
+<td>Necesitamos una capacitación práctica y accesible, con un seguimiento continuo para resolver dudas. Un equipo de soporte técnico dedicado sería clave.</td>
+</tr>
+<tr>
+<td>¿Qué barreras ven para la adopción masiva de una solución IoT/IA en su organización (coste, conectividad, desconfianza, alfabetización digital)?</td>
+<td>El coste inicial es una barrera grande. La conectividad en zonas rurales es un problema serio. La alfabetización digital es una preocupación para algunos de nuestros socios mayores.</td>
+<td>El coste y la conectividad son las principales. También la desconfianza de algunos socios que son reacios al cambio o no confían en la tecnología.</td>
+<td>El coste es la primera barrera. La desconfianza de que la tecnología realmente funcione y sea rentable. Y el nivel de alfabetización digital de los socios.</td>
+</tr>
+<tr>
+<td>¿Cómo creen que la tecnología puede fortalecer la capacidad de respuesta frente a plagas y mejorar la productividad y sostenibilidad de la asociación?</td>
+<td>Nos permitiría actuar más rápido y de manera coordinada. Podríamos usar insumos de forma más eficiente y reducir las pérdidas. Esto nos haría más sostenibles.</td>
+<td>Nos daría una ventaja estratégica. Podríamos prevenir problemas en lugar de solo reaccionar. Esto mejora la productividad y nos da un mayor control sobre la calidad de nuestros productos.</td>
+<td>Nos haría más profesionales y organizados. Tendríamos datos reales para planificar, negociar y tomar mejores decisiones, lo que nos haría más competitivos y sostenibles a largo plazo.</td>
 </tr>
 </tbody>
 </table>
+
 <h4>Hallazgos clave</h4>
-<p>
-Las organizaciones agrícolas, sin importar su nivel de formalidad, luchan con la <b>fragmentación de la información</b> y la <b>comunicación ineficiente</b> (dependencia de WhatsApp y Excel). Esto genera una falta de visión estratégica y una capacidad de respuesta lenta ante problemas críticos como las plagas. Existe una clara necesidad de pasar de sistemas manuales y dispersos a una plataforma centralizada y en tiempo real.
-</p>
-<h4>Conclusiones para EcoCrop</h4>
-<p>
-EcoCrop tiene la oportunidad de ofrecer a las asociaciones una <b>herramienta de gestión y inteligencia agronómica</b>, no solo una app para agricultores individuales. La estrategia B2B (Business-to-Business) es muy potente.
-</p>
 <ul>
-<li><b>Doble Propuesta de Valor:</b> SmartCrop debe tener una interfaz simple para el agricultor (captura de datos en campo) y un potente panel de control (dashboard) para el administrador de la asociación (visualización y análisis de datos agregados).</li>
-<li><b>Enfoque en la Data Agregada:</b> La capacidad de generar reportes, mapas de calor y análisis históricos es el principal gancho para las organizaciones, ya que les permite optimizar recursos, cumplir con certificaciones y mejorar su poder de negociación.</li>
-<li><b>La Comunicación es Clave:</b> Integrar un módulo de comunicación formal (para alertas técnicas) que supere el caos de WhatsApp puede ser una funcionalidad decisiva para lograr la adopción a nivel organizacional.</li>
+<li>Las asociaciones agrícolas enfrentan una grave falta de centralización y estandarización de la información. La gestión actual, basada en cuadernos, llamadas y WhatsApp, genera desorden, retrasos y datos incompletos.</li>
+<li>Los problemas de plagas y eventos climáticos son colectivos, y la falta de un sistema de alerta centralizado limita la capacidad de respuesta rápida y coordinada, amplificando las pérdidas.</li>
+<li>Existe una clara necesidad de un sistema que permita la visibilidad en tiempo real del estado de los cultivos de todos los asociados, así como la generación de reportes automáticos que sirvan para negociar con compradores y obtener financiamiento.</li>
+<li>Las funcionalidades más valoradas son la detección de plagas y las alertas automáticas, ya que resuelven su principal problema operativo: la falta de información oportuna para actuar.</li>
+<li>Las principales barreras son el costo de implementación, la conectividad y la alfabetización digital de los miembros, lo que sugiere la necesidad de un modelo de negocio flexible y un soporte técnico robusto.</li>
+</ul>
+
+<h4>Conclusiones para SmartCrop</h4>
+<p>SmartCrop debe posicionarse como una solución de gestión y coordinación centralizada para las asociaciones agrícolas. El producto debe ofrecer una plataforma web o una versión avanzada de la app que permita a los coordinadores ver en un solo lugar el estado de los cultivos de todos los socios. La propuesta de valor clave es la prevención de pérdidas colectivas y el fortalecimiento del poder de negociación de la asociación a través de la formalización de sus datos. Es crucial ofrecer un plan de capacitación y soporte técnico que se adapte a las necesidades de la organización, asegurando la adopción y el uso continuo de la tecnología. Un modelo de negocio que demuestre un claro retorno de la inversión a nivel de la asociación será fundamental para el éxito.</p>
 </ul>
 <hr>
 
