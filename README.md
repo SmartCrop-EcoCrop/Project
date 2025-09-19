@@ -943,14 +943,14 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
 <hr>
 
 <h3>2.3.1. User Personas</h3>
-<h4>Segmento 1: Fabrizio Bussalleu – Agricultor Independiente </h4>
+<h4>Segmento 1: Fabricio Ninalaya – Agricultor Independiente </h4>
 <ul>
 <figure>
       <img src="images/userpersonaseg1.png" alt="Foto de Fabrizio Bussalleu" width="800">
 </figure>
   
 </ul>
-<h4>Segmento 2: Arturo Ore Diaz – Asosiacion agricola </h4>
+<h4>Segmento 2: Arturo Ore Diaz – Representante </h4>
 <ul>
 <figure>
       <img src="images/userpersonaseg2.png" alt="Foto de Arturo Ore Diaz" width="800">
@@ -1033,10 +1033,10 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
 <hr>
 
 <h3>2.3.4. Empathy Mapping (As-Is Scenario Mapping)</h3>
-<h4>Segmento 1: Fabrizio Bussalleu – Agricultor Independiente </h4>
+<h4>Segmento 1: Fabricio Ninalaya – Agricultor Independiente </h4>
 <ul>
 <figure>
-      <img src="images/EmpathyMapSeg1Fabrizio.png" alt="Foto de Fabrizio Bussalleu" width="800">
+      <img src="images/EmpathyMapSeg1Fabricio.png" alt="Foto de Fabrizio Bussalleu" width="800">
 </figure>
   
 </ul>
