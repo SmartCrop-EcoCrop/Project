@@ -2317,26 +2317,26 @@ El pie de página (footer) está organizado en cinco columnas para facilitar la 
 A continuación, se presenta cada una de las pantallas diseñadas para la landing page, donde se muestran los wireframes descritos previamente, ahora con mayor detalle, utilizando la distribución, colores y texto seleccionados.
 
 #### Sección: Home (Hero)
-![Sección Home - Landing Page](assets/images/common/landing_page/hero.png)
+![Sección Home - Landing Page](assets/images/CP4/landing_page-mock_up/hero.png)
 
 #### Sección: ¿Cómo funciona?
-![Sección ¿Cómo funciona? - Landing Page](assets/images/common/landing_page/how_work.png)
+![Sección ¿Cómo funciona? - Landing Page](assets/images/CP4/landing_page-mock_up/how_work.png)
 
 #### Sección: Servicios
-![Sección Servicios - Landing Page](assets/images/common/landing_page/services.png)
+![Sección Servicios - Landing Page](assets/images/CP4/landing_page-mock_up/services.png)
 
 
 #### Sección: Sobre Nosotros
-![Sección Sobre Nosotros - Landing Page](assets/images/common/landing_page/about_us.png)
+![Sección Sobre Nosotros - Landing Page](assets/images/CP4/landing_page-mock_up/about_us.png)
 
 #### Sección: Testimonios
-![Sección Testimonios - Landing Page](assets/images/common/landing_page/testimonies.png)
+![Sección Testimonios - Landing Page](assets/images/CP4/landing_page-mock_up/testimonies.png)
 
 #### Sección: Formulario de contacto
-![Sección de Formulario de Contacto](assets/images/common/landing_page/contact_form.png)
+![Sección de Formulario de Contacto](assets/images/CP4/landing_page-mock_up/contact_form.png)
 
 #### Sección: Alianzas y Pie de página
-![Sección Alianza y Pie de página - Landing Page](assets/images/common/landing_page/footer.png)
+![Sección Alianza y Pie de página - Landing Page](assets/images/CP4/landing_page-mock_up/footer.png)
 
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
