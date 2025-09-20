@@ -1523,7 +1523,7 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
 
 ## 3.3. Impact Mapping
 
-![Impact Mapping]()
+![Impact Mapping](assets/images/CP3/impact-mapping.jpg)
 
 <br><br>
 
