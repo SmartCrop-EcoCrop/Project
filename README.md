@@ -1674,6 +1674,63 @@ Para GreenSprout Innovations, utilizaremos un lenguaje que refleje nuestros valo
 
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
+**Enlace (Figma):**
+
+#### Inicio (Hero)
+La sección de inicio presenta un diseño centrado en la jerarquía visual y la accesibilidad. A la izquierda, el texto principal utiliza una tipografía clara y un tamaño destacado para captar la atención del usuario, seguido de una descripción breve que explica los beneficios clave de SmartCrop, promoviendo la comprensión inmediata. Los botones "Obtener" están diseñados con contraste y espaciado adecuado, reforzando la funcionalidad al facilitar la interacción.
+
+A la derecha, una imagen contextual muestra a agricultores trabajando, lo que conecta emocionalmente con el público objetivo y añade relevancia visual al mensaje. El diseño se organiza en dos columnas bien equilibradas, maximizando el espacio sin sobrecargar la interfaz. Los colores suaves y el diseño inclusivo garantizan que la información sea accesible para diferentes usuarios, manteniendo un enfoque claro en la arquitectura de la información y experiencia de usuario.
+
+![Sección de Inicio (Hero)](assets/images/CP4/landing_page-wireframe/hero.png)
+
+<br>
+
+#### ¿Cómo funciona?
+La sección "¿Cómo funciona SmartCrop?" organiza la información en un formato de pasos secuenciales que sigue principios de claridad y jerarquía visual. Cada paso está numerado y acompañado de un título destacado, una breve descripción y una imagen ilustrativa que refuerza el mensaje, facilitando la comprensión del flujo de uso de la aplicación.
+
+El diseño utiliza una disposición horizontal con espacios bien definidos, permitiendo que cada etapa sea fácilmente distinguible. Los colores verdes y blancos refuerzan la conexión con la temática ecológica, mientras que las imágenes ofrecen contexto y ayudan a captar la atención del usuario. La tipografía es consistente y legible, con contraste General Style Guidelines suficiente para garantizar accesibilidad. Este diseño logra comunicar de manera efectiva el proceso, combinando funcionalidad, estética e inclusividad.
+
+![Sección de ¿Cómo funciona?](assets/images/CP4/landing_page-wireframe/how_work.png)
+
+#### Servicios (Características)
+La sección "Servicios" utiliza un diseño modular basado en tarjetas para organizar y destacar las principales funcionalidades de EcoCrop. Cada tarjeta presenta un título destacado en mayúsculas, un icono representativo, una breve descripción y un botón de acción "Ver más", lo que facilita la navegación y promueve la interacción.
+
+El fondo con una imagen de campo crea un contexto visual relacionado con la agricultura, mientras que el uso de transparencias en las tarjetas asegura contraste sin perder la visibilidad del fondo. La disposición horizontal de las tarjetas promueve una lectura fluida y jerarquía visual clara. Además, el uso de colores consistentes y tipografía legible asegura accesibilidad e inclusividad, mientras que los iconos refuerzan la comprensión intuitiva de cada servicio.
+
+![Sección de Servicios](assets/images/CP4/landing_page-wireframe/services.png)
+
+
+#### Sobre Nosotros
+La sección "Sobre Nosotros" de EcoCrop presenta de manera clara y atractiva la misión y visión de la startup. Utiliza un diseño minimalista que combina texto explicativo con un logotipo centralizado, reforzando la identidad visual de la marca.
+
+El encabezado “Sobre Nosotros” establece un tono formal y profesional. El texto enfatiza el compromiso con la innovación tecnológica y la sostenibilidad agrícola, destacando la experiencia del equipo en inteligencia artificial, agronomía y desarrollo de aplicaciones móviles. La narrativa inspira confianza al alinearse con valores de responsabilidad social y cuidado ambiental, enfocándose en mejorar la seguridad alimentaria y el bienestar de las comunidades rurales.
+
+Este diseño logra transmitir el propósito de EcoCrop de manera sencilla pero impactante, conectando con su audiencia y reforzando su compromiso con soluciones agrícolas sostenibles.
+
+![Sección de Sobre Nosotros](assets/images/CP4/landing_page-wireframe/about_us.png)
+
+
+#### Testimonios
+La sección de testimonios en la landing page de EcoCrop aplica principios de diseño como claridad, jerarquía y consistencia para destacar experiencias de usuarios. La arquitectura de información organiza los testimonios en tres tarjetas alineadas horizontalmente, cada una con un encabezado (nombre del usuario), una imagen relevante y una breve cita. Los elementos visuales, como el uso de imágenes y tipografía diferenciada, refuerzan la narrativa personal y generan confianza. El diseño inclusivo se refleja en la representación diversa de los usuarios y en el texto legible con suficiente contraste. Además, los botones de navegación en la parte inferior permiten explorar más testimonios, garantizando una experiencia intuitiva y accesible.
+
+![Sección de Testimonios](assets/images/CP4/landing_page-wireframe/testimonies.png)
+
+#### Contáctanos
+La sección de "Contáctanos" en la página de inicio sigue principios de diseño como claridad y accesibilidad para facilitar la interacción del usuario. Se organiza en dos áreas principales: un formulario de contacto a la izquierda y una imagen ilustrativa a la derecha, creando un equilibrio visual y un diseño intuitivo. El formulario incluye campos etiquetados para "Nombre", "Email" y "Mensaje", usando líneas de entrada claras y botones bien definidos, lo que garantiza la funcionalidad y la simplicidad. La imagen, con colores vivos y una temática agrícola, refuerza el propósito del sitio y conecta emocionalmente con el usuario. El diseño inclusivo está respaldado por textos legibles y una disposición espacial que asegura la usabilidad tanto en dispositivos móviles como en escritorio.
+
+![Sección de Contáctanos](assets/images/CP4/landing_page-wireframe/contact_form.png)
+
+
+#### Nuestras Alianzas
+La sección "Nuestras Alianzas" emplea principios de diseño como simplicidad y organización para transmitir confianza y profesionalismo. Presenta una disposición horizontal de los logotipos de las organizaciones asociadas, utilizando un diseño limpio con un contraste moderado para destacar los elementos visuales. La alineación uniforme y el espaciado equilibrado mejoran la claridad y la jerarquía visual. Este diseño inclusivo asegura que todos los logotipos sean igualmente visibles y reconocibles, independientemente del tamaño de la pantalla. La sección refuerza la credibilidad de la página al resaltar colaboraciones clave, ofreciendo a los usuarios un contexto sobre las redes de apoyo de EcoCrop.
+
+![Sección Nuestras Alianzas](assets/images/CP4/landing_page-wireframe/our_alliances.png)
+
+#### Pie de página (Footer)
+El pie de página (footer) está organizado en cinco columnas para facilitar la navegación. La primera columna incluye el logo y la información de contacto, asegurando una identificación rápida de la marca. La segunda columna agrupa las secciones principales del sitio para acceso directo. La tercera columna presenta las secciones de ayuda, con enlaces a FAQs y soporte. La cuarta columna destaca las características clave de EcoCrop, como su compromiso con la sostenibilidad. Finalmente, la quinta columna muestra los enlaces a redes sociales, fomentando la interacción con la comunidad. Este diseño limpio y estructurado asegura una experiencia de usuario clara y accesible.
+
+![Sección Pie de página](assets/images/CP4/landing_page-wireframe/footer.png)
+
 ### 4.3.2. Landing Page Mock-up
 A continuación, se presenta cada una de las pantallas diseñadas para la landing page, donde se muestran los wireframes descritos previamente, ahora con mayor detalle, utilizando la distribución, colores y texto seleccionados.
 
