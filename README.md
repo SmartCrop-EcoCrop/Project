@@ -1066,3 +1066,1653 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
   <li><b>Asociación:</b> Grupo de agricultores que comparte información en la aplicación.</li>
   <li><b>API externa:</b> Servicio externo que provee datos de clima o condiciones ambientales.</li>
 </ul>
+
+<br><br><br><br><br><br>
+
+<!--
+    CAPÍTULO 3: REQUIREMENTS SPECIFICATION
+-->
+
+<h1 style="color:white; background-color:#7c2727; padding: 10px;" id="capítulo-iii-requirements-specification">
+  Capítulo III: Requirements Specification
+</h1>
+
+## 3.1. User Stories
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **US-ID** | US-001 |
+| **EPIC-ID** | EP01 |
+| **Priority** | 8 |
+| **Title** | Ver sección hero atractiva |
+| **Description** | Como visitante, quiero ver una sección de hero (inicio) clara y atractiva para entender rápidamente qué es EcoCrop y qué problema resuelve SmartCrop. |
+| **Criterios de aceptación** | <ul><li>**Given** que un visitante llega a la landing page<br>**When** la página carga<br>**Then** debe ver un headline principal que comunique el valor central de SmartCrop (ej., "Maximiza tu Cosecha con Tecnología IoT e Inteligencia Artificial")<br>**And** debe ver un subheadline que explique brevemente la solución<br>**And** debe ver un Call to Action (CTA) principal (ej., "Prueba SmartCrop Gratis")<br>**And** debe ver elementos visuales que representen la agricultura tecnológica</li><br><li>**Given** que un visitante interactúa con el CTA principal<br>**When** hace clic en el botón<br>**Then** es redirigido correctamente a la página de registro</li></ul> |
+
+<br>
+<br>
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **US-ID** | US-002 |
+| **EPIC-ID** | EP01 |
+| **Priority** | 5 |
+| **Title** | Conocer características de SmartCrop |
+| **Description** | Como visitante del segmento agricultor, quiero ver las características principales de SmartCrop para evaluar si la solución se adapta a mis necesidades agrícolas. |
+| **Criterios de aceptación** | <ul><li>**Given** el visitante está en la sección de características<br>**When** revisa las funcionalidades<br>**Then** encuentra información sobre detección de plagas, monitoreo de temperatura y gestión de cultivos<br>**And** cada característica incluye iconografía clara y descripción detallada</li><br><li>**Given** el visitante está explorando las características<br>**When** busca información técnica<br>**Then** accede a detalles sobre tecnología IoT e identificación por imágenes<br>**And** encuentra especificaciones técnicas de sensores y cámaras compatibles</li></ul> |
+
+<br>
+<br>
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **US-ID** | US-003 |
+| **EPIC-ID** | EP01 |
+| **Priority** | 3 |
+| **Title** | Ver testimonios y casos de éxito |
+| **Description** | Como visitante, quiero ver testimonios de otros agricultores o estudios de caso para confiar en la efectividad de SmartCrop. |
+| **Criterios de aceptación** | <ul><li>**Given** que un visitante quiere validar la eficacia del producto<br>**When** llega a la sección de testimonios<br>**Then** debe ver citas o videos de clientes satisfechos<br>**And** debe ver el nombre de quien da el testimonio<br>**And** debe incluir foto del testimonial y ubicación geográfica</li><br><li>**Given** que el visitante revisa los casos de éxito<br>**When** explora los testimonios<br>**Then** encuentra métricas específicas de mejora (% reducción de plagas, aumento de producción)</li></ul> |
+
+<br>
+<br>
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **US-ID** | US-004 |
+| **EPIC-ID** | EP01 |
+| **Priority** | 5 |
+| **Title** | Ver precios |
+| **Description** | Como visitante del segmento empresa agrícola, quiero conocer los precios disponibles para evaluar la inversión requerida para implementar SmartCrop. |
+| **Criterios de aceptación** | <ul><li>**Given** el visitante está en la sección de precios<br>**When** los revisa detalladamente<br>**Then** visualiza diferentes opciones con características y precios claramente definidos<br>**And** cada plan especifica límites de cultivos, sensores y funcionalidades incluidas</li><br><li>**Given** el visitante está comparando planes<br>**When** analiza las funcionalidades incluidas<br>**Then** identifica las diferencias entre cada plan ofrecido<br>**And** encuentra información sobre soporte técnico incluido en cada plan</li></ul> |
+
+<br>
+<br>
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **US-ID** | US-005 |
+| **EPIC-ID** | EP01 |
+| **Priority** | 3 |
+| **Title** | Contactar con EcoCrop |
+| **Description** | Como visitante interesado, quiero poder contactar con el equipo de EcoCrop para resolver dudas específicas sobre el producto. |
+| **Criterios de aceptación** | <ul><li>**Given** el visitante desea contactar a EcoCrop<br>**When** accede a la sección de contacto<br>**Then** encuentra un formulario de contacto funcional<br>**And** el formulario incluye campos para nombre, email, empresa, mensaje y tipo de consulta</li><br><li>**Given** el visitante completa el formulario<br>**When** envía sus datos y consulta<br>**Then** recibe confirmación de que su mensaje fue enviado exitosamente<br>**And** recibe un email automático de confirmación con tiempo estimado de respuesta</li></ul> |
+
+<br>
+<br>
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **US-ID** | US-006 |
+| **EPIC-ID** | EP01 |
+| **Priority** | 8 |
+| **Title** | Acceder a registro desde landing |
+| **Description** | Como visitante, quiero encontrar un llamado a la acción claro para registrarme en la plataforma y comenzar a usar el servicio. |
+| **Criterios de aceptación** | <ul><li>**Given** que un visitante decide registrarse<br>**When** hace clic en cualquier botón "Registrarse" o "Comenzar" en la página<br>**Then** es redirigido a la página de registro de la aplicación web SmartCrop<br>**And** la transición mantiene el contexto del plan o característica que estaba revisando</li><br><li>**Given** que el visitante está en cualquier sección de la landing<br>**When** busca opciones de registro<br>**Then** encuentra CTAs de registro claramente visibles en múltiples ubicaciones</li></ul> |
+
+<br>
+<br>
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **US-ID** | US-007 |
+| **EPIC-ID** | EP01 |
+| **Priority** | 2 |
+| **Title** | Ver información de la empresa |
+| **Description** | Como visitante potencial, quiero conocer información sobre EcoCrop como empresa para generar confianza en la marca. |
+| **Criterios de aceptación** | <ul><li>**Given** el visitante busca información de la empresa<br>**When** accede a la sección "Acerca de"<br>**Then** encuentra información sobre la misión, visión y valores de EcoCrop<br>**And** conoce el background del equipo fundador de UPC</li><br><li>**Given** el visitante revisa la información corporativa<br>**When** explora los detalles<br>**Then** encuentra información de contacto empresarial y ubicación<br>**And** accede a enlaces de redes sociales corporativas</li></ul> |
+
+<br>
+<br>
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **US-ID** | US-008 |
+| **EPIC-ID** | EP02 |
+| **Priority** | 8 |
+| **Title** | Registrar cuenta de agricultor |
+| **Description** | Como agricultor nuevo, quiero poder crear una cuenta en SmartCrop para acceder a las funcionalidades de gestión de cultivos. |
+| **Criterios de aceptación** | <ul><li>**Given** el agricultor no tiene cuenta<br>**When** completa el formulario de registro con datos válidos<br>**Then** su cuenta es creada exitosamente<br>**And** recibe un email de verificación</li><br><li>**Given** el agricultor intenta registrarse con email ya existente<br>**When** envía el formulario<br>**Then** recibe un mensaje indicando que el email ya está registrado<br>**And** se le ofrece opción de recuperar contraseña</li><br><li>**Given** el agricultor completa el registro<br>**When** verifica su email<br>**Then** puede acceder a su cuenta por primera vez<br>**And** es dirigido a un tutorial de bienvenida</li></ul> |
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **US-ID** | US-009 |
+| **EPIC-ID** | EP02 |
+| **Priority** | 8 |
+| **Title** | Iniciar sesión en SmartCrop |
+| **Description** | Como agricultor registrado, quiero poder iniciar sesión en mi cuenta para acceder a la gestión de mis cultivos. |
+| **Criterios de aceptación** | <ul><li>**Given** el agricultor tiene credenciales válidas<br>**When** ingresa email y contraseña correctos<br>**Then** accede exitosamente a su dashboard<br>**And** ve un mensaje de bienvenida personalizado</li><br><li>**Given** el agricultor ingresa credenciales incorrectas<br>**When** intenta iniciar sesión<br>**Then** recibe un mensaje de error indicando credenciales inválidas<br>**And** se le ofrece la opción de recuperar contraseña después de 3 intentos fallidos</li></ul> |
+
+<br>
+<br>
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **US-ID** | US-010 |
+| **EPIC-ID** | EP02 |
+| **Priority** | 3 |
+| **Title** | Gestionar perfil de usuario |
+| **Description** | Como agricultor, quiero poder editar mi información personal y preferencias de la cuenta para mantener mis datos actualizados. |
+| **Criterios de aceptación** | <ul><li>**Given** el agricultor accede a su perfil<br>**When** modifica información personal (nombre, teléfono, ubicación)<br>**Then** los cambios se guardan correctamente<br>**And** recibe confirmación de la actualización</li><br><li>**Given** el agricultor desea cambiar configuraciones de notificaciones<br>**When** modifica las preferencias<br>**Then** las nuevas configuraciones se aplican inmediatamente<br>**And** puede elegir recibir alertas por email, SMS o solo en la app</li></ul> |
+
+<br>
+<br>
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **US-ID** | US-011 |
+| **EPIC-ID** | EP02 |
+| **Priority** | 5 |
+| **Title** | Interfaz intuitiva y accesible |
+| **Description** | Como agricultor, quiero que la aplicación web sea accesible y no complicada de usar para poder adoptarla en mi rutina diaria sin dificultades. |
+| **Criterios de aceptación** | <ul><li>**Given** el agricultor es nuevo en la plataforma<br>**When** accede por primera vez<br>**Then** encuentra una interfaz intuitiva y amigable<br>**And** tiene acceso a tutoriales sobre cómo utilizar las diferentes funciones</li><br><li>**Given** el agricultor usa la aplicación en áreas rurales<br>**When** la conexión a internet es intermitente<br>**Then** la aplicación funciona parcialmente sin conexión constante<br>**And** sincroniza datos cuando la conexión se restablece</li></ul> |
+
+<br>
+<br>
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **US-ID** | US-012 |
+| **EPIC-ID** | EP03 |
+| **Priority** | 8 |
+| **Title** | Configurar perfil de cultivos |
+| **Description** | Como agricultor, quiero configurar información sobre mis cultivos para personalizar el monitoreo según mis necesidades específicas. |
+| **Criterios de aceptación** | <ul><li>**Given** el agricultor está en su perfil<br>**When** ingresa información sobre tipos de cultivos, ubicación y área<br>**Then** su perfil se actualiza con la información proporcionada<br>**And** el sistema sugiere configuraciones óptimas según el tipo de cultivo</li><br><li>**Given** el agricultor ha configurado sus cultivos<br>**When** modifica la información existente<br>**Then** los cambios se guardan correctamente<br>**And** el historial de configuraciones previas se mantiene disponible</li></ul> |
+
+<br>
+<br>
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **US-ID** | US-013 |
+| **EPIC-ID** | EP03 |
+| **Priority** | 5 |
+| **Title** | Gestionar múltiples lotes |
+| **Description** | Como agricultor con varias parcelas, quiero poder gestionar múltiples lotes de cultivos para organizar mejor mi producción. |
+| **Criterios de aceptación** | <ul><li>**Given** el agricultor tiene múltiples parcelas<br>**When** crea diferentes lotes en la aplicación<br>**Then** puede asignar nombres, ubicaciones y características específicas a cada lote<br>**And** visualiza todos sus lotes en un dashboard consolidado</li><br><li>**Given** el agricultor gestiona varios lotes<br>**When** revisa el estado general<br>**Then** puede alternar entre vista individual y vista comparativa de lotes</li></ul> |
+
+<br>
+<br>
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **US-ID** | US-014 |
+| **EPIC-ID** | EP03 |
+| **Priority** | 5 |
+| **Title** | Configurar dispositivos IoT |
+| **Description** | Como agricultor, quiero poder registrar y configurar mis dispositivos IoT (cámaras y sensores) para comenzar el monitoreo automatizado. |
+| **Criterios de aceptación** | <ul><li>**Given** el agricultor ha adquirido dispositivos IoT compatibles<br>**When** los registra en la plataforma siguiendo el proceso de setup<br>**Then** los dispositivos se conectan exitosamente y aparecen en su dashboard<br>**And** puede asignar cada dispositivo a un lote específico</li><br><li>**Given** un dispositivo IoT presenta problemas de conectividad<br>**When** el sistema detecta la desconexión<br>**Then** el agricultor recibe una alerta de fallo de dispositivo<br>**And** obtiene instrucciones para solucionar problemas comunes</li></ul> |
+
+<br>
+<br>
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **US-ID** | US-015 |
+| **EPIC-ID** | EP03 |
+| **Priority** | 8 |
+| **Title** | Visualizar imágenes de cultivos en tiempo real |
+| **Description** | Como agricultor, quiero ver imágenes en tiempo real de mis cultivos para monitorear visualmente el estado actual de mi producción. |
+| **Criterios de aceptación** | <ul><li>**Given** el agricultor tiene cámaras IoT instaladas<br>**When** accede a la sección de imágenes<br>**Then** visualiza imágenes actuales de sus cultivos<br>**And** puede ver timestamp de la última actualización</li><br><li>**Given** las cámaras están funcionando correctamente<br>**When** el agricultor actualiza la vista<br>**Then** las imágenes se refrescan mostrando el estado más reciente<br>**And** puede acceder al historial de imágenes de los últimos 30 días</li></ul> |
+
+<br>
+<br>
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **US-ID** | US-016 |
+| **EPIC-ID** | EP04 |
+| **Priority** | 8 |
+| **Title** | Detectar plagas automáticamente |
+| **Description** | Como agricultor, quiero que el sistema identifique plagas en mis cultivos automáticamente para tomar medidas preventivas antes de que se extiendan. |
+| **Criterios de aceptación** | <ul><li>**Given** el sistema procesa imágenes de cultivos<br>**When** detecta presencia de plagas<br>**Then** muestra alertas indicando el tipo y ubicación de las plagas encontradas<br>**And** proporciona nivel de severidad de la infestación</li><br><li>**Given** el sistema identifica una plaga específica<br>**When** presenta los resultados<br>**Then** incluye nivel de confianza de la detección y recomendaciones iniciales<br>**And** muestra imágenes comparativas para confirmar la identificación</li></ul> |
+
+<br>
+<br>
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **US-ID** | US-017 |
+| **EPIC-ID** | EP04 |
+| **Priority** | 8 |
+| **Title** | Recibir alertas de plagas |
+| **Description** | Como agricultor, quiero recibir notificaciones cuando se detecten plagas para actuar rápidamente ante amenazas a mis cultivos. |
+| **Criterios de aceptación** | <ul><li>**Given** el sistema detecta nuevas plagas<br>**When** se confirma la detección<br>**Then** el agricultor recibe una alerta inmediata en la aplicación<br>**And** la alerta incluye foto de la plaga y ubicación específica del lote afectado</li><br><li>**Given** se configura notificaciones por email<br>**When** se detectan plagas críticas<br>**Then** el agricultor recibe notificación por email además de la alerta en app<br>**And** puede configurar diferentes niveles de urgencia para diferentes tipos de plagas</li></ul> |
+
+<br>
+<br>
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **US-ID** | US-018 |
+| **EPIC-ID** | EP04 |
+| **Priority** | 5 |
+| **Title** | Ver recomendaciones de control de plagas |
+| **Description** | Como agricultor, quiero recibir guías detalladas para controlar plagas identificadas para aplicar tratamientos efectivos y específicos. |
+| **Criterios de aceptación** | <ul><li>**Given** se ha identificado una plaga específica<br>**When** el agricultor solicita recomendaciones<br>**Then** recibe guías prácticas y medidas de control personalizadas<br>**And** las recomendaciones consideran el tipo de cultivo y etapa de crecimiento</li><br><li>**Given** las recomendaciones están disponibles<br>**When** el agricultor las revisa<br>**Then** incluyen métodos orgánicos y químicos con dosis recomendadas<br>**And** muestran costos estimados y tiempo de aplicación para cada tratamiento</li></ul> |
+
+<br>
+<br>
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **US-ID** | US-019 |
+| **EPIC-ID** | EP05 |
+| **Priority** | 8 |
+| **Title** | Monitorear temperatura de cultivos |
+| **Description** | Como agricultor, quiero visualizar la temperatura actual de mis zonas de cultivo para asegurar condiciones óptimas para el crecimiento de mis plantas. |
+| **Criterios de aceptación** | <ul><li>**Given** el agricultor tiene sensores de temperatura instalados<br>**When** accede al dashboard de temperatura<br>**Then** visualiza las lecturas actuales de todos sus sensores<br>**And** ve indicadores visuales que muestran si la temperatura está en rango óptimo</li><br><li>**Given** el sistema registra temperaturas<br>**When** el agricultor revisa el historial<br>**Then** puede ver gráficos de temperatura de las últimas 24 horas, 7 días o 30 días<br>**And** identifica patrones y tendencias de temperatura</li></ul> |
+
+<br>
+<br>
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **US-ID** | US-020 |
+| **EPIC-ID** | EP05 |
+| **Priority** | 8 |
+| **Title** | Recibir alertas de temperatura crítica |
+| **Description** | Como agricultor, quiero ser alertado cuando la temperatura sea muy alta o muy baja para proteger mis cultivos de condiciones climáticas adversas. |
+| **Criterios de aceptación** | <ul><li>**Given** la temperatura supera los límites configurados<br>**When** el sensor detecta la condición crítica<br>**Then** el agricultor recibe una alerta inmediata<br>**And** la alerta especifica qué sensor y lote está afectado</li><br><li>**Given** se recibe una alerta de temperatura<br>**When** el agricultor la visualiza<br>**Then** incluye recomendaciones específicas como cubrir cultivos o moverlos<br>**And** muestra predicción de cuánto tiempo permanecerá la condición crítica</li></ul> |
+
+<br>
+<br>
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **US-ID** | US-021 |
+| **EPIC-ID** | EP05 |
+| **Priority** | 5 |
+| **Title** | Configurar rangos de temperatura |
+| **Description** | Como agricultor, quiero poder establecer rangos de temperatura óptimos específicos para cada tipo de cultivo para recibir alertas personalizadas. |
+| **Criterios de aceptación** | <ul><li>**Given** el agricultor cultiva diferentes tipos de plantas<br>**When** configura rangos de temperatura por tipo de cultivo<br>**Then** puede establecer límites mínimos y máximos específicos para cada cultivo<br>**And** el sistema sugiere rangos óptimos basados en la base de conocimientos</li><br><li>**Given** los rangos están configurados<br>**When** cambian las condiciones ambientales<br>**Then** las alertas se generan según los parámetros específicos de cada cultivo</li></ul> |
+
+<br>
+<br>
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **US-ID** | US-022 |
+| **EPIC-ID** | EP05 |
+| **Priority** | 5 |
+| **Title** | Monitorear humedad |
+| **Description** | Como agricultor, quiero monitorear los niveles de humedad del suelo y ambiente para optimizar el riego y prevenir enfermedades. |
+| **Criterios de aceptación** | <ul><li>**Given** el agricultor tiene sensores de humedad instalados<br>**When** accede al dashboard ambiental<br>**Then** visualiza lecturas de humedad del suelo y humedad relativa del aire<br>**And** ve recomendaciones de riego basadas en los niveles actuales</li><br><li>**Given** los niveles de humedad están fuera del rango óptimo<br>**When** el sistema detecta la condición<br>**Then** envía alertas con sugerencias específicas de acción<br>**And** proporciona estimaciones de cuándo regar o ventilar</li></ul> |
+
+<br>
+<br>
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **US-ID** | US-023 |
+| **EPIC-ID** | EP06 |
+| **Priority** | 5 |
+| **Title** | Consultar pronóstico meteorológico |
+| **Description** | Como agricultor, quiero ver el pronóstico del tiempo para mi ubicación para planificar las actividades agrícolas según las condiciones climáticas. |
+| **Criterios de aceptación** | <ul><li>**Given** el agricultor ha configurado su ubicación<br>**When** accede a la sección de clima<br>**Then** visualiza pronóstico meteorológico de los próximos 7 días<br>**And** puede extender la vista hasta 14 días con menor precisión</li><br><li>**Given** el pronóstico está disponible<br>**When** el agricultor revisa la información<br>**Then** incluye temperatura, humedad, probabilidad de lluvia y velocidad del viento<br>**And** muestra índices específicos para agricultura como evapotranspiración y horas de sol</li></ul> |
+
+<br>
+<br>
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **US-ID** | US-024 |
+| **EPIC-ID** | EP06 |
+| **Priority** | 5 |
+| **Title** | Recibir alertas meteorológicas |
+| **Description** | Como agricultor, quiero ser notificado sobre condiciones climáticas extremas para tomar medidas preventivas para proteger mis cultivos. |
+| **Criterios de aceptación** | <ul><li>**Given** se pronostican condiciones climáticas extremas<br>**When** el sistema procesa la información meteorológica<br>**Then** envía alertas tempranas al agricultor<br>**And** las alertas se envían con 12-24 horas de anticipación cuando es posible</li><br><li>**Given** se emite una alerta meteorológica<br>**When** el agricultor la recibe<br>**Then** incluye recomendaciones específicas para proteger los cultivos<br>**And** proporciona enlaces a recursos sobre manejo de emergencias climáticas</li></ul> |
+
+<br>
+<br>
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **US-ID** | US-025 |
+| **EPIC-ID** | EP06 |
+| **Priority** | 2 |
+| **Title** | Ver historial climático |
+| **Description** | Como agricultor, quiero acceder al historial climático de mi zona para tomar decisiones informadas sobre qué cultivos plantar y cuándo. |
+| **Criterios de aceptación** | <ul><li>**Given** el agricultor planifica la próxima temporada<br>**When** consulta el historial climático<br>**Then** accede a datos de temperatura, precipitación y otros factores de los últimos 5 años<br>**And** puede comparar patrones climatológicos por meses o estaciones</li><br><li>**Given** el historial está disponible<br>**When** el agricultor analiza los datos<br>**Then** recibe insights sobre las mejores fechas para siembra y cosecha<br>**And** identifica patrones de riesgo climático para su ubicación</li></ul> |
+
+<br>
+<br>
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **US-ID** | US-026 |
+| **EPIC-ID** | EP07 |
+| **Priority** | 3 |
+| **Title** | Leer noticias agrícolas |
+| **Description** | Como agricultor, quiero acceder a noticias relevantes del sector agrícola para mantenerme informado sobre tendencias y novedades del mercado. |
+| **Criterios de aceptación** | <ul><li>**Given** el agricultor accede a la sección de noticias<br>**When** navega por los artículos disponibles<br>**Then** encuentra noticias actualizadas sobre agricultura, tecnología y mercado<br>**And** las noticias están ordenadas por relevancia y fecha</li><br><li>**Given** las noticias están categorizadas<br>**When** el agricultor filtra por categoría<br>**Then** visualiza solo noticias de su interés específico<br>**And** puede guardar artículos para leer posteriormente</li></ul> |
+
+<br>
+<br>
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **US-ID** | US-027 |
+| **EPIC-ID** | EP07 |
+| **Priority** | 3 |
+| **Title** | Participar en red de agricultores |
+| **Description** | Como agricultor, quiero conectar con otros agricultores para compartir experiencias y aprender de la comunidad. |
+| **Criterios de aceptación** | <ul><li>**Given** el agricultor está registrado en la plataforma<br>**When** accede al foro de la comunidad<br>**Then** puede leer y participar en discusiones con otros agricultores<br>**And** puede filtrar discusiones por tipo de cultivo o región</li><br><li>**Given** el agricultor tiene una consulta específica<br>**When** publica en el foro<br>**Then** otros miembros pueden responder y compartir sus experiencias<br>**And** puede seguir hilos de conversación y recibir notificaciones de respuestas</li></ul> |
+
+<br>
+<br>
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **US-ID** | US-028 |
+| **EPIC-ID** | EP07 |
+| **Priority** | 2 |
+| **Title** | Compartir experiencias de control de plagas |
+| **Description** | Como agricultor experimentado, quiero compartir mis métodos exitosos de control de plagas para ayudar a otros agricultores de la comunidad. |
+| **Criterios de aceptación** | <ul><li>**Given** el agricultor ha tenido éxito controlando una plaga<br>**When** decide compartir su experiencia<br>**Then** puede crear una publicación detallada con fotos y descripción del método<br>**And** puede incluir costos, tiempo de aplicación y resultados obtenidos</li><br><li>**Given** la publicación está creada<br>**When** otros agricultores la visualizan<br>**Then** pueden valorar la utilidad y hacer preguntas adicionales<br>**And** el sistema recomienda experiencias similares a agricultores con problemas comparables</li></ul> |
+
+<br>
+<br>
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **US-ID** | US-029 |
+| **EPIC-ID** | EP07 |
+| **Priority** | 2 |
+| **Title** | Buscar expertos agrícolas |
+| **Description** | Como agricultor, quiero poder identificar y contactar agricultores expertos en temas específicos para obtener asesoramiento especializado. |
+| **Criterios de aceptación** | <ul><li>**Given** el agricultor necesita asesoramiento especializado<br>**When** busca expertos en la comunidad<br>**Then** encuentra perfiles de agricultores con experiencia comprobada en temas específicos<br>**And** puede ver calificaciones y testimonios de otros usuarios</li><br><li>**Given** el agricultor identifica un experto relevante<br>**When** solicita asesoramiento<br>**Then** puede enviar mensajes privados o solicitar consultas<br>**And** el experto recibe notificación de la solicitud de ayuda</li></ul> |
+
+<br>
+<br>
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **US-ID** | US-030 |
+| **EPIC-ID** | EP07 |
+| **Priority** | 3 |
+| **Title** | Contactar empresas especializadas |
+| **Description** | Como agricultor, quiero poder contactar empresas especializadas en control de plagas para obtener ayuda profesional cuando sea necesario. |
+| **Criterios de aceptación** | <ul><li>**Given** el agricultor necesita ayuda especializada<br>**When** accede al directorio de empresas<br>**Then** encuentra listado de empresas especializadas en su zona<br>**And** puede filtrar por tipo de servicio, calificación y distancia</li><br><li>**Given** el agricultor selecciona una empresa<br>**When** solicita contacto<br>**Then** puede enviar su consulta directamente a través de la plataforma<br>**And** recibe cotizaciones y puede comparar servicios de diferentes proveedores</li></ul> |
+
+
+<br><br>
+
+## 3.2. Technical Stories
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **TS-ID** | TS-01 |
+| **EPIC-ID** | EP08 |
+| **Priority** | 8 |
+| **Title** | Endpoint de autenticación de usuarios |
+| **Description** | Como Developer, quiero implementar endpoints de autenticación para permitir registro y login seguro de usuarios. |
+| **Criterios de aceptación** | <ul><li>**Given** se envía un POST request a `/api/auth/register` con datos válidos<br>**When** el sistema procesa la solicitud<br>**Then** retorna status 201 y el usuario es creado en la base de datos<br>**And** se envía email de verificación automáticamente</li><li>**Given** se envía un POST request a `/api/auth/login` con credenciales válidas<br>**When** el sistema valida las credenciales<br>**Then** retorna status 200 con token JWT válido<br>**And** el token incluye información de expiración y permisos del usuario</li><li>**Given** se envía un POST request con credenciales inválidas<br>**When** el sistema valida las credenciales<br>**Then** retorna status 401 con mensaje de error apropiado<br>**And** se registra el intento fallido para monitoreo de seguridad</li></ul> |
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **TS-ID** | TS-02 |
+| **EPIC-ID** | EP08 |
+| **Priority** | 8 |
+| **Title** | Endpoint de gestión de perfil de cultivos |
+| **Description** | Como Developer, quiero implementar endpoints para gestionar información de cultivos para permitir a los usuarios configurar y actualizar sus cultivos. |
+| **Criterios de aceptación** | <ul><li>**Given** se envía un POST request a `/api/crops` con token válido y datos de cultivo<br>**When** el sistema procesa la solicitud<br>**Then** retorna status 201 y el cultivo es registrado<br>**And** se asigna ID único al cultivo creado</li><li>**Given** se envía un PUT request a `/api/crops/{id}` con datos actualizados<br>**When** el usuario es propietario del cultivo<br>**Then** retorna status 200 y el cultivo es actualizado<br>**And** se mantiene historial de cambios para auditoría</li><li>**Given** se envía un GET request a `/api/crops` con token válido<br>**When** el sistema procesa la solicitud<br>**Then** retorna status 200 con lista de cultivos del usuario<br>**And** incluye información de dispositivos IoT asociados a cada cultivo</li></ul> |
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **TS-ID** | TS-03 |
+| **EPIC-ID** | EP08 |
+| **Priority** | 8 |
+| **Title** | Endpoint de detección de plagas |
+| **Description** | Como Developer, quiero implementar endpoint para procesamiento de imágenes de cultivos para permitir la detección automática de plagas. |
+| **Criterios de aceptación** | <ul><li>**Given** se envía un POST request a `/api/pest-detection` con imagen válida<br>**When** el sistema procesa la imagen<br>**Then** retorna status 200 con resultados de detección de plagas<br>**And** incluye nivel de confianza, tipo de plaga y coordenadas en la imagen</li><li>**Given** se envía una imagen sin plagas detectables<br>**When** el sistema la procesa<br>**Then** retorna status 200 con mensaje indicando ausencia de plagas<br>**And** almacena la imagen como referencia negativa para mejorar el modelo</li><li>**Given** se envía un request con imagen inválida o corrupta<br>**When** el sistema intenta procesarla<br>**Then** retorna status 400 con mensaje de error descriptivo<br>**And** registra el error para monitoreo de calidad</li></ul> |
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **TS-ID** | TS-04 |
+| **EPIC-ID** | EP08 |
+| **Priority** | 8 |
+| **Title** | Endpoint de monitoreo de temperatura |
+| **Description** | Como Developer, quiero implementar endpoints para gestionar datos de sensores de temperatura para permitir almacenamiento y consulta de lecturas de temperatura. |
+| **Criterios de aceptación** | <ul><li>**Given** se envía un POST request a `/api/temperature` con datos del sensor<br>**When** los datos son válidos<br>**Then** retorna status 201 y almacena la lectura en la base de datos<br>**And** verifica automáticamente si la temperatura está en rangos críticos</li><li>**Given** se envía un GET request a `/api/temperature/{crop-id}` con token válido<br>**When** el usuario tiene acceso al cultivo<br>**Then** retorna status 200 con historial de temperaturas<br>**And** permite filtrado por rango de fechas y agregación temporal</li><li>**Given** se envía un GET request a `/api/temperature/{crop-id}/current`<br>**When** existen sensores activos<br>**Then** retorna status 200 con lectura más reciente<br>**And** incluye timestamp y estado del sensor</li></ul> |
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **TS-ID** | TS-05 |
+| **EPIC-ID** | EP08 |
+| **Priority** | 5 |
+| **Title** | Endpoint de alertas y notificaciones |
+| **Description** | Como Developer, quiero implementar endpoints para gestionar alertas para permitir envío y consulta de notificaciones a usuarios. |
+| **Criterios de aceptación** | <ul><li>**Given** se envía un POST request a `/api/alerts` con datos de alerta<br>**When** se cumplen condiciones para generar alerta<br>**Then** retorna status 201 y la alerta es creada y enviada al usuario<br>**And** se determina el canal de notificación según preferencias del usuario</li><li>**Given** se envía un GET request a `/api/alerts` con token válido<br>**When** el usuario solicita sus alertas<br>**Then** retorna status 200 con lista paginada de alertas del usuario<br>**And** permite filtrado por tipo, fecha y estado de lectura</li><li>**Given** se envía un PUT request a `/api/alerts/{id}/read` con token válido<br>**When** la alerta pertenece al usuario<br>**Then** retorna status 200 y marca la alerta como leída<br>**And** actualiza contador de alertas no leídas</li></ul> |
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **TS-ID** | TS-06 |
+| **EPIC-ID** | EP08 |
+| **Priority** | 5 |
+| **Title** | Endpoint de información meteorológica |
+| **Description** | Como Developer, quiero implementar endpoint para obtener datos meteorológicos para proporcionar información climática a los usuarios. |
+| **Criterios de aceptación** | <ul><li>**Given** se envía un GET request a `/api/weather/{location}` con token válido<br>**When** la ubicación es válida<br>**Then** retorna status 200 con pronóstico meteorológico actual<br>**And** incluye datos de múltiples fuentes meteorológicas para mayor precisión</li><li>**Given** se envía un GET request a `/api/weather/{location}/forecast`<br>**When** se solicita pronóstico extendido<br>**Then** retorna status 200 con pronóstico de 7 días<br>**And** incluye índices agrícolas específicos como evapotranspiración</li><li>**Given** se envía un request con ubicación inválida<br>**When** el sistema intenta obtener datos meteorológicos<br>**Then** retorna status 404 con mensaje de ubicación no encontrada<br>**And** sugiere ubicaciones cercanas válidas</li></ul> |
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **TS-ID** | TS-07 |
+| **EPIC-ID** | EP08 |
+| **Priority** | 3 |
+| **Title** | Endpoint de noticias agrícolas |
+| **Description** | Como Developer, quiero implementar endpoints para gestionar noticias para proporcionar contenido informativo actualizado a los usuarios. |
+| **Criterios de aceptación** | <ul><li>**Given** se envía un GET request a `/api/news` con token válido<br>**When** existen noticias disponibles<br>**Then** retorna status 200 con lista paginada de noticias<br>**And** las noticias están ordenadas por relevancia y fecha de publicación</li><li>**Given** se envía un GET request a `/api/news/categories`<br>**When** se solicitan categorías disponibles<br>**Then** retorna status 200 con lista de categorías de noticias<br>**And** incluye conteo de artículos por categoría</li><li>**Given** se envía un GET request a `/api/news?category={category}`<br>**When** la categoría existe<br>**Then** retorna status 200 con noticias filtradas por categoría<br>**And** mantiene paginación y ordenamiento por relevancia</li></ul> |
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **TS-ID** | TS-08 |
+| **EPIC-ID** | EP08 |
+| **Priority** | 3 |
+| **Title** | Endpoint de foro comunitario |
+| **Description** | Como Developer, quiero implementar endpoints para el foro de agricultores para permitir interacción entre usuarios de la comunidad. |
+| **Criterios de aceptación** | <ul><li>**Given** se envía un POST request a `/api/forum/posts` con token válido y contenido<br>**When** el contenido es válido y pasa filtros de moderación<br>**Then** retorna status 201 y la publicación es creada<br>**And** se envían notificaciones a usuarios que siguen temas relacionados</li><li>**Given** se envía un GET request a `/api/forum/posts`<br>**When** se solicitan publicaciones del foro<br>**Then** retorna status 200 con lista paginada de publicaciones<br>**And** permite filtrado por categoría, autor y fecha</li><li>**Given** se envía un POST request a `/api/forum/posts/{id}/replies` con token válido<br>**When** la publicación existe y está activa<br>**Then** retorna status 201 y la respuesta es añadida a la publicación<br>**And** se notifica al autor original y usuarios suscritos al hilo</li></ul> |
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **TS-ID** | TS-09 |
+| **EPIC-ID** | EP08 |
+| **Priority** | 5 |
+| **Title** | Endpoint de gestión de dispositivos IoT |
+| **Description** | Como Developer, quiero implementar endpoints para registrar y gestionar dispositivos IoT para permitir la conexión y configuración de sensores y cámaras. |
+| **Criterios de aceptación** | <ul><li>**Given** se envía un POST request a `/api/devices` con datos de dispositivo<br>**When** el dispositivo es compatible y los datos son válidos<br>**Then** retorna status 201 y el dispositivo es registrado<br>**And** genera credenciales únicas para la conexión del dispositivo</li><li>**Given** se envía un GET request a `/api/devices` con token válido<br>**When** el usuario consulta sus dispositivos<br>**Then** retorna status 200 con lista de dispositivos del usuario<br>**And** incluye estado de conexión y última actividad de cada dispositivo</li><li>**Given** se envía un PUT request a `/api/devices/{id}/status`<br>**When** se actualiza el estado de un dispositivo<br>**Then** retorna status 200 y actualiza la información de estado<br>**And** genera alertas si el dispositivo se desconecta inesperadamente</li></ul> |
+
+<br><br>
+
+## 3.3. Impact Mapping
+
+![Impact Mapping]()
+
+<br><br>
+
+## 3.4. Product Backlog
+
+<br>
+
+| Orden | User Story Id | Título | Descripción | Story Points |
+|-------|---------------|--------|-------------|--------------|
+| 1 | US-001 | Ver sección hero atractiva | Como visitante, quiero ver una sección de hero (inicio) clara y atractiva para entender rápidamente qué es EcoCrop y qué problema resuelve SmartCrop. | 8 |
+| 2 | US-006 | Acceder a registro desde landing | Como visitante, quiero encontrar un llamado a la acción claro para registrarme en la plataforma y comenzar a usar el servicio. | 8 |
+| 3 | US-008 | Registrar cuenta de agricultor | Como agricultor nuevo, quiero poder crear una cuenta en SmartCrop para acceder a las funcionalidades de gestión de cultivos. | 8 |
+| 4 | US-009 | Iniciar sesión en SmartCrop | Como agricultor registrado, quiero poder iniciar sesión en mi cuenta para acceder a la gestión de mis cultivos. | 8 |
+| 5 | US-012 | Configurar perfil de cultivos | Como agricultor, quiero configurar información sobre mis cultivos para personalizar el monitoreo según mis necesidades específicas. | 8 |
+| 6 | US-015 | Visualizar imágenes de cultivos en tiempo real | Como agricultor, quiero ver imágenes en tiempo real de mis cultivos para monitorear visualmente el estado actual de mi producción. | 8 |
+| 7 | US-016 | Detectar plagas automáticamente | Como agricultor, quiero que el sistema identifique plagas en mis cultivos automáticamente para tomar medidas preventivas antes de que se extiendan. | 8 |
+| 8 | US-017 | Recibir alertas de plagas | Como agricultor, quiero recibir notificaciones cuando se detecten plagas para actuar rápidamente ante amenazas a mis cultivos. | 8 |
+| 9 | US-019 | Monitorear temperatura de cultivos | Como agricultor, quiero visualizar la temperatura actual de mis zonas de cultivo para asegurar condiciones óptimas para el crecimiento de mis plantas. | 8 |
+| 10 | US-020 | Recibir alertas de temperatura crítica | Como agricultor, quiero ser alertado cuando la temperatura sea muy alta o muy baja para proteger mis cultivos de condiciones climáticas adversas. | 8 |
+| 11 | US-002 | Conocer características de SmartCrop | Como visitante del segmento agricultor, quiero ver las características principales de SmartCrop para evaluar si la solución se adapta a mis necesidades agrícolas. | 5 |
+| 12 | US-004 | Ver precios | Como visitante del segmento empresa agrícola, quiero conocer los precios disponibles para evaluar la inversión requerida para implementar SmartCrop. | 5 |
+| 13 | US-011 | Interfaz intuitiva y accesible | Como agricultor, quiero que la aplicación web sea accesible y no complicada de usar para poder adoptarla en mi rutina diaria sin dificultades. | 5 |
+| 14 | US-013 | Gestionar múltiples lotes | Como agricultor con varias parcelas, quiero poder gestionar múltiples lotes de cultivos para organizar mejor mi producción. | 5 |
+| 15 | US-014 | Configurar dispositivos IoT | Como agricultor, quiero poder registrar y configurar mis dispositivos IoT (cámaras y sensores) para comenzar el monitoreo automatizado. | 5 |
+| 16 | US-018 | Ver recomendaciones de control de plagas | Como agricultor, quiero recibir guías detalladas para controlar plagas identificadas para aplicar tratamientos efectivos y específicos. | 5 |
+| 17 | US-021 | Configurar rangos de temperatura | Como agricultor, quiero poder establecer rangos de temperatura óptimos específicos para cada tipo de cultivo para recibir alertas personalizadas. | 5 |
+| 18 | US-022 | Monitorear humedad | Como agricultor, quiero monitorear los niveles de humedad del suelo y ambiente para optimizar el riego y prevenir enfermedades. | 5 |
+| 19 | US-023 | Consultar pronóstico meteorológico | Como agricultor, quiero ver el pronóstico del tiempo para mi ubicación para planificar las actividades agrícolas según las condiciones climáticas. | 5 |
+| 20 | US-024 | Recibir alertas meteorológicas | Como agricultor, quiero ser notificado sobre condiciones climáticas extremas para tomar medidas preventivas para proteger mis cultivos. | 5 |
+| 21 | US-003 | Ver testimonios y casos de éxito | Como visitante, quiero ver testimonios de otros agricultores o estudios de caso para confiar en la efectividad de SmartCrop. | 3 |
+| 22 | US-005 | Contactar con EcoCrop | Como visitante interesado, quiero poder contactar con el equipo de EcoCrop para resolver dudas específicas sobre el producto. | 3 |
+| 23 | US-010 | Gestionar perfil de usuario | Como agricultor, quiero poder editar mi información personal y preferencias de la cuenta para mantener mis datos actualizados. | 3 |
+| 24 | US-026 | Leer noticias agrícolas | Como agricultor, quiero acceder a noticias relevantes del sector agrícola para mantenerme informado sobre tendencias y novedades del mercado. | 3 |
+| 25 | US-027 | Participar en red de agricultores | Como agricultor, quiero conectar con otros agricultores para compartir experiencias y aprender de la comunidad. | 3 |
+| 26 | US-030 | Contactar empresas especializadas | Como agricultor, quiero poder contactar empresas especializadas en control de plagas para obtener ayuda profesional cuando sea necesario. | 3 |
+| 27 | US-007 | Ver información de la empresa | Como visitante potencial, quiero conocer información sobre EcoCrop como empresa para generar confianza en la marca. | 2 |
+| 28 | US-025 | Ver historial climático | Como agricultor, quiero acceder al historial climático de mi zona para tomar decisiones informadas sobre qué cultivos plantar y cuándo. | 2 |
+| 29 | US-028 | Compartir experiencias de control de plagas | Como agricultor experimentado, quiero compartir mis métodos exitosos de control de plagas para ayudar a otros agricultores de la comunidad. | 2 |
+| 30 | US-029 | Buscar expertos agrícolas | Como agricultor, quiero poder identificar y contactar agricultores expertos en temas específicos para obtener asesoramiento especializado. | 2 |
+
+<br><br>
+
+| Orden | Tecnical Stories ID | Título | Descripción | Story Points |
+|-------|---------------|--------|-------------|--------------|
+| 1 | TS-02 | Endpoint de gestión de perfil de cultivos | Como Developer, quiero implementar endpoints para gestionar información de cultivos para permitir a los usuarios configurar y actualizar sus cultivos. | 8 |
+| 2 | TS-04 | Endpoint de monitoreo de temperatura | Como Developer, quiero implementar endpoints para gestionar datos de sensores de temperatura para permitir almacenamiento y consulta de lecturas de temperatura. | 8 |
+| 3 | TS-03 | Endpoint de detección de plagas | Como Developer, quiero implementar endpoint para procesamiento de imágenes de cultivos para permitir la detección automática de plagas. | 8 |
+| 4 | TS-01 | Endpoint de autenticación de usuarios | Como Developer, quiero implementar endpoints de autenticación para permitir registro y login seguro de usuarios. | 8 |
+| 5 | TS-05 | Endpoint de alertas y notificaciones | Como Developer, quiero implementar endpoints para gestionar alertas para permitir envío y consulta de notificaciones a usuarios. | 5 |
+| 6 | TS-06 | Endpoint de información meteorológica | Como Developer, quiero implementar endpoint para obtener datos meteorológicos para proporcionar información climática a los usuarios. | 5 |
+| 7 | TS-09 | Endpoint de gestión de dispositivos IoT | Como Developer, quiero implementar endpoints para registrar y gestionar dispositivos IoT para permitir la conexión y configuración de sensores y cámaras. | 5 |
+| 8 | TS-07 | Endpoint de noticias agrícolas | Como Developer, quiero implementar endpoints para gestionar noticias para proporcionar contenido informativo actualizado a los usuarios. | 3 |
+| 9 | TS-08 | Endpoint de foro comunitario | Como Developer, quiero implementar endpoints para el foro de agricultores para permitir interacción entre usuarios de la comunidad. | 3 |
+
+
+<br><br><br><br><br><br>
+
+<!--
+    CAPÍTULO 4: PRODUCT DESIGN
+-->
+
+<h1 style="color:white; background-color:#7c2727; padding: 10px;" id="apítulo-iv-product-design">
+Capítulo IV: Product Design
+</h1>
+
+## 4.1. Style Guidelines
+### 4.1.1. General Style Guidelines
+
+## Tipografía
+
+### Inter
+La tipografía seleccionada para nuestra marca es **Inter**. Elegimos Inter por su diseño moderno y funcional, que combina perfectamente la legibilidad con un estilo limpio y profesional. Su estructura cuidadosamente diseñada facilita la lectura tanto en pantallas digitales como en impresiones, asegurando que nuestra comunicación sea clara y efectiva en cualquier formato.
+
+Inter destaca por su versatilidad, adaptándose con facilidad a diversos contextos y aplicaciones, desde encabezados impactantes hasta cuerpos de texto detallados. Su estilo contemporáneo y accesible refleja los valores de innovación y modernidad de nuestra empresa, proyectando una imagen coherente y profesional en todos nuestros materiales y plataformas.
+
+Además, Inter es una fuente de código abierto, lo que refuerza nuestro compromiso con la accesibilidad y la colaboración. Su amplia compatibilidad y disponibilidad gratuita la convierten en una elección práctica y sostenible para representar a nuestra marca en un entorno digital en constante evolución.
+
+## Paleta de Colores
+
+Los colores seleccionados para nuestra marca reflejan los valores y la misión de GreenSprout Innovations, transmitiendo profesionalismo, sostenibilidad y un enfoque moderno en cada interacción visual.
+
+| Color | Código HEX | Uso Principal |
+|-------|------------|---------------|
+| ![#F4F4F4](assets/images/CP4/palette_colors/F4F4F4.png) | `#F4F4F4` | Fondo principal, sensación de limpieza y simplicidad |
+| ![#FFFFFF](assets/images/CP4/palette_colors/FFFFFF.png) | `#FFFFF` | Separación de secciones, elementos secundarios |
+| ![#4C965C](assets/images/CP4/palette_colors/4C965C.png) | `#4C965C` | Color primario, transmite confianza y solidez |
+| ![#1A594B](assets/images/CP4/palette_colors/1A594B.png) | `#1A594B` | Elementos de sofisticación y autoridad |
+
+### Descripción de Colores
+
+1. **#F4F4F4**: Este tono claro proporciona una sensación de limpieza y simplicidad, además, actúa como un fondo neutro que no compite con otros elementos visuales, lo que permite que los textos y las imágenes resalten claramente. Este color refleja los valores del proyecto, como la transparencia y la accesibilidad.
+
+2. **#FFFFFF**: Utilizamos este tono para separar secciones o destacar elementos secundarios, este blanco representa modernidad y profesionalismo, también crea un contraste suave con los colores más vibrantes, asegurando una experiencia visual equilibrada y armónica.
+
+3. **#4C965C**: Un verde intenso y vibrante que transmite confianza y solidez, evocando el compromiso y la profesionalidad con los que enfrentamos los desafíos en el sector agrícola. Este color refuerza nuestra identidad como una marca robusta y confiable, subrayando la fuerza y fiabilidad de nuestras soluciones.
+
+4. **#1A594B**: Este tono verde oscuro añade un toque de sofisticación y autoridad, evocando la idea de un enfoque analítico y estratégico en nuestras propuestas. Es un color que comunica experiencia y seriedad, subrayando la seguridad que ofrecemos a nuestros usuarios.
+
+En conjunto, esta paleta de colores equilibra la frescura y la confianza, reflejando una imagen moderna y sostenible que conecta con nuestros valores y con el sector agrícola al que nos dirigimos.
+
+## Logo
+
+El logo de GreenSprout Innovations ha sido diseñado para reflejar nuestra misión de transformar la agricultura a través de la tecnología, destacando nuestros valores de sostenibilidad, innovación y conexión con la naturaleza.
+
+<div align="center">
+<img src="assets/images/logo/logo.png" width="200">
+</div>
+
+### Descripción del logo:
+
+1. **Forma circular**: La forma redonda del logo simboliza la integridad, el ciclo de la vida y la conexión continua con la naturaleza, representando nuestro compromiso con el cuidado del medio ambiente y el desarrollo sostenible en la agricultura.
+
+2. **Colores verdes**: Los diferentes tonos de verde en el logo refuerzan nuestra identidad como una empresa enfocada en el sector agrícola. El uso de varios matices representa la diversidad de la naturaleza y la frescura de nuestras soluciones tecnológicas, mientras que la paleta verde transmite vida, crecimiento y esperanza.
+
+3. **Líneas onduladas**: Las líneas dentro del círculo evocan imágenes de hojas, campos y el movimiento del agua, destacando nuestro enfoque en la agricultura y la innovación. Estas formas fluidas simbolizan la adaptabilidad y la flexibilidad de nuestras soluciones, reflejando la capacidad de nuestra empresa para evolucionar y responder a las necesidades de nuestros usuarios.
+
+## Lenguaje y Tono de Comunicación
+
+Para GreenSprout Innovations, utilizaremos un lenguaje que refleje nuestros valores y conecte efectivamente con nuestra audiencia. La combinación de tono adecuada es la siguiente:
+
+### Características del Lenguaje:
+
+1. **Serio pero accesible**: Queremos transmitir profesionalismo y conocimiento en el sector agrícola y tecnológico, pero sin resultar distante. Nuestro enfoque es serio, pero a la vez cercano y comprensible para nuestros usuarios.
+
+2. **Formal pero amigable**: Aunque mantenemos un tono formal para reflejar la seriedad y el compromiso de nuestra empresa, no dejaremos de ser accesibles y cercanos en nuestra comunicación. La idea es establecer una conexión genuina con nuestros usuarios.
+
+3. **Respetuoso y positivo**: Siempre nos dirigiremos a nuestros usuarios con respeto, destacando la importancia de sus necesidades y contribuciones. Nuestro lenguaje será alentador y positivo, reflejando nuestro enfoque constructivo y colaborativo.
+
+4. **Entusiasta y motivador**: Queremos transmitir pasión por lo que hacemos, inspirando a los agricultores y otros actores del sector a adoptar nuestras soluciones. El tono será motivador, promoviendo la adopción de nuevas tecnologías con un enfoque optimista hacia el futuro de la agricultura.
+
+### Ejemplos de Aplicación:
+
+| Contexto | Tono Recomendado | Ejemplo |
+|----------|------------------|---------|
+| **Comunicación técnica** | Serio y preciso | "Nuestro sistema de monitoreo utiliza sensores IoT para optimizar el rendimiento de los cultivos" |
+| **Interacción con usuarios** | Amigable y servicial | "Estamos aquí para ayudarte a maximizar tu producción agrícola" |
+| **Marketing y promoción** | Entusiasta y motivador | "Únete a la revolución agrícola con nuestras soluciones innovadoras" |
+| **Documentación** | Formal pero claro | "La implementación del sistema requiere los siguientes pasos técnicos" |
+
+### 4.1.2. Web Style Guidelines
+
+## 4.2. Information Architecture
+### 4.2.1. Organization Systems
+### 4.2.2. Labeling Systems
+### 4.2.3. SEO Tags and Meta Tags
+### 4.2.4. Searching Systems
+### 4.2.5. Navigation Systems
+
+## 4.3. Landing Page UI Design
+### 4.3.1. Landing Page Wireframe
+### 4.3.2. Landing Page Mock-up
+A continuación, se presenta cada una de las pantallas diseñadas para la landing page, donde se muestran los wireframes descritos previamente, ahora con mayor detalle, utilizando la distribución, colores y texto seleccionados.
+
+#### Sección: Home (Hero)
+![Sección Home - Landing Page](assets/images/common/landing_page/hero.png)
+
+#### Sección: ¿Cómo funciona?
+![Sección ¿Cómo funciona? - Landing Page](assets/images/common/landing_page/how_work.png)
+
+#### Sección: Servicios
+![Sección Servicios - Landing Page](assets/images/common/landing_page/services.png)
+
+
+#### Sección: Sobre Nosotros
+![Sección Sobre Nosotros - Landing Page](assets/images/common/landing_page/about_us.png)
+
+#### Sección: Testimonios
+![Sección Testimonios - Landing Page](assets/images/common/landing_page/testimonies.png)
+
+#### Sección: Formulario de contacto
+![Sección de Formulario de Contacto](assets/images/common/landing_page/contact_form.png)
+
+#### Sección: Alianzas y Pie de página
+![Sección Alianza y Pie de página - Landing Page](assets/images/common/landing_page/footer.png)
+
+## 4.4. Web Applications UX/UI Design
+### 4.4.1. Web Applications Wireframes
+### 4.4.2. Web Applications Wireflow Diagrams
+### 4.4.3. Web Applications Mock-ups
+### 4.4.4. Web Applications User Flow Diagrams
+
+## 4.5. Web Applications Prototyping
+
+## 4.6. Domain-Driven Software Architecture
+### 4.6.1. Design-Level Event Storming
+### 4.6.2. Software Architecture Context Diagram
+### 4.6.3. Software Architecture Container Diagrams
+### 4.6.4. Software Architecture Components Diagrams
+
+## 4.7. Software Object-Oriented Design
+### 4.7.1. Class Diagrams
+
+## 4.8. Database Design
+### 4.8.1. Database Diagrams
+
+<br><br><br><br><br><br>
+
+<!--
+    CAPÍTULO 5: PRODUCT IMPLEMENTATION, VALIDATION & DEPLOYMENT
+-->
+
+<h1 style="color:white; background-color:#7c2727; padding: 10px;" id="capítulo-v-product-implementation-validation-deployment">
+Capítulo V: Product Implementation, Validation & Deployment
+</h1>
+
+## 5.1. Software Configuration Management
+
+### 5.1.1. Software Development Environment Configuration
+
+#### 1. Project Management
+
+# Capítulo V: Product Implementation, Validation & Deployment
+
+## 5.1. Software Configuration Management
+
+### 5.1.1. Software Development Environment Configuration
+
+### 1. Project Management
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **Categoría** | Project Management |
+| **Herramienta** | Jira (SaaS) |
+| **Logo** | <img src="https://logolook.net/wp-content/uploads/2023/04/Jira-Logo-2017.png" width="150"> |
+| **Descripción** | La gestión de proyectos es fundamental en el desarrollo de software, ya que permite la organización y estructuración de las tareas necesarias para completar un proyecto. Las herramientas de gestión de proyectos permiten planificar, asignar y realizar un seguimiento de tareas, así como mejorar la colaboración en equipo y la comunicación. Jira es una plataforma de gestión de proyectos ampliamente utilizada, especialmente en proyectos de desarrollo de software que siguen metodologías ágiles como Scrum o Kanban. Esta herramienta permite la planificación de sprints, seguimiento de tareas en tiempo real, y la creación de reportes de rendimiento, facilitando la organización y optimización del trabajo en equipo. |
+| **URL** | https://www.atlassian.com/es/software/jira |
+
+
+<br>
+
+### 2. Product UX/UI Design
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **Categoría** | Product UX/UI Design |
+| **Herramienta** | Figma |
+| **Logo** | <img src="https://vectorseek.com/wp-content/uploads/2023/07/Figma-Logo-Png-Vector.svg-.png" width="60"> |
+| **Descripción** | El diseño de interfaces de usuario (UI) y experiencia de usuario (UX) es esencial para crear aplicaciones y software intuitivos, estéticamente agradables y funcionales. Las herramientas de diseño UX/UI permiten la creación de prototipos visuales, wireframes y diseños interactivos, que pueden validarse con usuarios antes de la implementación. Figma es una herramienta de diseño colaborativo basada en la nube, ideal para la creación de prototipos de interfaces y diseños interactivos. Al estar en línea, permite la edición y revisión en tiempo real, facilitando la colaboración entre miembros del equipo desde cualquier lugar. Es especialmente útil en entornos ágiles donde el diseño y el desarrollo avanzan de manera simultánea. |
+| **URL** | https://www.figma.com/es-la/ |
+
+
+<br>
+
+### 3. Software Development
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **Categoría** | Software Development |
+| **Herramienta** | WebStorm |
+| **Logo** | <img src="https://blog.jetbrains.com/wp-content/uploads/2019/08/logo-3.png" width="80"> |
+| **Descripción** | El desarrollo de software requiere entornos y editores de código donde los desarrolladores puedan escribir, depurar y probar código. Los entornos de desarrollo integrados (IDE) y editores de texto enriquecidos ofrecen características como resaltar sintaxis, la integración de sistemas de control de versiones, y herramientas de depuración, optimizando la productividad del equipo de desarrollo. WebStorm es un IDE especializado en el desarrollo con tecnologías web modernas como JavaScript, TypeScript, React, Angular y Node.js. Proporciona herramientas avanzadas para depuración en el navegador y en Node.js, autocompletado inteligente, soporte para frameworks frontend y backend, integración con sistemas de control de版本es y pruebas unitarias, así como refactorización de código. Su objetivo es aumentar la productividad de los desarrolladores web mediante una experiencia optimizada y centrada en proyectos de aplicaciones web modernas. |
+| **URL** | https://www.jetbrains.com/webstorm/download/?section=windows |
+
+<br>
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **Categoría** | Software Development |
+| **Herramienta** | IntelliJ IDEA |
+| **Logo** | <img src="https://th.bing.com/th/id/R.98865e06d77faca32b3e118df119049e?rik=AU0%2bE0ROLAbnog&riu=http%3a%2f%2flogonoid.com%2fimages%2fintellij-idea-logo.png&ehk=CapqYnZAeX0cbsUWxFNWr913YwdQDC7OFt%2ftIAEb%2fBU%3d&risl=&pid=ImgRaw&r=0" width="80"> |
+| **Descripción** | IntelliJ IDEA es un IDE robusto y versátil, orientado principalmente al desarrollo en Java, aunque también soporta múltiples lenguajes como Kotlin, Scala, Groovy, SQL, y frameworks como Spring, Hibernate y Java EE. Destaca por su sistema de análisis estático de código, refactorización avanzada, integración con herramientas de construcción (Maven, Gradle), bases de datos, control de版本es y servidores de aplicaciones. Además, su edición inteligente, navegación rápida y depuración eficiente lo convierten en una herramienta ideal para proyectos empresariales de gran escala. |
+| **URL** | https://www.jetbrains.com/idea/download/?section=windows |
+
+<br>
+
+### 4. Version Control
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **Categoría** | Version Control |
+| **Herramienta** | Git (CLI/GUI) |
+| **Logo** | <img src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3253808/git-icon-icon-md.png" width="100"> |
+| **Descripción** | El control de版本es es un componente esencial en el desarrollo de software, ya que permite gestionar y realizar un seguimiento de los cambios en el código fuente. Facilita la colaboración entre desarrolladores, ya que cada miembro del equipo puede trabajar en una copia del código y posteriormente fusionar los cambios. Esto es especialmente importante en proyectos con múltiples colaboradores, evitando conflictos y manteniendo un historial completo de modificaciones. Git es un sistema de control de版本es distribuido que permite gestionar el código localmente y compartirlo en repositorios remotos. Ofrece la posibilidad de crear ramas para trabajar en diferentes funcionalidades de manera simultánea, y posteriormente unirlas mediante operaciones como merge o rebase. |
+| **URL** | https://git-scm.com/downloads |
+
+<br>
+
+| **Campo** | **Valor** |
+|-----------|-----------|
+| **Categoría** | Version Control |
+| **Herramienta** | GitHub |
+| **Logo** | <img src="https://th.bing.com/th/id/R.d3c974f05804e0b1e6eb7ff2564944e8?rik=xjfUeUs1lMo8FA&pid=ImgRaw&r=0" width="100"> |
+| **Descripción** | GitHub es una plataforma basada en la nube que utiliza Git para la gestión de repositorios y facilita la colaboración entre equipos de desarrollo. Además de su funcionalidad de control de版本es, GitHub ofrece herramientas adicionales para la revisión de código, seguimiento de problemas y proyectos, e integración continua. |
+| **URL** | https://github.com/ |
+
+<br><br>
+
+### 5.1.2. Source Code Management
+
+La gestión del código fuente es fundamental para el desarrollo colaborativo de cualquier proyecto de software. En esta sección, se establecerá un esquema claro de organización y control de versiones utilizando GitHub y el modelo de GitFlow. Esto garantizará una estructura organizada, controlada y accesible del código, con pautas para el seguimiento y manejo de cambios. Además, se definirán las convenciones para nombres de ramas, mensajes de commits, y se utilizará Semantic Versioning para las versiones del proyecto.
+
+## 1. Establecimiento de repositorios en GitHub
+
+Para organizar el código y pruebas de manera eficiente, se crearán repositorios específicos en GitHub, cada uno con una función concreta en el desarrollo y control de calidad del proyecto:
+
+| **Repositorio** | **Descripción** | **URL** |
+|-----------------|-----------------|---------|
+| **Landing Page** | Este repositorio estará destinado exclusivamente al código de la página de aterrizaje (Landing Page), donde se registrará todo el desarrollo de la interfaz y los recursos Front-End. | https://github.com/SmartCrop-EcoCrop/smartcrop.github.io |
+| **Pruebas de Aceptación** | En este repositorio se almacenarán los archivos .feature, que definen las pruebas de aceptación en formato Gherkin, permitiendo validar que las funcionalidades desarrolladas cumplen con los requisitos especificados. | https://github.com/SmartCrop-EcoCrop/acceptance-tests |
+| **Web Services** | Este repositorio contendrá el código de los servicios backend y APIs RESTful necesarios para la interacción con sensores IoT, procesamiento de imágenes, gestión de datos y comunicación con la aplicación web. Se documentarán los endpoints, la lógica de negocio y las integraciones con bases de datos. | https://github.com/SmartCrop-EcoCrop/web-services |
+| **Frontend Web Applications** | Este repositorio reunirá el código de la aplicación web SmartCrop, incluyendo la gestión de cultivos, detección de plagas, monitoreo de temperatura, alertas, noticias y sección de clima. Aquí se integrará el frontend con los servicios expuestos por el backend, asegurando la experiencia completa del usuario. | https://github.com/SmartCrop-EcoCrop/web-application |
+| **Project Report** | Este repositorio centralizará toda la documentación del proyecto, incluyendo el modelo de negocio, Lean UX, definición de la problemática, entrevistas a usuarios, hipótesis, validaciones y demás artefactos de diseño. Su objetivo es mantener un registro formal del proceso de ideación y definición del producto. | https://github.com/SmartCrop-EcoCrop/project-report |
+
+## 2. Workflow de control de versiones
+
+Para garantizar que el flujo de trabajo y la integración de cambios sean efectivos y organizados, se implementará el modelo GitFlow. Este modelo establece una estructura de ramas específica que facilita el desarrollo paralelo y la administración de versiones.
+
+### Estructura de ramas en GitFlow:
+
+| **Nombre de la rama** | **Descripción** |
+|-----------------------|-----------------|
+| **Main Branch (master)** | Es la rama principal que contiene el código en estado de producción. Solo los cambios completamente probados y listos para ser liberados en producción se integrarán aquí. |
+| **Develop Branch (develop)** | En esta rama se integran las funcionalidades en desarrollo. Sirve como base para el trabajo en curso antes de ser incorporado a la master. |
+| **Feature Branches (feature/\*)** | Para cada nueva funcionalidad o cambio importante, se debe crear una rama de funcionalidad derivada de develop. Esto permite que las funcionalidades se desarrollen de forma aislada. Ejemplo: feature/nueva-funcionalidad |
+| **Release Branches (release/\*)** | Estas ramas se crean para preparar versiones próximas a lanzarse. Facilitan la corrección de errores menores y las pruebas antes de liberar la versión en master. Ejemplo: release/v1.0.0 |
+| **Hotfix Branches (hotfix/\*)** | Ramas utilizadas para aplicar correcciones urgentes en el código de producción. Se crean a partir de master y se integran de vuelta en main y develop. Ejemplo: hotfix/urgent-fix |
+
+### Convenciones para nombres de ramas
+
+| **Tipo de Rama** | **Formato** | **Ejemplo** |
+|------------------|-------------|-------------|
+| **Feature Branches** | feature/nombre-descriptivo | feature/user-authentication |
+| **Release Branches** | release/x.y.z | release/v1.0.0 |
+| **Hotfix Branches** | hotfix/nombre-descriptivo | hotfix/login-error |
+
+## 3. Versionado semántico (Semantic Versioning)
+
+Para mantener un control claro y estructurado de las versiones liberadas, se empleará Semantic Versioning 2.0.0. Esta convención de nomenclatura consiste en tres números: Major.Minor.Patch:
+
+| **Componente** | **Descripción** |
+|----------------|-----------------|
+| **Major** | Indica una versión con cambios que pueden ser incompatibles con versiones anteriores. |
+| **Minor** | Utilizado para nuevas funcionalidades que sean compatibles con versiones previas. |
+| **Patch** | Para modificaciones menores o correcciones de errores que no alteran la funcionalidad. |
+
+**Ejemplos:**
+- v1.0.0 – Primera versión estable lanzada al público
+- v1.1.0 – Nueva funcionalidad añadida
+- v1.1.1 – Pequeña corrección de errores
+
+## 4. Convenciones de commits (Conventional Commits)
+
+Para mantener claridad y consistencia en los mensajes de commit, se utilizará el estándar Conventional Commits. Este sistema ayuda a identificar fácilmente el tipo de cambio realizado en cada commit, lo cual facilita la revisión del historial de cambios y la integración continua.
+
+| **Tipo de Cambio** | **Descripción** | **Ejemplo** |
+|--------------------|-----------------|-------------|
+| **feat** | Indica la implementación de una nueva funcionalidad. | `feat: agregar barra de navegación a la página de inicio` |
+| **fix** | Para resolver un error. | `fix: corregir error de validación en formulario de contacto` |
+| **docs** | Modificaciones en la documentación. | `docs: actualizar guía de instalación` |
+| **style** | Cambios de estilo que no afectan el código funcional. | `style: mejorar el formato de los archivos CSS` |
+| **refactor** | Cambios de código que no agregan funcionalidades nuevas ni corrigen errores. | `refactor: optimizar la lógica de la función de búsqueda` |
+| **test** | Añadir o modificar pruebas. | `test: añadir pruebas unitarias para la función de autenticación` |
+
+<br><br>
+
+### 5.1.3. Source Code Style Guide & Conventions
+
+En nuestro proyecto SmartCrop, hemos adoptado un stack tecnológico moderno y robusto que incluye tecnologías para el frontend, backend y desarrollo de la landing page. La organización y estandarización del código aseguran que el desarrollo sea consistente, fácil de mantener y comprensible para cualquier miembro del equipo que trabaje en el proyecto.
+
+## Stack Tecnológico
+
+| **Área** | **Tecnologías** | **Propósito** |
+|----------|-----------------|---------------|
+| **Frontend - Aplicación Web** | Angular, TypeScript, HTML5, CSS3/SCSS | Desarrollo de la aplicación web SmartCrop con interfaz robusta y responsive |
+| **Backend - API RESTful** | Java, Spring Boot, Spring Security, Spring Data JPA | Servicios backend para IoT, procesamiento de imágenes y gestión de datos |
+| **Landing Page** | HTML5, CSS3, JavaScript | Página de aterrizaje estática con diseño responsive e interactividad |
+
+## Convenciones para Angular (Frontend)
+
+### Estructura de Proyecto Angular
+
+| **Directorio** | **Propósito** |
+|----------------|---------------|
+| `src/app/core/` | Servicios singleton y guards |
+| `src/app/shared/` | Componentes y servicios compartidos |
+| `src/app/features/` | Módulos de funcionalidades específicas |
+| `src/app/layouts/` | Layouts principales de la aplicación |
+| `src/app/models/` | Interfaces y modelos TypeScript |
+| `src/assets/` | Recursos estáticos |
+| `src/environments/` | Configuraciones de entorno |
+| `src/styles/` | Estilos globales SCSS |
+
+### Nomenclatura Angular
+
+| **Tipo** | **Convención** | **Ejemplo** |
+|----------|----------------|-------------|
+| **Componentes** | PascalCase con sufijo .component.ts | `CropListComponent` |
+| **Servicios** | PascalCase con sufijo .service.ts | `CropManagementService` |
+| **Interfaces** | PascalCase con sufijo .model.ts | `Crop`, `CreateCropRequest` |
+| **Métodos** | camelCase descriptivo | `loadCrops()`, `onCropSelected()` |
+| **Propiedades** | camelCase | `cropData`, `isLoading` |
+
+#### Ejemplo
+*Componentes*
+```ts
+// Archivo: crop-list.component.ts
+export class CropListComponent implements OnInit {
+  // Propiedades en camelCase
+  cropData: Crop[] = [];
+  isLoading: boolean = false;
+  
+  // Métodos descriptivos
+  loadCrops(): void { }
+  onCropSelected(crop: Crop): void { }
+}
+```
+
+*Servicios*
+```ts
+// Archivo: crop-management.service.ts
+@Injectable({
+  providedIn: 'root'
+})
+export class CropManagementService {
+  private apiUrl = environment.apiUrl + '/crops';
+  
+  getCrops(): Observable<Crop[]> { }
+  createCrop(crop: CreateCropRequest): Observable<Crop> { }
+}
+```
+
+### Convenciones de Código Angular
+
+| **Aspecto** | **Convención** |
+|-------------|----------------|
+| **Change Detection** | Usar `OnPush` cuando sea posible |
+| **Manejo de Subscripciones** | Implementar `OnDestroy` para limpiar |
+| **Optimización ngFor** | Usar funciones `trackBy` |
+| **Manejo de Errores** | Implementar error handling en servicios |
+
+#### Ejemplo
+```ts
+export class CropListComponent implements OnInit, OnDestroy {
+  private destroy$ = new Subject<void>();
+  
+  ngOnInit(): void {
+    this.cropService.getCrops()
+      .pipe(takeUntil(this.destroy$))
+      .subscribe(crops => this.crops = crops);
+  }
+  
+  ngOnDestroy(): void {
+    this.destroy$.next();
+    this.destroy$.complete();
+  }
+  
+  trackByCropId(index: number, crop: Crop): number {
+    return crop.id;
+  }
+}
+```
+
+*Estilos SCSS*
+```ts
+$primary-color: #2E7D32;
+$secondary-color: #4CAF50;
+
+@mixin button-style($bg-color, $text-color: white) {
+  background-color: $bg-color;
+  color: $text-color;
+  border-radius: 4px;
+  padding: 8px 16px;
+}
+
+.crop-card {
+  &__header {
+    @include button-style($primary-color);
+  }
+  
+  &__content {
+    padding: 16px;
+  }
+}
+```
+
+## Convenciones para Java Spring Boot (Backend)
+
+### Estructura de Proyecto Spring Boot
+
+| **Paquete** | **Propósito** |
+|-------------|---------------|
+| `com.ecocrop.smartcrop.config/` | Configuraciones de la aplicación |
+| `com.ecocrop.smartcrop.controller/` | Controladores REST |
+| `com.ecocrop.smartcrop.service/` | Lógica de negocio |
+| `com.ecocrop.smartcrop.repository/` | Acceso a datos |
+| `com.ecocrop.smartcrop.model/` | Entidades JPA |
+| `com.ecocrop.smartcrop.dto/` | Data Transfer Objects |
+| `com.ecocrop.smartcrop.exception/` | Manejo de excepciones |
+| `com.ecocrop.smartcrop.security/` | Configuración de seguridad |
+| `com.ecocrop.smartcrop.util/` | Utilidades |
+
+### Nomenclatura Java Spring Boot
+
+| **Tipo** | **Convención** | **Ejemplo** |
+|----------|----------------|-------------|
+| **Controladores** | PascalCase con sufijo Controller | `CropController` |
+| **Servicios** | PascalCase con sufijo Service | `CropService` |
+| **Entidades** | PascalCase | `Crop`, `User` |
+| **Repositorios** | PascalCase con sufijo Repository | `CropRepository` |
+| **DTOs** | PascalCase con sufijo Dto | `CreateCropRequestDto` |
+| **Métodos** | camelCase descriptivo | `findCropsByUserId()` |
+
+
+#### Ejemplo
+*Controladores*
+```ts
+$primary-color: #2E7D32;
+$secondary-color: #4CAF50;
+
+@mixin button-style($bg-color, $text-color: white) {
+  background-color: $bg-color;
+  color: $text-color;
+  border-radius: 4px;
+  padding: 8px 16px;
+}
+
+.crop-card {
+  &__header {
+    @include button-style($primary-color);
+  }
+  
+  &__content {
+    padding: 16px;
+  }
+}
+```
+
+*Servicios*
+```ts
+@Service
+@Transactional
+public class CropService {
+    
+    private final CropRepository cropRepository;
+    private final UserService userService;
+    
+    public List<Crop> findCropsByUserId(Long userId) {
+        return cropRepository.findByUserIdAndActiveTrue(userId);
+    }
+    
+    @Transactional
+    public Crop createCrop(CreateCropRequestDto request, Long userId) {
+        // Implementation
+    }
+}
+```
+
+### Anotaciones Spring Boot
+
+| **Anotación** | **Propósito** |
+|---------------|---------------|
+| `@RestController` | Define controladores REST |
+| `@Service` | Define servicios de negocio |
+| `@Repository` | Define repositorios de datos |
+| `@Entity` | Define entidades JPA |
+| `@Transactional` | Manejo de transacciones |
+| `@Validated` | Validación de parámetros |
+
+## Convenciones para Landing Page
+
+### Estructuración HTML
+
+| **Elemento** | **Convención** |
+|--------------|----------------|
+| **Etiquetas Semánticas** | Usar `<header>`, `<main>`, `<nav>`, `<footer>` |
+| **Atributos ARIA** | Implementar `role`, `aria-label`, `aria-expanded` |
+| **Encabezados** | Jerarquía adecuada H1-H6 |
+| **Formularios** | Etiquetas `label` asociadas a inputs |
+
+#### Ejemplo
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoCrop - Smart Farming with IoT</title>
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-nav" role="navigation" aria-label="Main Navigation">
+            <!-- Navigation -->
+        </nav>
+    </header>
+    
+    <main class="main-content">
+        <section class="hero-section" aria-labelledby="hero-title">
+            <h1 id="hero-title">Maximize Your Harvest with IoT Technology</h1>
+        </section>
+        
+        <section class="features-section" aria-labelledby="features-title">
+            <h2 id="features-title">Features of SmartCrop</h2>
+        </section>
+    </main>
+    
+    <footer class="main-footer" role="contentinfo">
+        <!-- Footer content -->
+    </footer>
+</body>
+</html>
+```
+
+### Convenciones CSS
+
+| **Aspecto** | **Convención** |
+|-------------|----------------|
+| **Metodología** | BEM (Block Element Modifier) |
+| **Variables CSS** | Definir en `:root` |
+| **Responsive Design** | Mobile-first approach |
+| **Organización** | Modular por componentes |
+
+#### Ejemplo
+```css
+/* CSS Variables */
+:root {
+  --primary-color: #2E7D32;
+  --secondary-color: #4CAF50;
+  --accent-color: #8BC34A;
+  --text-primary: #212121;
+  --text-secondary: #757575;
+  --spacing-xs: 8px;
+  --spacing-sm: 16px;
+  --spacing-md: 24px;
+  --spacing-lg: 32px;
+  --border-radius: 4px;
+}
+
+/* BEM Methodology for Naming Convention */
+.hero-section {
+  padding: var(--spacing-lg) var(--spacing-md);
+}
+
+.hero-section__title {
+  font-size: 2.5rem;
+  color: var(--text-primary);
+  margin-bottom: var(--spacing-md);
+}
+
+.hero-section__subtitle {
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+  margin-bottom: var(--spacing-lg);
+}
+
+.hero-section__cta-button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: var(--spacing-sm) var(--spacing-lg);
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero-section__cta-button:hover {
+  background-color: var(--secondary-color);
+}
+
+.hero-section__cta-button:focus {
+  outline: 2px solid var(--accent-color);
+  outline-offset: 2px;
+}
+```
+
+### Convenciones JavaScript
+
+| **Aspecto** | **Convención** |
+|-------------|----------------|
+| **Variables** | `const` para valores fijos, `let` para variables |
+| **Funciones** | Nombres descriptivos en camelCase |
+| **Event Listeners** | Usar event delegation cuando sea posible |
+| **Módulos** | Organizar funcionalidad en módulos |
+
+#### Ejemplo
+```js
+// Application Configuration
+const APP_CONFIG = {
+  selectors: {
+    navigationToggle: '.nav-toggle',
+    mobileMenu: '.mobile-menu',
+    ctaButtons: '.cta-button',
+    contactForm: '#contact-form'
+  },
+  classes: {
+    active: 'active',
+    hidden: 'hidden',
+    loading: 'loading'
+  }
+};
+
+// Navigation Module
+const NavigationModule = {
+  init() {
+    this.bindEvents();
+  },
+
+  bindEvents() {
+    const toggleButton = document.querySelector(APP_CONFIG.selectors.navigationToggle);
+    const mobileMenu = document.querySelector(APP_CONFIG.selectors.mobileMenu);
+
+    if (toggleButton && mobileMenu) {
+      toggleButton.addEventListener('click', () => {
+        this.toggleMobileMenu(mobileMenu);
+      });
+    }
+  },
+
+  toggleMobileMenu(menu) {
+    menu.classList.toggle(APP_CONFIG.classes.active);
+    
+    // Update aria-expanded for accessibility
+    const isExpanded = menu.classList.contains(APP_CONFIG.classes.active);
+    menu.setAttribute('aria-expanded', isExpanded.toString());
+  }
+};
+
+// Form Module
+const FormModule = {
+  init() {
+    this.bindEvents();
+  },
+
+  bindEvents() {
+    const contactForm = document.querySelector(APP_CONFIG.selectors.contactForm);
+    
+    if (contactForm) {
+      contactForm.addEventListener('submit', (event) => {
+        this.handleFormSubmission(event);
+      });
+    }
+  },
+
+  async handleFormSubmission(event) {
+    event.preventDefault();
+    
+    const form = event.target;
+    const formData = new FormData(form);
+    
+    try {
+      form.classList.add(APP_CONFIG.classes.loading);
+      
+      const response = await this.submitForm(formData);
+      
+      if (response.ok) {
+        this.showSuccessMessage();
+        form.reset();
+      } else {
+        this.showErrorMessage();
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      this.showErrorMessage();
+    } finally {
+      form.classList.remove(APP_CONFIG.classes.loading);
+    }
+  },
+
+  async submitForm(formData) {
+    return fetch('/api/contact', {
+      method: 'POST',
+      body: formData
+    });
+  },
+
+  showSuccessMessage() {
+    // Implement success notification
+  },
+
+  showErrorMessage() {
+    // Implement error notification
+  }
+};
+
+// Application Initialization
+document.addEventListener('DOMContentLoaded', () => {
+  NavigationModule.init();
+  FormModule.init();
+});
+```
+
+## Formato del Código General
+
+| **Lenguaje** | **Sangría** | **Límite Línea** | **Comillas** | **Puntos y Coma** |
+|--------------|-------------|------------------|--------------|-------------------|
+| **Angular/TypeScript** | 2 espacios | 100 caracteres | Simple (`'`) | Obligatorio |
+| **Java** | 4 espacios | 120 caracteres | Doble (`"`) | Obligatorio |
+| **HTML/CSS/JS** | 2 espacios | 80 caracteres | HTML: Doble, JS: Simple | JS: Obligatorio |
+
+## Organización de Archivos
+
+### Estructura General del Proyecto
+
+| **Directorio** | **Contenido** |
+|----------------|---------------|
+| `frontend/` | Aplicación Angular |
+| `backend/` | API Spring Boot |
+| `landing-page/` | Landing page estática |
+| `docs/` | Documentación del proyecto |
+
+### Nomenclatura de Archivos
+
+| **Tecnología** | **Convención** | **Ejemplo** |
+|----------------|----------------|-------------|
+| **Angular** | kebab-case | `crop-management.component.ts` |
+| **Java** | PascalCase | `CropController.java` |
+| **HTML/CSS/JS** | kebab-case | `main-styles.css` |
+
+## Accesibilidad y SEO
+
+| **Área** | **Requisitos** |
+|----------|----------------|
+| **Accesibilidad** | Contraste 4.5:1, ARIA labels, navegación por teclado |
+| **SEO** | Meta tags, estructura semántica, JSON-LD |
+| **Performance** | Optimización de imágenes, lazy loading |
+| **Mobile** | Diseño responsive, touch-friendly |
+
+## Testing y Calidad del Código
+
+### Pruebas Frontend (Angular)
+
+| **Tipo Prueba** | **Herramientas** | **Cobertura Mínima** |
+|-----------------|------------------|----------------------|
+| **Unit Tests** | Jasmine/Karma | 80% |
+| **E2E Tests** | Protractor/Cypress | Critical paths |
+| **Integration Tests** | TestBed | Component interactions |
+
+### Pruebas Backend (Java/Spring Boot)
+
+| **Tipo Prueba** | **Herramientas** | **Cobertura Mínima** |
+|-----------------|------------------|----------------------|
+| **Unit Tests** | JUnit/Mockito | 85% |
+| **Integration Tests** | SpringBootTest | API endpoints |
+| **Security Tests** | Spring Security Test | Authentication/Authorization |
+
+## Uso de Gherkin
+
+### Convenciones Gherkin
+
+| **Aspecto** | **Convención** |
+|-------------|----------------|
+| **Idioma** | Español para todos los escenarios |
+| **Palabras Clave** | `Given`, `When`, `Then`, `And`, `But` |
+| **Estructura** | Background para configuración común |
+| **Datos** | Tablas para múltiples datos de entrada |
+| **Claridad** | Descripciones simples y directas |
+
+### Ejemplo de Escenario Gherkin
+
+```gherkin
+Feature: Gestión de Cultivos
+  Como agricultor registrado
+  Quiero poder gestionar mis cultivos
+  Para monitorear y optimizar mi producción
+
+  Scenario: Crear nuevo cultivo exitosamente
+    Given el agricultor está en la página de gestión de cultivos
+    When selecciona la opción "Añadir Cultivo"
+    And completa el formulario con datos válidos
+    And hace clic en "Guardar"
+    Then el sistema debe mostrar el mensaje "Cultivo creado exitosamente"
+    And el nuevo cultivo debe aparecer en la lista de cultivos
+```
+
+<br><br>
+
+### 5.1.4. Software Deployment Configuration
+
+En esta sección se especifica la configuración completa del despliegue de la solución SmartCrop, incluyendo todos los pasos necesarios para lograr el despliegue satisfactorio de cada componente de la arquitectura desde los repositorios de código fuente hasta los entornos de producción.
+
+
+
+## Arquitectura de Despliegue
+
+Nuestra solución consta de tres componentes principales que requieren estrategias de despliegue diferenciadas:
+
+1. **Landing Page Estática** - Desplegada en GitHub Pages
+2. **Frontend Web Application (Angular)** - Desplegada en Netlify/Vercel
+3. **Backend API RESTful (Spring Boot)** - Desplegada en Railway/Heroku
+
+<br>
+
+<div style="border: 2px solid #f39c12; padding: 15px; background-color: #775617ff; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 800px;">
+  <strong >Nota:</strong> Los pasos descritos están sujetos a investigación autodidacta. Los métodos de despliegue pueden variar según los requerimientos específicos del curso, los cuales aún no han sido definidos en clase.
+</div>
+
+<br>
+
+---
+
+## 1. Landing Page - Despliegue en GitHub Pages
+
+### 1.1. Estructura del Repositorio
+
+```
+smartcrop-landing/
+├── index.html                  # Página principal
+├── assets/
+│   ├── css/
+│   │   ├── styles.css         # Estilos principales
+│   │   └── fonts.css          # Fuentes tipográficas
+│   ├── js/
+│   │   ├── main.js            # JavaScript principal
+│   │   └── components/        # Componentes modulares
+│   ├── images/                # Imágenes optimizadas
+│   └── fonts/                 # Fuentes locales
+├── pages/                     # Páginas adicionales
+│   ├── about.html
+│   ├── pricing.html
+│   └── contact.html
+├── .gitignore
+├── README.md
+└── CNAME                      # Para dominio personalizado
+```
+
+### 1.2. Configuración de GitHub Pages
+
+#### Paso 1: Preparación del Repositorio
+```bash
+# Crear repositorio local
+git init smartcrop-landing
+cd smartcrop-landing
+
+# Configurar repositorio remoto
+git remote add origin https://github.com/EcoCrop-UPC/smartcrop-landing.git
+
+# Estructura inicial
+mkdir -p assets/{css,js,images,fonts}
+mkdir pages
+
+# Commit inicial
+git add .
+git commit -m "Initial landing page structure"
+git push -u origin main
+```
+
+#### Paso 2: Activación de GitHub Pages
+1. Navegar a **Settings** en el repositorio de GitHub
+2. Ir a la sección **Pages** en el menú lateral
+3. En **Source**, seleccionar **Deploy from a branch**
+4. Seleccionar rama **main** y carpeta **/ (root)**
+5. Hacer clic en **Save**
+
+#### Paso 3: Configuración del Dominio Personalizado
+```bash
+echo "smartcrop.ecocrop.com" > CNAME
+
+# Commit y push
+git add CNAME
+git commit -m "Add custom domain configuration"
+git push origin main
+```
+<br>
+
+## 2. Frontend Web Application - Despliegue en Netlify
+
+### 2.1. Estructura del Proyecto Angular
+
+```
+smartcrop-frontend/
+├── src/
+│   ├── app/                   # Código fuente Angular
+│   ├── assets/               # Assets estáticos
+│   ├── environments/         # Configuraciones de entorno
+│   └── main.ts              # Punto de entrada
+├── angular.json             # Configuración Angular CLI
+├── package.json            # Dependencias
+├── netlify.toml           # Configuración Netlify
+├── _redirects            # Reglas de redirección SPA
+└── README.md
+```
+
+### 2.2. Configuración de Entornos
+
+#### Ambiente de Desarrollo
+```typescript
+// src/environments/environment.ts
+export const environment = {
+  production: false,
+  apiUrl: 'http://localhost:8080/api/v1',
+  weatherApiKey: 'dev_api_key',
+  analyticsId: '',
+  enableLogging: true
+};
+```
+
+#### Ambiente de Producción
+```typescript
+// src/environments/environment.prod.ts
+export const environment = {
+  production: true,
+  apiUrl: 'https://smartcrop-api.railway.app/api/v1',
+  weatherApiKey: process.env['WEATHER_API_KEY'],
+  analyticsId: 'G-XXXXXXXXXX',
+  enableLogging: false
+};
+```
+
+### 2.3. Configuración de Netlify
+
+#### netlify.toml
+```toml
+[build]
+  publish = "dist/smartcrop-frontend"
+  command = "npm run build:prod"
+
+[build.environment]
+  NODE_VERSION = "18.17.0"
+  NPM_VERSION = "9.6.7"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  conditions = {Role = ["admin"], Country = ["US"]}
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[dev]
+  command = "ng serve"
+  port = 4200
+  publish = "dist"
+```
+
+#### _redirects
+```
+# SPA fallback
+/*    /index.html   200
+
+# API proxy para desarrollo
+/api/*  http://localhost:8080/api/:splat  200
+
+# Security headers
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+```
+---
+
+<br>
+
+## 3. Backend API - Despliegue en Railway
+
+### 3.1. Estructura del Proyecto Spring Boot
+
+```
+smartcrop-backend/
+├── src/
+│   ├── main/
+│   │   ├── java/com/ecocrop/smartcrop/
+│   │   └── resources/
+│   │       ├── application.yml
+│   │       ├── application-dev.yml
+│   │       ├── application-prod.yml
+│   │       └── db/migration/
+├── railway.json
+└── README.md
+```
+
+### 3.2. Configuración de Aplicación
+
+#### application.yml (Base)
+```yaml
+server:
+  port: ${PORT:8080}
+  servlet:
+    context-path: /api/v1
+
+spring:
+  application:
+    name: smartcrop-api
+  
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE:dev}
+    
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: false
+        
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+    
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: ${JWT_ISSUER_URI:http://localhost:8080}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus
+  endpoint:
+    health:
+      show-details: always
+
+logging:
+  level:
+    com.ecocrop.smartcrop: ${LOG_LEVEL:INFO}
+    org.springframework.security: DEBUG
+```
+
+#### application-prod.yml
+```yaml
+spring:
+  datasource:
+    url: ${DATABASE_URL}
+    username: ${DATABASE_USERNAME}
+    password: ${DATABASE_PASSWORD}
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 5
+      
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        show_sql: false
+        
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: ${JWT_ISSUER_URI}
+
+logging:
+  level:
+    com.ecocrop.smartcrop: INFO
+    org.springframework.web: WARN
+    org.springframework.security: WARN
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+```
+
+### 3.3. Configuración de Railway
+
+#### railway.json
+```json
+{
+  "build": {
+    "builder": "NIXPACKS",
+    "buildCommand": "./mvnw clean package -DskipTests"
+  },
+  "deploy": {
+    "startCommand": "java -Dserver.port=$PORT -jar target/smartcrop-api-*.jar",
+    "healthcheckPath": "/api/v1/actuator/health",
+    "healthcheckTimeout": 100,
+    "restartPolicyType": "ON_FAILURE",
+    "restartPolicyMaxRetries": 3
+  }
+}
+```
+
+<br><br>
+
+## 5.2. Landing Page, Services & Applications Implementation
+
+## 5.2.1. Sprint 1
+
+### 5.2.1.1. Sprint Planning 1 
+### 5.2.1.2. Aspect Leaders and Collaborators
+### 5.2.1.3. Sprint Backlog 1
+### 5.2.1.4. Development Evidence for Sprint Review
+### 5.2.1.5. Execution Evidence for Sprint Review
+### 5.2.1.6. Services Documentation Evidence for Sprint Review
+### 5.2.1.7. Software Deployment Evidence for Sprint Review
+### 5.2.1.8. Team Collaboration Insights during Sprint
