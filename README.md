@@ -2,36 +2,44 @@
 
 <img src="assets/images/common/logo/logo_upc.png" width="100">
 
-# UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
-## Ingeniería de Software
+##### UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
+#### Ingeniería de Software
+###### 5to ciclo
 
-## 5to ciclo
+<br>
 
-## Desarrollo de Aplicaciones Open Source
+#### Desarrollo de Aplicaciones Open Source
+#### **Sección:** 7357
 
-### **Sección:** 7357
+<br>
 
-### **Profesor:** Rafael Oswaldo Castro Veramendi
+#### **Profesor:** Rafael Oswaldo Castro Veramendi
+
+<br>
 
 ### Informe de Trabajo Final
+
+<br>
 
 ### "EcoCrop"
 
 ### "SmartCrop"
 
-### **Integrantes:**
+<br>
 
-- Ivan Fernando Sanchez Guevara - u202218181
-- Matias Rodolfo Salcedo Champi - u202319698
-- Jhosep Jamil Argomedo Camacho - u20231d978
-- Sebastian Ramirez Tello - u202316122
+### **Integrantes**
 
-### agosto, 2025
+Ivan Fernando Sanchez Guevara - u202218181 <br>
+Matias Rodolfo Salcedo Champi - u202319698 <br>
+Jhosep Jamil Argomedo Camacho - u20231d978 <br>
+Sebastian Ramirez Tello - u202316122
+
+### Septiembre, 2025
 </div>
 
 <br><br><br><br>
 
-**Url del proyecto**: https://github.com/SmartCrop-EcoCrop?view_as=public
+**Url del proyecto**: https://github.com/SmartCrop-EcoCrop
 
 
 ## Registro de Versiones del Informe
@@ -2400,7 +2408,39 @@ A continuación, se presenta cada una de las pantallas diseñadas para la landin
 ![Vista de registro](assets/images/CP4/applicatiob_web-mock_up/register.png)
 
 #### Vista de Iniciar Sesión
-![Vista de registro](assets/images/CP4/applicatiob_web-mock_up/login.png)
+![Vista de iniciar sesión](assets/images/CP4/applicatiob_web-mock_up/login.png)
+
+#### Vista de Dashboard
+![Vista de dashboard](assets/images/CP4/applicatiob_web-mock_up/dashboard.png)
+
+#### Vista de Foro
+![Vista de foro](assets/images/CP4/applicatiob_web-mock_up/foro.png)
+
+#### Vista de Clima
+![Vista de clima](assets/images/CP4/applicatiob_web-mock_up/weather.png)
+
+#### Vista de Noticias
+![Vista de noticias](assets/images/CP4/applicatiob_web-mock_up/noticies.png)
+
+#### Vista de Temperatura
+![Vista de temperatura](assets/images/CP4/applicatiob_web-mock_up/temperature.png)
+
+#### Vista de Monitoreo de Plantas
+![Vista de temperatura](assets/images/CP4/applicatiob_web-mock_up/plant_monitoring.png)
+
+#### Vista de Monitoreo de Plantas
+![Vista de temperatura](assets/images/CP4/applicatiob_web-mock_up/temporary_registration.png)
+
+#### Alertas y Notificaciones
+![Vista de alertas y notificaciones](assets/images/CP4/applicatiob_web-mock_up/alerts_notifications.png)
+
+#### Guías Prácticas
+![Vista de alertas y notificaciones](assets/images/CP4/applicatiob_web-mock_up/practical_guides.png)
+
+#### Dispositivos conectados
+![Vista de dispositivos conectados](assets/images/CP4/applicatiob_web-mock_up/connected_devices.png)
+
+
 
 <br><br>
 
@@ -3890,7 +3930,7 @@ En este sprint no fue contemplada la evidencia de implementacion de servicios
 <p>El despliegue corresponde a una versión parcialmente completa, donde se implementaron las secciones principales (Home, Partners, Servicios, Sobre Nosotros, Testimonios y Contacto), aunque se identificaron algunos errores menores y áreas de mejora que se abordarán en futuros sprints.</p>
 
 <h3>Enlace de acceso al despliegue:</h3>
-<p><a href="https://smartcrop-ecocrop.github.io" target="_blank">Landing Page de SmartCrop-EcoCrop</a></p>
+<p><a href="https://smartcrop-ecocrop.github.io/smartcrop.github.io/" target="_blank">Landing Page de SmartCrop-EcoCrop</a></p>
 
 <table>
   <thead>
