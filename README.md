@@ -3503,7 +3503,7 @@ management:
         </thead>
         <tbody>
             <tr>
-                <td>Elaborar y diseñar una landing page atractiva e informativa para la aplicación KapakID</td>
+                <td>Elaborar y diseñar una landing page atractiva e informativa para la aplicación SmartCrop</td>
                 <td>9</td>
                 <td>9</td>
             </tr>
@@ -3569,15 +3569,6 @@ Los aspectos considerados en el Sprint 1 son:
             <td>C</td>
             <td>C</td>
             <td>L</td>
-            <td>C</td>
-        </tr>
-        <tr>
-            <td>Emilia Mercedes Duran Santander</td>
-            <td>noacepto</td>
-            <td>C</td>
-            <td>C</td>
-            <td>C</td>
-            <td>C</td>
             <td>C</td>
         </tr>
     </tbody>
