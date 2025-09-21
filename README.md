@@ -2384,7 +2384,10 @@ A continuación, se presenta cada una de las pantallas diseñadas para la landin
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
 
-<!-- DESARROLLO -->
+<figure>
+      <img src="images/WireframeLandingSmartCrop.jpg" alt="Foto de Wireframe Web Application" width="800">
+       
+    </figure>
 
 <br><br>
 
@@ -4011,3 +4014,5 @@ En este sprint no fue contemplada la evidencia de implementacion de servicios
 https://agriculture.basf.com/pe/es/contenidos-de-agricultura/cambio-climatico-y-agricultura-cual-es-el-impacto
 
 https://www.bancomundial.org/es/topic/climate-smart-agriculture 
+
+[def]: mages/WireframeLandingSmartCrop.jpg.pn
