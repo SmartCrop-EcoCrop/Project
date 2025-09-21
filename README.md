@@ -3830,37 +3830,201 @@ Los aspectos considerados en el Sprint 1 son:
 ### 5.2.1.5. Execution Evidence for Sprint Review
 En esta sección se presenta la evidencia de lo desarrollado durante el Sprint 1, correspondiente al avance de la Landing Page de SmartCrop-EcoCrop.
 La entrega incluye la página de inicio (sección hero), la sección de socios y el pie de página responsive, las páginas de Servicios y Sobre Nosotros, y la sección de testimonios con un formulario de contacto.
+---
+
+#### Landing Page Completa
+
+| Evidencia |
+|-----------|
+| ![Landing Page Completa](<resources/Cap-5/Landing-page-SS/Completelandingpage.png>) |
+
+Descripción: Captura de la **Landing Page** mostrando la estructura general, la navegación principal y la coherencia visual con la identidad del proyecto.
+
+---
+
+#### Home de la Landing Page
+
+| Evidencia |
+|-----------|
+| ![Home Landing Page](<images/landing-home-hero.png>) |
+
+Descripción: Vista principal de la página, diseñada para transmitir confianza y destacar el valor de **SmartCrop** desde el primer contacto con el usuario.
+
+---
+
+#### Apartado de Partners and footers
+
+| Evidencia |
+|-----------|
+| ![Partners and footers](<images/landing-partners-footer-responsive.png>) |
+
+Descripción: Sección que comunica los beneficios principales de la plataforma. Cada beneficio se presenta de forma clara y diferenciada, con un diseño orientado a la rápida comprensión del usuario.
+
+---
+
+#### About us
+
+| Evidencia |
+|-----------|
+| ![About us](<images/service-about-us.png>) |
+
+Descripción: Ejemplos de uso y testimonios simulados que refuerzan la propuesta de valor de **SmartCrop** mediante experiencias positivas y resultados tangibles.
+
+---
+
+#### Contacto
+
+| Evidencia |
+|-----------|
+| ![Contacto](<images/contact-form.png>) |
+
+Descripción: Sección de contacto que incluye datos relevantes, facilitando la comunicación con usuarios interesados o stakeholders potenciales.
+
+---
+
+#### Observaciones Finales del Sprint Review
+
+- La Landing Page desarrollada cumple con los objetivos planteados para el **Sprint 1**.  
+- Se validó la coherencia visual con la guía de estilos del proyecto.  
+- Se priorizó la claridad de la propuesta de valor y la usabilidad básica en todos los apartados.
+
 ### 5.2.1.6. Services Documentation Evidence for Sprint Review
 En este sprint no fue contemplada la evidencia de implementacion de servicios
 ### 5.2.1.7. Software Deployment Evidence for Sprint Review
-Durante la **entrega del Sprint 1**, se realizó el despliegue inicial de la **Landing Page de SmartCrop**.  
-El despliegue corresponde a una versión **parcialmente completa**, donde se implementaron las secciones principales (Home, Beneficios, Casos de Éxito y Contacto), aunque se identificaron algunos errores menores y áreas de mejora que se abordarán en futuros sprints.
+<p>Durante la entrega del <b>Sprint 1</b>, se realizó el despliegue inicial de la Landing Page de <b>SmartCrop-EcoCrop</b>.</p>
 
-**Enlace de acceso al despliegue:**  
-[Landing Page de KapakID](https://f1ntrack.github.io/landingPagePrueba/)
+<p>El despliegue corresponde a una versión parcialmente completa, donde se implementaron las secciones principales (Home, Partners, Servicios, Sobre Nosotros, Testimonios y Contacto), aunque se identificaron algunos errores menores y áreas de mejora que se abordarán en futuros sprints.</p>
 
-| Aspecto evaluado      | Estado Sprint 1 | Observaciones |
-|------------------------|-----------------|---------------|
-| Disponibilidad         | ✔ Online        | Accesible mediante GitHub Pages. |
-| Home                   | ✔ Implementado  | Requiere optimización en tiempos de carga de imágenes. |
-| Beneficios             | ✔ Implementado  | Sección clara, pendiente ajuste tipográfico. |
-| Casos de Éxito         | ✔ Implementado  | Contenido simulado, se integrará real en Sprint 2. |
-| Contacto               | ✔ Implementado  | Falta validación completa en formulario. |
-| Bugs/Errores conocidos | ✖ Presentes     | Inconsistencias en responsive design (móviles). |
+<h3>Enlace de acceso al despliegue:</h3>
+<p><a href="https://smartcrop-ecocrop.github.io" target="_blank">Landing Page de SmartCrop-EcoCrop</a></p>
 
----
+<table>
+  <thead>
+    <tr>
+      <th>Aspecto evaluado</th>
+      <th>Estado Sprint 1</th>
+      <th>Observaciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Disponibilidad</td>
+      <td>&#10003; Online</td>
+      <td>Accesible mediante GitHub Pages.</td>
+    </tr>
+    <tr>
+      <td>Home</td>
+      <td>&#10003; Implementado</td>
+      <td>Requiere optimización en tiempos de carga de imágenes.</td>
+    </tr>
+    <tr>
+      <td>Partners y Pie de Página</td>
+      <td>&#10003; Implementado</td>
+      <td>Secciones claras, pendiente de ajustes tipográficos y de diseño responsivo en algunos puntos.</td>
+    </tr>
+    <tr>
+      <td>Servicios y Sobre Nosotros</td>
+      <td>&#10003; Implementado</td>
+      <td>Contenido inicial y estructura definida, se completará en siguientes sprints.</td>
+    </tr>
+    <tr>
+      <td>Testimonios y Formulario de Contacto</td>
+      <td>&#10003; Implementado</td>
+      <td>Falta validación completa en el formulario y manejo de errores.</td>
+    </tr>
+    <tr>
+      <td>Bugs/Errores conocidos</td>
+      <td>&#10007; Presentes</td>
+      <td>Inconsistencias en responsive design (móviles) y errores menores de maquetación.</td>
+    </tr>
+  </tbody>
+</table>
+
 ### 5.2.1.8. Team Collaboration Insights during Sprint
 
+<h2>Colaboración del Equipo</h2>
+<p>La colaboración del equipo durante el <b>Sprint 1</b> se organizó en torno a la implementación de secciones específicas de la Landing Page de <b>SmartCrop-EcoCrop</b>, promoviendo la <b>distribución equitativa de responsabilidades</b> y el <b>trabajo en paralelo</b>.</p>
 
+<table>
+  <thead>
+    <tr>
+      <th>Integrante</th>
+      <th>Actividad Principal</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Joshep Argomedo</td>
+      <td>Implementación del <b>header y la sección Home</b> (estructura general y navegación).</td>
+    </tr>
+    <tr>
+      <td>Matias Salcedo</td>
+      <td>Desarrollo del apartado <b>Partners y Pie de Página</b>, con maquetación y estilos iniciales.</td>
+    </tr>
+    <tr>
+      <td>Sebastian Ramirez</td>
+      <td>Creación de las secciones <b>Servicios y Sobre Nosotros</b>, incluyendo estructura y placeholders.</td>
+    </tr>
+    <tr>
+      <td>Ivan Fernando</td>
+      <td>Implementación del módulo <b>Testimonios y Formulario de Contacto</b>.</td>
+    </tr>
+    <tr>
+      <td>El Equipo</td>
+      <td>Integración general y pruebas iniciales (responsive design, enlaces internos).</td>
+    </tr>
+  </tbody>
+</table>
 
+<h3>Evidencia Gráfica del Trabajo en Equipo</h3>
+<h4>Evidencia Colaborativa</h4>
+<img src="images/topcommiters.png" alt="Evidencia Colaborativa del trabajo en equipo" style="width:100%; height:auto;">
 
-
-
-
-
+<h3>Observaciones del Trabajo Colaborativo</h3>
+<ul>
+  <li>Se logró una integración temprana de las secciones en una sola rama de desarrollo.</li>
+  <li>Se utilizó control de versiones en GitHub para organizar `pull requests` y revisiones.</li>
+  <li>La comunicación del equipo permitió identificar rápidamente errores de diseño responsive.</li>
+  <li>El reparto de actividades permitió avanzar de manera equilibrada, reduciendo dependencias.</li>
+</ul>
 
 ## Conclusiones
+<h2>Conclusiones</h2>
+<p>El proyecto <b>SmartCrop-EcoCrop</b> ha logrado definir y materializar componentes fundamentales durante el Sprint 1, tales como la landing page y sus secciones principales (Home, Partners y Pie de Página, Servicios, Sobre Nosotros, Testimonios y Contacto). Estos avances evidencian un enfoque claro en transmitir la propuesta de valor y generar confianza en los usuarios desde el primer contacto. Sin embargo, la funcionalidad técnica de la plataforma aún se encuentra en fases iniciales, lo que implica que en los siguientes sprints será crucial fortalecer la integración con el backend y las funcionalidades principales del producto.</p>
+
+<p>Se observa un esfuerzo consistente en priorizar el diseño y la experiencia de usuario. La estructura de la landing page, la claridad en la comunicación del valor del producto y la navegación intuitiva son fortalezas del proyecto. Aun así, persisten oportunidades de mejora en aspectos técnicos como la velocidad de carga, la optimización para dispositivos móviles y la consistencia tipográfica. Las evaluaciones heurísticas y futuras pruebas con usuarios permitirán identificar ajustes que mejoren aún más la usabilidad y refuercen la percepción de confiabilidad de la plataforma.</p>
+
+<p>El equipo ha mostrado una organización adecuada, distribuyendo responsabilidades de forma clara y utilizando prácticas ágiles basadas en sprints. Esto ha permitido avanzar de manera incremental y documentada. Sin embargo, se identifica la necesidad de incorporar <b>feedback real de usuarios finales</b> para validar las hipótesis de valor y usabilidad. El éxito del proyecto dependerá no solo de la calidad técnica y del diseño, sino también de su aceptación y pertinencia en el contexto social y tecnológico en el que busca posicionarse.</p>
+
 ### Conclusiones y recomendaciones.
 ### Video About-the-Team.
 ## Bibliografía
+
+- Nielsen Norman Group. *10 Usability Heuristics for User Interface Design*.  
+  Disponible en: [https://www.nngroup.com/articles/ten-usability-heuristics/](https://www.nngroup.com/articles/ten-usability-heuristics/)
+
+- Nielsen Norman Group. *How to Rate the Severity of Usability Problems*.  
+  Disponible en: [https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/](https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/)
+
+- Gothelf, Jeff; Seiden, Josh. *Lean UX: Designing Great Products with Agile Teams*.  
+  O’Reilly Media.
+
+- Microsoft Docs. *TypeScript Handbook*.  
+  Disponible en: [https://www.typescriptlang.org/docs/handbook/intro.html](https://www.typescriptlang.org/docs/handbook/intro.html)
+
+- Astro Documentation. *Astro Framework Documentation*.  
+  Disponible en: [https://docs.astro.build](https://docs.astro.build)
+
+- Tidwell, Jenifer. *Designing Interfaces: Patterns for Effective Interaction Design*.  
+  O’Reilly Media.
+
+- World Wide Web Consortium (W3C). *Web Content Accessibility Guidelines (WCAG)*.  
+  Disponible en: [https://www.w3.org/WAI/standards-guidelines/wcag/](https://www.w3.org/WAI/standards-guidelines/wcag/)
+
+- Sethi, P.; Sarangi, S. *Internet of Things: Architectures, Protocols, and Applications*.  
+  *Journal of Electrical and Computer Engineering*.
+
+- Google Web Fundamentals. *Web Performance Optimization Guidelines*.  
+  Disponible en: [https://developers.google.com/web/fundamentals/performance](https://developers.google.com/web/fundamentals/performance)
+
 ## Anexos
