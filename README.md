@@ -659,7 +659,7 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
     <figure>
       <img src="images/SSFABRICIO.png" alt="Foto de Fabricio Ninalaya" width="800">
     </figure>
-
+    <p><strong>Enlace:</strong> https://youtu.be/2TnTQfiONKo
   <h4>Resumen:</h4>
       
   <p>
@@ -681,7 +681,7 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
     <p><strong>Entrevistador:</strong> Salcedo Champi Matias</p>
     <!-- Imagen Fabrizio -->
     <figure>
-      <img src="images/SSFABRIZIO.png" alt="Foto de Fabrizio Bussalleu" width="800">
+      <img src="images/SSFABRIZIO.png" alt="Foto de Fabrizio Bussalleu" width="800"> <p><strong>Enlace:</strong> https://youtu.be/YaJFfobbJSY
     </figure>
 
   <h4>Resumen:</h4>
@@ -704,6 +704,7 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
     <!-- Imagen Santiago -->
     <figure>
       <img src="images/SSANTIAGO.png" alt="Foto de Santiago Baldeon" width="800">
+       <p><strong>Enlace:</strong> https://youtu.be/mD-3KxYuT_o
     </figure>
 
   <h4>Resumen:</h4>
@@ -722,24 +723,27 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
     <!-- Imagen Erick -->
     <figure>
       <img src="images/SSERICK.png" alt="Foto de Erick Mendoza" width="800">
+       <p><strong>Enlace:</strong> https://youtu.be/nZbTjL-DmhY
     </figure>
 
   <h4>Resumen:</h4>
     <p>
     Erick Mendoza, gerente de operaciones de una asociación de papa en Ayacucho, explica que la mayor dificultad es la dispersión de la información, pues no tienen un registro claro de lo sembrado ni de las plagas presentes. Usan principalmente llamadas y WhatsApp, pero la información se pierde y no todos los agricultores participan. Erick considera esencial un sistema centralizado con alertas de plagas y clima, además de reportes de producción que consoliden el estado de la asociación. Destaca que la tecnología permitiría pasar de un manejo reactivo a uno preventivo, mejorando la planificación, la confianza y la sostenibilidad. Identifica como barreras el costo, la desconfianza en la tecnología y el nivel de alfabetización digital, pero asegura que con capacitación y soporte técnico se podrían superar.
     </p>
-<h3>Segundo segmento: (Alonso)</h3>
+<h3>Segundo segmento: (Angie)</h3>
     <p><strong>Segmento:</strong> Dirigentes</p>
-    <p><strong>Entrevistado:</strong> Alonso Muñiz</p>
-    <p><strong>Edad:</strong> 42 años</p>
+    <p><strong>Entrevistado:</strong> Angie Sarmiento</p>
+    <p><strong>Edad:</strong> 27 años</p>
     <p><strong>Rubro:</strong> Frutas</p>
     <p><strong>Ubicación:</strong> San Martín</p>
     <p><strong>Medio:</strong> Meet</p>
     <p><strong>Entrevistador:</strong> Salcedo Champi Matias</p>
     <!-- Imagen Alonso -->
     <figure>
-      <img src="images/SSALONSO.png" alt="Foto de Alonso Muñiz" width="800">
+      <img src="images/SSALONSO.png" alt="Foto de Angie Sarmiento" width="800">
     </figure>
+     <p><strong>Enlace:</strong> https://youtu.be/4AVMuAWlFkY
+     
 
   <h4>Resumen:</h4>
     <p>
@@ -756,7 +760,7 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
     <!-- Imagen Arturo -->
     <figure>
       <img src="images/SSARTURO.png" alt="Foto de Arturo Ore" width="800">
-    </figure>
+    </figure> <p><strong>Enlace:</strong> https://youtu.be/PnlvWFOvuos
 
   <h4>Resumen:</h4>
     <p>
