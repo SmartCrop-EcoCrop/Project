@@ -4016,3 +4016,7 @@ En este sprint no fue contemplada la evidencia de implementacion de servicios
   Disponible en: [https://developers.google.com/web/fundamentals/performance](https://developers.google.com/web/fundamentals/performance)
 
 ## Anexos
+
+https://agriculture.basf.com/pe/es/contenidos-de-agricultura/cambio-climatico-y-agricultura-cual-es-el-impacto
+
+https://www.bancomundial.org/es/topic/climate-smart-agriculture 
