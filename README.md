@@ -2382,24 +2382,86 @@ A continuación, se presenta cada una de las pantallas diseñadas para la landin
 <br><br>
 
 ## 4.4. Web Applications UX/UI Design
+En esta sección presentamos la propuesta de experiencia de usuario (UX) y la interfaz (UI) para las **Web Applications** de SmartCrop. Aquí describimos cómo traducimos los requerimientos funcionales y el mapa de interacción en pantallas y flujos que guían al usuario a cumplir sus tareas de forma clara, rápida y agradable.
 ### 4.4.1. Web Applications Wireframes
 
-<figure>
-      <img src="images/WireframeLandingSmartCrop.jpg" alt="Foto de Wireframe Web Application" width="800">
-       
-    </figure>
+Esta sección presenta los wireframes de nuestra Startup, diseñados aplicando principios de diseño centrado en el usuario, accesibilidad e inclusión.
+Se prioriza una arquitectura de información clara y herramientas especializadas para garantizar una experiencia de usuario fluida y eficiente.
 
+**LOGIN:**
+<img width="837" height="467" alt="login" src="https://github.com/user-attachments/assets/3d33c598-e359-4faf-a7ad-6018b1e82809" />
+**RESGISTRO:**
+<img width="832" height="468" alt="Registro" src="https://github.com/user-attachments/assets/08faa6e3-e8e1-45d0-abca-660ceee1da98" />
+**DASHBOARD:**
+<img width="333" height="643" alt="Dashboard" src="https://github.com/user-attachments/assets/c0aea1cb-9ecc-4e12-a5f8-883ca3ad75c6" />
+**TEMPERATURA:**
+<img width="736" height="487" alt="Temperatura" src="https://github.com/user-attachments/assets/4580fcfb-0c80-4e5d-8736-21fe2711e010" />
+**MONITOREO DE PLANTAS:**
+<img width="363" height="367" alt="MonitoreoPlantas" src="https://github.com/user-attachments/assets/d9b4500b-4743-476d-bf49-ca74c2385be6" />
+**RESGITRO TEMPORAL:**
+<img width="366" height="547" alt="REGISTROTEMP" src="https://github.com/user-attachments/assets/6e1fda79-8564-4c87-b892-8d530a1a6bb5" />
+**CLIMA:**
+<img width="390" height="393" alt="CLIMA" src="https://github.com/user-attachments/assets/8a0216d9-0e6a-4e68-9850-f0e704eae124" />
+**NOTICIAS:**
+<img width="507" height="506" alt="Noticias" src="https://github.com/user-attachments/assets/08094af5-f4f6-49b0-8dc2-4049e93d3b02" />
+**FORO:**
+<img width="533" height="535" alt="Foro" src="https://github.com/user-attachments/assets/60fa4d68-be04-4ffd-82a3-1addb9f5bb5c" />
+**ALERTAS Y NOTIFICACIONES:**
+<img width="372" height="376" alt="Alertas" src="https://github.com/user-attachments/assets/67c76a49-96ef-4de4-a1f3-ee9d8193e282" />
+**GUIAS PRACTICAS:**
+<img width="615" height="582" alt="Guias" src="https://github.com/user-attachments/assets/ba9603c7-9700-4c5c-b6d0-dfa1c85fb808" />
+**DISPOSITIVOS CONECTADOS:**
+<img width="545" height="281" alt="DispConectados" src="https://github.com/user-attachments/assets/76da1748-d4a2-44d1-99a0-0e5fdc54fb58" />
 <br><br>
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
-<!-- DESARROLLO -->
+Esta sección presenta los wireframes de nuestra Startup, diseñados aplicando principios de diseño centrado en el usuario, accesibilidad e inclusión.
+Se prioriza una arquitectura de información clara y herramientas especializadas para garantizar una experiencia de usuario fluida y eficiente.
+
+<img width="1102" height="773" alt="Diagrama" src="https://github.com/user-attachments/assets/c0c1fdf0-84c8-4a9d-990d-6b7030c0986f" />
+[FIGMA]([https://www.figma.com/design/d0Sli9JvzTQ1D3KAfiZ5j3/Untitled?node-id=14-1166&t=TtypjMW7nooE7PlE-1](https://www.figma.com/design/jILSIe6KlS8YXDDpyLKZ1C/SmartCrop---Application-Web?node-id=0-1&t=2SHdntReYkLBJrUJ-1))
 
 <br><br>
 
 ### 4.4.3. Web Applications Mock-ups
 
-<!-- DESARROLLO -->
+**LOGIN:**
+<img width="946" height="585" alt="Login2" src="https://github.com/user-attachments/assets/8c88b32c-899f-43c4-b0d4-bed99f94b55f" />
+
+**REGISTRO:**
+<img width="645" height="395" alt="Register" src="https://github.com/user-attachments/assets/0f47e1a2-1f2a-4062-9545-1645986f74aa" />
+
+**DASHBOARD:**
+<img width="412" height="781" alt="Dashboard2" src="https://github.com/user-attachments/assets/405c5998-402d-4eff-bd2d-5f3a1e4e8f93" />
+
+**TEMPERATURA:**
+<img width="580" height="357" alt="Temperatura2" src="https://github.com/user-attachments/assets/6540dd36-2e14-4b9a-afd4-bce320787ea3" />
+
+**MONITOREO DE PLANTAS:**
+<img width="580" height="512" alt="Monitoreo2" src="https://github.com/user-attachments/assets/f760d096-5bcd-4516-bff4-1ce32e2a73c2" />
+
+**REGISTRO TEMPORAL:**
+<img width="572" height="465" alt="RegistroTemp2" src="https://github.com/user-attachments/assets/0a65e95c-585a-41bc-ae02-55aa47d899bb" />
+
+**CLIMA:**
+<img width="357" height="218" alt="Clima2" src="https://github.com/user-attachments/assets/c81d359c-da99-4981-8c51-2aabc430bc4b" />
+
+**NOTICIAS:**
+<img width="576" height="473" alt="Noticias2" src="https://github.com/user-attachments/assets/6b2d7eac-df50-4c39-bb4a-6d06de54e444" />
+
+**FORO:**
+<img width="678" height="616" alt="Foro2" src="https://github.com/user-attachments/assets/7b0d2776-49fb-4333-a92c-c0e0a5df69ca" />
+
+**ALERTAS Y NOTIFICACIONES:**
+<img width="577" height="527" alt="Alertas2" src="https://github.com/user-attachments/assets/e515bf23-2330-458b-a2b7-1966084de94b" />
+
+**GUIAS PRACTICAS:**
+<img width="578" height="550" alt="Guias2" src="https://github.com/user-attachments/assets/64697b5a-a1d6-4fe9-afc4-ebcf1702a8b7" />
+
+**DISPOSITIVOS CONECTADOS:**
+<img width="801" height="422" alt="DispConectado2" src="https://github.com/user-attachments/assets/a724dda6-4243-4fa0-87b0-271f2685992b" />
+
 
 <br><br>
 
