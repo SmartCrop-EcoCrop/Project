@@ -2474,8 +2474,262 @@ El diagrama de componentes se enfoca presisamente en la arquitectura interna de 
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
 
+<img src="assets/images/CP4/Diagrams_4_7_y_4_8/ClassDiagrams.png">
+
+### 4.7.2. Class Dictionary
+
+### -AGRICULTOR  
+Representa al usuario principal de la plataforma. Puede registrar cultivos, recibir alertas, interactuar en la comunidad, consultar expertos y gestionar sus dispositivos IoT.
+
+---
+
+### -CULTIVO  
+Entidad que contiene toda la información sobre los cultivos registrados por el agricultor, incluyendo su tipo, ubicación, estado y los dispositivos asociados para monitoreo.
+
+---
+
+### -PLANTA  
+Representa una planta específica dentro de un cultivo. Permite registrar su nombre científico, etapa de crecimiento y nivel de riesgo ante plagas.
+
+---
+
+### -DISPOSITIVOIOT  
+Agrupa los sensores y cámaras conectados a los cultivos. Permite enviar datos en tiempo real sobre temperatura, movimiento o condiciones del entorno.
+
+---
+
+### -CAMARAVIGILANCIA  
+Dispositivo especializado que permite capturar imágenes del cultivo y detectar movimiento. Está vinculado a un cultivo a través de su dispositivo base.
+
+---
+
+### -SENSORTEMPERATURA  
+Sensor que registra la temperatura actual del entorno del cultivo. Puede detectar cambios bruscos que afecten la salud de las plantas.
+
+---
+
+### -ALERTA  
+Mensajes generados automáticamente por sensores o el sistema ante eventos críticos como plagas, cambios climáticos o riesgos para el cultivo. Se envían directamente al agricultor.
+
+---
+
+### -NOTIFICACION  
+Mensajes enviados al agricultor para informar sobre eventos relevantes, actualizaciones del sistema, respuestas de expertos o interacciones en la comunidad.
+
+---
+
+### -PUBLICACION  
+Representa una publicación dentro de la red social de agricultores. Puede incluir consejos, experiencias, imágenes o preguntas abiertas a la comunidad.
+
+---
+
+### -COMENTARIO  
+Contiene los mensajes que un agricultor deja en una publicación. Permite la interacción directa entre usuarios para compartir ideas o resolver dudas.
+
+---
+
+### -CONSULTA  
+Registro de una pregunta técnica enviada por un agricultor a un experto. Incluye el mensaje, la fecha, y la respuesta proporcionada por el especialista.
+
+---
+
+### -EXPERTO  
+Persona especializada en temas agrícolas, plagas o clima. Responde consultas técnicas y está vinculada a una empresa de soporte.
+
+---
+
+### -EMPRESAANTIPLAGA  
+Entidad que agrupa expertos en control de plagas o asesoría meteorológica. Ofrece ayuda especializada a los agricultores registrados.
+
+---
+
+### -FORO  
+Espacio temático donde los agricultores pueden debatir, compartir experiencias o resolver problemas comunes. Cada foro agrupa múltiples mensajes.
+
+---
+
+### -MENSAJE  
+Contenido textual publicado por un agricultor dentro de un foro. Permite el intercambio de ideas y soluciones entre miembros de la comunidad.
+
+
+
 ## 4.8. Database Design
 ### 4.8.1. Database Diagrams
+
+<img src="assets/images/CP4/Diagrams_4_7_y_4_8/DataBaseDiagrams.png">
+
+#### 4.8.2. Database Dictionary
+
+### Tabla: `Agricultor`
+
+| Campo        | Tipo          | Clave | Nulo | Descripción                                  |
+|--------------|---------------|-------|------|----------------------------------------------|
+| idAgricultor | INT           | PK    | No   | Identificador único del agricultor           |
+| nombre       | VARCHAR(100)  |       | No   | Nombre del agricultor                        |
+| ubicacion    | VARCHAR(100)  |       | No   | Ubicación geográfica del agricultor          |
+| fotoPerfil   | TEXT          |       | Sí   | Foto de perfil del agricultor                |
+
+---
+
+### Tabla: `Cultivo`
+
+| Campo        | Tipo          | Clave                    | Nulo | Descripción                                  |
+|--------------|---------------|--------------------------|------|----------------------------------------------|
+| idCultivo    | INT           | PK                       | No   | Identificador del cultivo                    |
+| tipo         | VARCHAR(50)   |                          | No   | Tipo de cultivo                              |
+| ubicacion    | VARCHAR(100)  |                          | No   | Ubicación del cultivo                        |
+| estadoActual | VARCHAR(50)   |                          | No   | Estado actual del cultivo                    |
+| idAgricultor | INT           | FK → Agricultor(idAgricultor) | No   | Agricultor responsable del cultivo           |
+
+---
+
+### Tabla: `DispositivoIoT`
+
+| Campo         | Tipo         | Clave                    | Nulo | Descripción                                  |
+|---------------|--------------|--------------------------|------|----------------------------------------------|
+| idDispositivo | INT          | PK                       | No   | Identificador del dispositivo IoT            |
+| tipo          | VARCHAR(50)  |                          | No   | Tipo de dispositivo (sensor, cámara, etc.)   |
+| estado        | VARCHAR(50)  |                          | No   | Estado operativo del dispositivo             |
+| idCultivo     | INT          | FK → Cultivo(idCultivo)  | No   | Cultivo asociado al dispositivo              |
+
+---
+
+### Tabla: `CamaraVigilancia`
+
+| Campo      | Tipo | Clave                    | Nulo | Descripción                          |
+|------------|------|--------------------------|------|--------------------------------------|
+| idCamara   | INT  | PK                       | No   | Identificador de la cámara           |
+| idDispositivo | INT | FK → DispositivoIoT(idDispositivo) | No | Dispositivo base asociado            |
+
+---
+
+### Tabla: `SensorTemperatura`
+
+| Campo           | Tipo  | Clave                    | Nulo | Descripción                          |
+|------------------|-------|--------------------------|------|--------------------------------------|
+| idSensor         | INT   | PK                       | No   | Identificador del sensor             |
+| temperaturaActual| FLOAT |                          | No   | Lectura actual de temperatura        |
+| idDispositivo    | INT   | FK → DispositivoIoT(idDispositivo) | No | Dispositivo base asociado            |
+
+---
+
+### Tabla: `Alerta`
+
+| Campo         | Tipo         | Clave                    | Nulo | Descripción                                  |
+|---------------|--------------|--------------------------|------|----------------------------------------------|
+| idAlerta      | INT          | PK                       | No   | Identificador de la alerta                   |
+| tipo          | VARCHAR(50)  |                          | No   | Tipo de alerta (plaga, clima, etc.)          |
+| mensaje       | TEXT         |                          | No   | Mensaje de la alerta                         |
+| fechaGenerada | DATE         |                          | No   | Fecha de emisión de la alerta                |
+| esUrgente     | BIT          |                          | No   | Indica si la alerta es urgente               |
+| idCultivo     | INT          | FK → Cultivo(idCultivo)  | No   | Cultivo afectado por la alerta               |
+
+
+
+---
+
+### Tabla: `Notificacion`
+
+| Campo          | Tipo         | Clave                          | Nulo | Descripción                                      |
+|----------------|--------------|--------------------------------|------|--------------------------------------------------|
+| idNotificacion | INT          | PK                             | No   | Identificador único de la notificación           |
+| contenido      | TEXT         |                                | No   | Mensaje o contenido de la notificación           |
+| fecha          | DATE         |                                | No   | Fecha en que se generó la notificación           |
+| idAgricultor   | INT          | FK → Agricultor(idAgricultor)  | No   | Agricultor que recibe la notificación            |
+
+---
+
+
+### Tabla: `Publicacion`
+
+| Campo        | Tipo         | Clave                          | Nulo | Descripción                          |
+|--------------|--------------|--------------------------------|------|--------------------------------------|
+| idPublicacion| INT          | PK                             | No   | Identificador de la publicación      |
+| contenido    | TEXT         |                                | No   | Contenido compartido por el agricultor |
+| fecha        | DATE         |                                | No   | Fecha de publicación                 |
+| idAgricultor | INT          | FK → Agricultor(idAgricultor)  | No   | Autor de la publicación              |
+
+---
+
+### Tabla: `Comentario`
+
+| Campo        | Tipo         | Clave                          | Nulo | Descripción                          |
+|--------------|--------------|--------------------------------|------|--------------------------------------|
+| idComentario | INT          | PK                             | No   | Identificador del comentario         |
+| contenido    | TEXT         |                                | No   | Texto del comentario                 |
+| fecha        | DATE         |                                | No   | Fecha del comentario                 |
+| idAgricultor | INT          | FK → Agricultor(idAgricultor)  | No   | Autor del comentario                 |
+| idPublicacion| INT          | FK → Publicacion(idPublicacion)| No   | Publicación comentada                |
+
+---
+
+### Tabla: `Consulta`
+
+| Campo        | Tipo         | Clave                          | Nulo | Descripción                          |
+|--------------|--------------|--------------------------------|------|--------------------------------------|
+| idConsulta   | INT          | PK                             | No   | Identificador de la consulta         |
+| mensaje      | TEXT         |                                | No   | Pregunta enviada por el agricultor   |
+| fecha        | DATE         |                                | No   | Fecha de la consulta                 |
+| respuesta    | TEXT         |                                | Sí   | Respuesta del experto                |
+| idAgricultor | INT          | FK → Agricultor(idAgricultor)  | No   | Agricultor que consulta              |
+| idExperto    | INT          | FK → Experto(idExperto)        | No   | Experto que responde                 |
+
+---
+
+### Tabla: `Experto`
+
+| Campo        | Tipo          | Clave                    | Nulo | Descripción                                  |
+|--------------|---------------|--------------------------|------|----------------------------------------------|
+| idExperto    | INT           | PK                       | No   | Identificador único del experto              |
+| nombre       | VARCHAR(100)  |                          | No   | Nombre del experto                           |
+| campoEspecialidad | VARCHAR(100) |                      | No   | Área de especialización del experto          |
+| idEmpresa    | INT           | FK → EmpresaAntiPlaga(idEmpresa) | No | Empresa a la que pertenece el experto        |
+
+---
+
+### Tabla: `EmpresaAntiPlaga`
+
+| Campo        | Tipo          | Clave     | Nulo | Descripción                                  |
+|--------------|---------------|-----------|------|----------------------------------------------|
+| idEmpresa    | INT           | PK        | No   | Identificador de la empresa                  |
+| nombre       | VARCHAR(100)  |           | No   | Nombre de la empresa                         |
+| especialidad | VARCHAR(100)  |           | No   | Tipo de plagas o cultivos que atiende        |
+| contacto     | VARCHAR(100)  |           | No   | Información de contacto                      |
+
+---
+
+### Tabla: `Foro`
+
+| Campo     | Tipo          | Clave     | Nulo | Descripción                                  |
+|-----------|---------------|-----------|------|----------------------------------------------|
+| idForo    | INT           | PK        | No   | Identificador del foro                       |
+| tema      | VARCHAR(100)  |           | No   | Tema principal del foro                      |
+
+---
+
+### Tabla: `Mensaje`
+
+| Campo       | Tipo         | Clave                          | Nulo | Descripción                                  |
+|-------------|--------------|--------------------------------|------|----------------------------------------------|
+| idMensaje   | INT          | PK                             | No   | Identificador del mensaje                    |
+| contenido   | TEXT         |                                | No   | Contenido del mensaje                        |
+| fecha       | DATE         |                                | No   | Fecha de publicación                         |
+| idAgricultor| INT          | FK → Agricultor(idAgricultor)  | No   | Autor del mensaje                            |
+| idForo      | INT          | FK → Foro(idForo)              | No   | Foro al que pertenece el mensaje             |
+
+---
+
+### Tabla: `Planta`
+
+| Campo           | Tipo          | Clave                    | Nulo | Descripción                                  |
+|------------------|---------------|--------------------------|------|----------------------------------------------|
+| idPlanta         | INT           | PK                       | No   | Identificador único de la planta             |
+| nombreCientifico | VARCHAR(100)  |                          | No   | Nombre científico de la planta               |
+| etapaCrecimiento | VARCHAR(50)   |                          | No   | Etapa actual de crecimiento                  |
+| riesgoPlaga      | BIT           |                          | No   | Indica si hay riesgo de plaga                |
+| idCultivo        | INT           | FK → Cultivo(idCultivo)  | No   | Cultivo al que pertenece la planta           |
+
+---
 
 <br><br><br><br><br><br>
 
