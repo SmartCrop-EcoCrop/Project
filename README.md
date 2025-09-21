@@ -36,13 +36,48 @@
 
 ## Registro de Versiones del Informe
 
-
-| Version | Fecha    | Autor          | Descripción                                                                                                                                                                                                                               |
-|---------|----------|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| TB1     |  |    | Creación organización y repositorios en GitHub para proyecto final                                                                                                                                                                        |
-| TB1     | 13/09/25 | Fernando Sanchez    | Desarrollo del Capitulo 1 del informe                                                                                                                                                                                                     | 
-| TB1     |  |     | Documentación completa (5.2.1 -  5.2.1.8)                                                                                                                                                                                                 | 
-| TB1     |  |         | Desarrollo del Capitulo 3 del informe 4.8
+<table>
+  <thead>
+    <tr>
+      <th>Version</th>
+      <th>Fecha</th>
+      <th>Autor</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TB1</td>
+      <td></td>
+      <td></td>
+      <td>Creación organización y repositorios en GitHub para proyecto final</td>
+    </tr>
+    <tr>
+      <td>TB1</td>
+      <td>13/09/25</td>
+      <td>Fernando Sanchez</td>
+      <td>Desarrollo del Capitulo 1 del informe</td>
+    </tr>
+    <tr>
+      <td>TB1</td>
+      <td></td>
+      <td></td>
+      <td>Documentación completa (5.2.1 - 5.2.1.8)</td>
+    </tr>
+    <tr>
+      <td>TB1</td>
+      <td></td>
+      <td></td>
+      <td>Desarrollo del Capitulo 3 del informe 4.8</td>
+    </tr>
+    <tr>
+      <td>TB1</td>
+      <td>19/09/2025</td>
+      <td>Matias Rodolfo Salcedo Champi</td>
+      <td>Desarrollo del capitulo 2 del informe</td>
+    </tr>
+  </tbody>
+</table>
        
 
 ## Project Report Collaboration Insights
@@ -219,7 +254,7 @@ Nuestra visión es ser el principalmente un soporte para los agricultores, promo
 
 | <div align="center">Foto</div> | <div align="center">Descripción</div> |
 |------|-------------|
-| <p align="center"><img width="auto" height="auto" src=""> </p> | Soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), actualmente cursando el 5to ciclo de la carrera.Durante mi formación he adquirido conocimientos en diversas tecnologías y buenas prácticas de desarrollo. Mis principales fortalezas se encuentran en C++, HTML y Java, lenguajes en los que me desenvuelvo con mayor seguridad, aplicando conceptos de programación estructurada y orientada a objetos, así como el diseño de interfaces y el desarrollo de aplicaciones. Adicionalmente, he trabajado con SQL para la gestión de bases de datos, y con tecnologías web que me permiten tener una visión integral del desarrollo de software. Me considero una persona responsable, comprometida y con facilidad para el trabajo en equipo, cualidades que me impulsan a mejorar constantemente.  |
+| <p align="center"><img width="auto" height="auto" src="images/matiassalcedo.jpg"> </p> | Soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), actualmente cursando el 5to ciclo de la carrera.Durante mi formación he adquirido conocimientos en diversas tecnologías y buenas prácticas de desarrollo. Mis principales fortalezas se encuentran en C++, HTML y Java, lenguajes en los que me desenvuelvo con mayor seguridad, aplicando conceptos de programación estructurada y orientada a objetos, así como el diseño de interfaces y el desarrollo de aplicaciones. Adicionalmente, he trabajado con SQL para la gestión de bases de datos, y con tecnologías web que me permiten tener una visión integral del desarrollo de software. Me considero una persona responsable, comprometida y con facilidad para el trabajo en equipo, cualidades que me impulsan a mejorar constantemente.  |
 | <p align="center"><img width="auto" height="auto" src="images/commons/Fernandoprofile.png"></p> | Mi Nombre es Fernando Sanchez Guevara, tengo 21 años, actualmente me encuentro en el quinto ciclo de la carrera de Ingeniería de Software. Me considero alguien disiplinado respecto con la puntualidad y desarrollar de la mejor manera los deberes asignados. Ademas, me preocupo por mi equipo, tratando de que no tengan ningun problema respecto al trabajo, y darles la mano para poder ayudar cuando lo necesiten. | 
 | <p align="center"><img width="auto" height="auto" src=""></p>  |                                                                                                                                          |
 | <p align="center"><img width="auto" height="auto" src=""></p>         | |
