@@ -702,7 +702,7 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
     <p><strong>Entrevistador:</strong> Salcedo Champi Matias</p>
     <!-- Imagen Santiago -->
     <figure>
-      <img src="images/SSANTIAGO.png" alt="Foto de Santiago Baldeon" width="800">
+      <img src="images/SSANTI.png" alt="Foto de Santiago Baldeon" width="800">
        <p><strong>Enlace:</strong> https://youtu.be/mD-3KxYuT_o
     </figure>
 
@@ -739,14 +739,14 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
     <p><strong>Entrevistador:</strong> Salcedo Champi Matias</p>
     <!-- Imagen Alonso -->
     <figure>
-      <img src="images/SSALONSO.png" alt="Foto de Angie Sarmiento" width="800">
+      <img src="images/SSANGIE.png" alt="Foto de Angie Sarmiento" width="800">
     </figure>
      <p><strong>Enlace:</strong> https://youtu.be/4AVMuAWlFkY
      
 
   <h4>Resumen:</h4>
     <p>
-    Angie Sarmiento, coordinador técnico de una cooperativa de frutas en San Martín, comenta que uno de los principales problemas es la falta de información oportuna por parte de los agricultores, ya que reportan plagas cuando el daño ya está avanzado. Explica que cada técnico usa registros en Excel, pero no existe un sistema único ni en tiempo real. Para las alertas, dependen de llamadas o mensajes, lo que retrasa la reacción. Alonso ve como prioridad la detección temprana de plagas, alertas automáticas y reportes que respalden la calidad ante compradores y financistas. Reconoce que el costo y la conectividad son barreras, pero afirma que una solución tecnológica consolidada daría a la cooperativa más competitividad y confianza en el mercado.
+    Angie Sarmiento, coordinador técnico de una cooperativa de frutas en San Martín, comenta que uno de los principales problemas es la falta de información oportuna por parte de los agricultores, ya que reportan plagas cuando el daño ya está avanzado. Explica que cada técnico usa registros en Excel, pero no existe un sistema único ni en tiempo real. Para las alertas, dependen de llamadas o mensajes, lo que retrasa la reacción. Angie ve como prioridad la detección temprana de plagas, alertas automáticas y reportes que respalden la calidad ante compradores y financistas. Reconoce que el costo y la conectividad son barreras, pero afirma que una solución tecnológica consolidada daría a la cooperativa más competitividad y confianza en el mercado.
     </p>
      <h3>Segundo segmento: (Arturo)</h3>
     <p><strong>Segmento:</strong> Dirigentes</p>
