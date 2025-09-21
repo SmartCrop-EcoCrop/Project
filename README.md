@@ -88,8 +88,7 @@
 
 |          URL del repositorio de la landing page           |
 |:---------------------------------------------------------:|
-| https://smartcrop-ecocrop.github.io/smartcrop.github.io/
- |
+| https://smartcrop-ecocrop.github.io/smartcrop.github.io/|
 
 |          URL del repositorio del frontend          |
 |:---------------------------------------------------------:|
@@ -3878,7 +3877,7 @@ En este sprint no fue contemplada la evidencia de implementacion de servicios
 <p>El despliegue corresponde a una versión parcialmente completa, donde se implementaron las secciones principales (Home, Partners, Servicios, Sobre Nosotros, Testimonios y Contacto), aunque se identificaron algunos errores menores y áreas de mejora que se abordarán en futuros sprints.</p>
 
 <h3>Enlace de acceso al despliegue:</h3>
-<p><a href="https://smartcrop-ecocrop.github.io" target="_blank">Landing Page de SmartCrop-EcoCrop</a></p>
+<p><a href="https://smartcrop-ecocrop.github.io/smartcrop.github.io" target="_blank">Landing Page de SmartCrop-EcoCrop</a></p>
 
 <table>
   <thead>
