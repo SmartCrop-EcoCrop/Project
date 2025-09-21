@@ -92,11 +92,11 @@ Sebastian Ramirez Tello - u202316122
 
 |  URL de la organización del proyecto  |             URL del repositorio del reporte          |
 | :-----------------------------------: |:----------------------------------------------------:| 
-| (link del todo) | link(repo) |
+| https://github.com/SmartCrop-EcoCrop | https://github.com/SmartCrop-EcoCrop/Project |
 
 |          URL del repositorio de la landing page           |
 |:---------------------------------------------------------:|
-| link(landing page) |
+| https://smartcrop-ecocrop.github.io/smartcrop.github.io/|
 
 |          URL del repositorio del frontend          |
 |:---------------------------------------------------------:|
@@ -2390,20 +2390,51 @@ A continuación, se presenta cada una de las pantallas diseñadas para la landin
 <br><br>
 
 ## 4.4. Web Applications UX/UI Design
+En esta sección presentamos la propuesta de experiencia de usuario (UX) y la interfaz (UI) para las **Web Applications** de SmartCrop. Aquí describimos cómo traducimos los requerimientos funcionales y el mapa de interacción en pantallas y flujos que guían al usuario a cumplir sus tareas de forma clara, rápida y agradable.
 ### 4.4.1. Web Applications Wireframes
 
-<!-- DESARROLLO -->
+Esta sección presenta los wireframes de nuestra Startup, diseñados aplicando principios de diseño centrado en el usuario, accesibilidad e inclusión.
+Se prioriza una arquitectura de información clara y herramientas especializadas para garantizar una experiencia de usuario fluida y eficiente.
 
+**LOGIN:**
+<img width="837" height="467" alt="login" src="https://github.com/user-attachments/assets/3d33c598-e359-4faf-a7ad-6018b1e82809" />
+**RESGISTRO:**
+<img width="832" height="468" alt="Registro" src="https://github.com/user-attachments/assets/08faa6e3-e8e1-45d0-abca-660ceee1da98" />
+**DASHBOARD:**
+<img width="333" height="643" alt="Dashboard" src="https://github.com/user-attachments/assets/c0aea1cb-9ecc-4e12-a5f8-883ca3ad75c6" />
+**TEMPERATURA:**
+<img width="736" height="487" alt="Temperatura" src="https://github.com/user-attachments/assets/4580fcfb-0c80-4e5d-8736-21fe2711e010" />
+**MONITOREO DE PLANTAS:**
+<img width="363" height="367" alt="MonitoreoPlantas" src="https://github.com/user-attachments/assets/d9b4500b-4743-476d-bf49-ca74c2385be6" />
+**RESGITRO TEMPORAL:**
+<img width="366" height="547" alt="REGISTROTEMP" src="https://github.com/user-attachments/assets/6e1fda79-8564-4c87-b892-8d530a1a6bb5" />
+**CLIMA:**
+<img width="390" height="393" alt="CLIMA" src="https://github.com/user-attachments/assets/8a0216d9-0e6a-4e68-9850-f0e704eae124" />
+**NOTICIAS:**
+<img width="507" height="506" alt="Noticias" src="https://github.com/user-attachments/assets/08094af5-f4f6-49b0-8dc2-4049e93d3b02" />
+**FORO:**
+<img width="533" height="535" alt="Foro" src="https://github.com/user-attachments/assets/60fa4d68-be04-4ffd-82a3-1addb9f5bb5c" />
+**ALERTAS Y NOTIFICACIONES:**
+<img width="372" height="376" alt="Alertas" src="https://github.com/user-attachments/assets/67c76a49-96ef-4de4-a1f3-ee9d8193e282" />
+**GUIAS PRACTICAS:**
+<img width="615" height="582" alt="Guias" src="https://github.com/user-attachments/assets/ba9603c7-9700-4c5c-b6d0-dfa1c85fb808" />
+**DISPOSITIVOS CONECTADOS:**
+<img width="545" height="281" alt="DispConectados" src="https://github.com/user-attachments/assets/76da1748-d4a2-44d1-99a0-0e5fdc54fb58" />
 <br><br>
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
-<!-- DESARROLLO -->
+Esta sección presenta los wireframes de nuestra Startup, diseñados aplicando principios de diseño centrado en el usuario, accesibilidad e inclusión.
+Se prioriza una arquitectura de información clara y herramientas especializadas para garantizar una experiencia de usuario fluida y eficiente.
+
+<img width="1102" height="773" alt="Diagrama" src="https://github.com/user-attachments/assets/c0c1fdf0-84c8-4a9d-990d-6b7030c0986f" />
+[FIGMA]([https://www.figma.com/design/d0Sli9JvzTQ1D3KAfiZ5j3/Untitled?node-id=14-1166&t=TtypjMW7nooE7PlE-1](https://www.figma.com/design/jILSIe6KlS8YXDDpyLKZ1C/SmartCrop---Application-Web?node-id=0-1&t=2SHdntReYkLBJrUJ-1))
 
 <br><br>
 
 ### 4.4.3. Web Applications Mock-ups
 
+<<<<<<< HEAD
 #### Vista de Registro
 ![Vista de registro](assets/images/CP4/applicatiob_web-mock_up/register.png)
 
@@ -2439,8 +2470,6 @@ A continuación, se presenta cada una de las pantallas diseñadas para la landin
 
 #### Dispositivos conectados
 ![Vista de dispositivos conectados](assets/images/CP4/applicatiob_web-mock_up/connected_devices.png)
-
-
 
 <br><br>
 
@@ -2515,8 +2544,262 @@ El diagrama de componentes se enfoca presisamente en la arquitectura interna de 
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
 
+<img src="assets/images/CP4/Diagrams_4_7_y_4_8/ClassDiagrams.png">
+
+### 4.7.2. Class Dictionary
+
+### -AGRICULTOR  
+Representa al usuario principal de la plataforma. Puede registrar cultivos, recibir alertas, interactuar en la comunidad, consultar expertos y gestionar sus dispositivos IoT.
+
+---
+
+### -CULTIVO  
+Entidad que contiene toda la información sobre los cultivos registrados por el agricultor, incluyendo su tipo, ubicación, estado y los dispositivos asociados para monitoreo.
+
+---
+
+### -PLANTA  
+Representa una planta específica dentro de un cultivo. Permite registrar su nombre científico, etapa de crecimiento y nivel de riesgo ante plagas.
+
+---
+
+### -DISPOSITIVOIOT  
+Agrupa los sensores y cámaras conectados a los cultivos. Permite enviar datos en tiempo real sobre temperatura, movimiento o condiciones del entorno.
+
+---
+
+### -CAMARAVIGILANCIA  
+Dispositivo especializado que permite capturar imágenes del cultivo y detectar movimiento. Está vinculado a un cultivo a través de su dispositivo base.
+
+---
+
+### -SENSORTEMPERATURA  
+Sensor que registra la temperatura actual del entorno del cultivo. Puede detectar cambios bruscos que afecten la salud de las plantas.
+
+---
+
+### -ALERTA  
+Mensajes generados automáticamente por sensores o el sistema ante eventos críticos como plagas, cambios climáticos o riesgos para el cultivo. Se envían directamente al agricultor.
+
+---
+
+### -NOTIFICACION  
+Mensajes enviados al agricultor para informar sobre eventos relevantes, actualizaciones del sistema, respuestas de expertos o interacciones en la comunidad.
+
+---
+
+### -PUBLICACION  
+Representa una publicación dentro de la red social de agricultores. Puede incluir consejos, experiencias, imágenes o preguntas abiertas a la comunidad.
+
+---
+
+### -COMENTARIO  
+Contiene los mensajes que un agricultor deja en una publicación. Permite la interacción directa entre usuarios para compartir ideas o resolver dudas.
+
+---
+
+### -CONSULTA  
+Registro de una pregunta técnica enviada por un agricultor a un experto. Incluye el mensaje, la fecha, y la respuesta proporcionada por el especialista.
+
+---
+
+### -EXPERTO  
+Persona especializada en temas agrícolas, plagas o clima. Responde consultas técnicas y está vinculada a una empresa de soporte.
+
+---
+
+### -EMPRESAANTIPLAGA  
+Entidad que agrupa expertos en control de plagas o asesoría meteorológica. Ofrece ayuda especializada a los agricultores registrados.
+
+---
+
+### -FORO  
+Espacio temático donde los agricultores pueden debatir, compartir experiencias o resolver problemas comunes. Cada foro agrupa múltiples mensajes.
+
+---
+
+### -MENSAJE  
+Contenido textual publicado por un agricultor dentro de un foro. Permite el intercambio de ideas y soluciones entre miembros de la comunidad.
+
+
+
 ## 4.8. Database Design
 ### 4.8.1. Database Diagrams
+
+<img src="assets/images/CP4/Diagrams_4_7_y_4_8/DataBaseDiagrams.png">
+
+#### 4.8.2. Database Dictionary
+
+### Tabla: `Agricultor`
+
+| Campo        | Tipo          | Clave | Nulo | Descripción                                  |
+|--------------|---------------|-------|------|----------------------------------------------|
+| idAgricultor | INT           | PK    | No   | Identificador único del agricultor           |
+| nombre       | VARCHAR(100)  |       | No   | Nombre del agricultor                        |
+| ubicacion    | VARCHAR(100)  |       | No   | Ubicación geográfica del agricultor          |
+| fotoPerfil   | TEXT          |       | Sí   | Foto de perfil del agricultor                |
+
+---
+
+### Tabla: `Cultivo`
+
+| Campo        | Tipo          | Clave                    | Nulo | Descripción                                  |
+|--------------|---------------|--------------------------|------|----------------------------------------------|
+| idCultivo    | INT           | PK                       | No   | Identificador del cultivo                    |
+| tipo         | VARCHAR(50)   |                          | No   | Tipo de cultivo                              |
+| ubicacion    | VARCHAR(100)  |                          | No   | Ubicación del cultivo                        |
+| estadoActual | VARCHAR(50)   |                          | No   | Estado actual del cultivo                    |
+| idAgricultor | INT           | FK → Agricultor(idAgricultor) | No   | Agricultor responsable del cultivo           |
+
+---
+
+### Tabla: `DispositivoIoT`
+
+| Campo         | Tipo         | Clave                    | Nulo | Descripción                                  |
+|---------------|--------------|--------------------------|------|----------------------------------------------|
+| idDispositivo | INT          | PK                       | No   | Identificador del dispositivo IoT            |
+| tipo          | VARCHAR(50)  |                          | No   | Tipo de dispositivo (sensor, cámara, etc.)   |
+| estado        | VARCHAR(50)  |                          | No   | Estado operativo del dispositivo             |
+| idCultivo     | INT          | FK → Cultivo(idCultivo)  | No   | Cultivo asociado al dispositivo              |
+
+---
+
+### Tabla: `CamaraVigilancia`
+
+| Campo      | Tipo | Clave                    | Nulo | Descripción                          |
+|------------|------|--------------------------|------|--------------------------------------|
+| idCamara   | INT  | PK                       | No   | Identificador de la cámara           |
+| idDispositivo | INT | FK → DispositivoIoT(idDispositivo) | No | Dispositivo base asociado            |
+
+---
+
+### Tabla: `SensorTemperatura`
+
+| Campo           | Tipo  | Clave                    | Nulo | Descripción                          |
+|------------------|-------|--------------------------|------|--------------------------------------|
+| idSensor         | INT   | PK                       | No   | Identificador del sensor             |
+| temperaturaActual| FLOAT |                          | No   | Lectura actual de temperatura        |
+| idDispositivo    | INT   | FK → DispositivoIoT(idDispositivo) | No | Dispositivo base asociado            |
+
+---
+
+### Tabla: `Alerta`
+
+| Campo         | Tipo         | Clave                    | Nulo | Descripción                                  |
+|---------------|--------------|--------------------------|------|----------------------------------------------|
+| idAlerta      | INT          | PK                       | No   | Identificador de la alerta                   |
+| tipo          | VARCHAR(50)  |                          | No   | Tipo de alerta (plaga, clima, etc.)          |
+| mensaje       | TEXT         |                          | No   | Mensaje de la alerta                         |
+| fechaGenerada | DATE         |                          | No   | Fecha de emisión de la alerta                |
+| esUrgente     | BIT          |                          | No   | Indica si la alerta es urgente               |
+| idCultivo     | INT          | FK → Cultivo(idCultivo)  | No   | Cultivo afectado por la alerta               |
+
+
+
+---
+
+### Tabla: `Notificacion`
+
+| Campo          | Tipo         | Clave                          | Nulo | Descripción                                      |
+|----------------|--------------|--------------------------------|------|--------------------------------------------------|
+| idNotificacion | INT          | PK                             | No   | Identificador único de la notificación           |
+| contenido      | TEXT         |                                | No   | Mensaje o contenido de la notificación           |
+| fecha          | DATE         |                                | No   | Fecha en que se generó la notificación           |
+| idAgricultor   | INT          | FK → Agricultor(idAgricultor)  | No   | Agricultor que recibe la notificación            |
+
+---
+
+
+### Tabla: `Publicacion`
+
+| Campo        | Tipo         | Clave                          | Nulo | Descripción                          |
+|--------------|--------------|--------------------------------|------|--------------------------------------|
+| idPublicacion| INT          | PK                             | No   | Identificador de la publicación      |
+| contenido    | TEXT         |                                | No   | Contenido compartido por el agricultor |
+| fecha        | DATE         |                                | No   | Fecha de publicación                 |
+| idAgricultor | INT          | FK → Agricultor(idAgricultor)  | No   | Autor de la publicación              |
+
+---
+
+### Tabla: `Comentario`
+
+| Campo        | Tipo         | Clave                          | Nulo | Descripción                          |
+|--------------|--------------|--------------------------------|------|--------------------------------------|
+| idComentario | INT          | PK                             | No   | Identificador del comentario         |
+| contenido    | TEXT         |                                | No   | Texto del comentario                 |
+| fecha        | DATE         |                                | No   | Fecha del comentario                 |
+| idAgricultor | INT          | FK → Agricultor(idAgricultor)  | No   | Autor del comentario                 |
+| idPublicacion| INT          | FK → Publicacion(idPublicacion)| No   | Publicación comentada                |
+
+---
+
+### Tabla: `Consulta`
+
+| Campo        | Tipo         | Clave                          | Nulo | Descripción                          |
+|--------------|--------------|--------------------------------|------|--------------------------------------|
+| idConsulta   | INT          | PK                             | No   | Identificador de la consulta         |
+| mensaje      | TEXT         |                                | No   | Pregunta enviada por el agricultor   |
+| fecha        | DATE         |                                | No   | Fecha de la consulta                 |
+| respuesta    | TEXT         |                                | Sí   | Respuesta del experto                |
+| idAgricultor | INT          | FK → Agricultor(idAgricultor)  | No   | Agricultor que consulta              |
+| idExperto    | INT          | FK → Experto(idExperto)        | No   | Experto que responde                 |
+
+---
+
+### Tabla: `Experto`
+
+| Campo        | Tipo          | Clave                    | Nulo | Descripción                                  |
+|--------------|---------------|--------------------------|------|----------------------------------------------|
+| idExperto    | INT           | PK                       | No   | Identificador único del experto              |
+| nombre       | VARCHAR(100)  |                          | No   | Nombre del experto                           |
+| campoEspecialidad | VARCHAR(100) |                      | No   | Área de especialización del experto          |
+| idEmpresa    | INT           | FK → EmpresaAntiPlaga(idEmpresa) | No | Empresa a la que pertenece el experto        |
+
+---
+
+### Tabla: `EmpresaAntiPlaga`
+
+| Campo        | Tipo          | Clave     | Nulo | Descripción                                  |
+|--------------|---------------|-----------|------|----------------------------------------------|
+| idEmpresa    | INT           | PK        | No   | Identificador de la empresa                  |
+| nombre       | VARCHAR(100)  |           | No   | Nombre de la empresa                         |
+| especialidad | VARCHAR(100)  |           | No   | Tipo de plagas o cultivos que atiende        |
+| contacto     | VARCHAR(100)  |           | No   | Información de contacto                      |
+
+---
+
+### Tabla: `Foro`
+
+| Campo     | Tipo          | Clave     | Nulo | Descripción                                  |
+|-----------|---------------|-----------|------|----------------------------------------------|
+| idForo    | INT           | PK        | No   | Identificador del foro                       |
+| tema      | VARCHAR(100)  |           | No   | Tema principal del foro                      |
+
+---
+
+### Tabla: `Mensaje`
+
+| Campo       | Tipo         | Clave                          | Nulo | Descripción                                  |
+|-------------|--------------|--------------------------------|------|----------------------------------------------|
+| idMensaje   | INT          | PK                             | No   | Identificador del mensaje                    |
+| contenido   | TEXT         |                                | No   | Contenido del mensaje                        |
+| fecha       | DATE         |                                | No   | Fecha de publicación                         |
+| idAgricultor| INT          | FK → Agricultor(idAgricultor)  | No   | Autor del mensaje                            |
+| idForo      | INT          | FK → Foro(idForo)              | No   | Foro al que pertenece el mensaje             |
+
+---
+
+### Tabla: `Planta`
+
+| Campo           | Tipo          | Clave                    | Nulo | Descripción                                  |
+|------------------|---------------|--------------------------|------|----------------------------------------------|
+| idPlanta         | INT           | PK                       | No   | Identificador único de la planta             |
+| nombreCientifico | VARCHAR(100)  |                          | No   | Nombre científico de la planta               |
+| etapaCrecimiento | VARCHAR(50)   |                          | No   | Etapa actual de crecimiento                  |
+| riesgoPlaga      | BIT           |                          | No   | Indica si hay riesgo de plaga                |
+| idCultivo        | INT           | FK → Cultivo(idCultivo)  | No   | Cultivo al que pertenece la planta           |
+
+---
 
 <br><br><br><br><br><br>
 
@@ -3547,7 +3830,7 @@ management:
         </thead>
         <tbody>
             <tr>
-                <td>Elaborar y diseñar una landing page atractiva e informativa para la aplicación KapakID</td>
+                <td>Elaborar y diseñar una landing page atractiva e informativa para la aplicación SmartCrop</td>
                 <td>9</td>
                 <td>9</td>
             </tr>
@@ -3613,15 +3896,6 @@ Los aspectos considerados en el Sprint 1 son:
             <td>C</td>
             <td>C</td>
             <td>L</td>
-            <td>C</td>
-        </tr>
-        <tr>
-            <td>Emilia Mercedes Duran Santander</td>
-            <td>noacepto</td>
-            <td>C</td>
-            <td>C</td>
-            <td>C</td>
-            <td>C</td>
             <td>C</td>
         </tr>
     </tbody>
@@ -3930,7 +4204,11 @@ En este sprint no fue contemplada la evidencia de implementacion de servicios
 <p>El despliegue corresponde a una versión parcialmente completa, donde se implementaron las secciones principales (Home, Partners, Servicios, Sobre Nosotros, Testimonios y Contacto), aunque se identificaron algunos errores menores y áreas de mejora que se abordarán en futuros sprints.</p>
 
 <h3>Enlace de acceso al despliegue:</h3>
+<<<<<<< HEAD
 <p><a href="https://smartcrop-ecocrop.github.io/smartcrop.github.io/" target="_blank">Landing Page de SmartCrop-EcoCrop</a></p>
+=======
+<p><a href="https://smartcrop-ecocrop.github.io/smartcrop.github.io" target="_blank">Landing Page de SmartCrop-EcoCrop</a></p>
+>>>>>>> 9c3d07f4ddf82a9fc29b4997770932f948a8937c
 
 <table>
   <thead>
@@ -4060,3 +4338,9 @@ En este sprint no fue contemplada la evidencia de implementacion de servicios
   Disponible en: [https://developers.google.com/web/fundamentals/performance](https://developers.google.com/web/fundamentals/performance)
 
 ## Anexos
+
+https://agriculture.basf.com/pe/es/contenidos-de-agricultura/cambio-climatico-y-agricultura-cual-es-el-impacto
+
+https://www.bancomundial.org/es/topic/climate-smart-agriculture 
+
+[def]: mages/WireframeLandingSmartCrop.jpg.pn
