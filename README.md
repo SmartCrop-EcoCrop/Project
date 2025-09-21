@@ -1,12 +1,8 @@
-# EcoCrop
+<div align="center">
 
-Product: SmartCrop 
+<img src="assets/images/common/logo/logo_upc.png" width="100">
 
 # UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
-
-![alt text](images/commons/PNG_LogoUPC.png)
-
-
 ## Ingeniería de Software
 
 ## 5to ciclo
@@ -31,6 +27,9 @@ Product: SmartCrop
 - 
 
 ### agosto, 2025
+</div>
+
+<br><br><br><br>
 
 **Url del proyecto**: https://github.com/SmartCrop-EcoCrop?view_as=public
 
@@ -945,7 +944,9 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
 <hr>
 
 <h3>2.3.1. User Personas</h3>
-<strong>Enlace: </strong><p>https://www.canva.com/design/DAGzNGFwzm4/sG8gDCgwX-ibVuli3j4Yrg/edit</p>
+
+**Enlace:** [Clic aquí](https://www.canva.com/design/DAGzNGFwzm4/sG8gDCgwX-ibVuli3j4Yrg/edit)
+
 <h4>Segmento 1: Fabricio Ninalaya – Agricultor Independiente </h4>
 <ul>
 <figure>
@@ -2342,11 +2343,75 @@ A continuación, se presenta cada una de las pantallas diseñadas para la landin
 #### Sección: Alianzas y Pie de página
 ![Sección Alianza y Pie de página - Landing Page](assets/images/CP4/landing_page-mock_up/footer.png)
 
+
+<br><br>
+
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
+
+<!-- DESARROLLO -->
+
+<br><br>
+
 ### 4.4.2. Web Applications Wireflow Diagrams
+
+<!-- DESARROLLO -->
+
+<br><br>
+
 ### 4.4.3. Web Applications Mock-ups
+
+<!-- DESARROLLO -->
+
+<br><br>
+
 ### 4.4.4. Web Applications User Flow Diagrams
+
+#### User Persona 1: Fabricio Ninalaya - Pequeño Agricultor
+
+##### User Goal: Monitorear temperatura de cultivoso
+
+Interfaces y secuencia:
+
+  1. Registrarse en SmartCrop
+  2. Si ya tiene una cuenta, inicia sesión.
+  3. Ingresa al Dashboard de SmarCrop
+  4. Ingresa a "Monitoreo de Temperatura"
+
+![User Flow Diafram 1 - User Goal 1](assets/images/CP4/user_flow_diagrams/ug1_ufd1.png)
+
+#### User Persona 2: Arturo Ore Díaz - Dirigente de Asociación
+
+##### User Goal: Generar reporte de producción consolidado
+
+Interfaces y secuencia:
+
+  1. Registrarse en SmartCrop
+  2. Si ya tiene una cuenta, inicia sesión.
+  3. Ingresa al Dashboard de SmarCrop
+  4. Ingresa a "Registro Temporal"
+  5. Selecciona periodo a exportar
+
+![User Flow Diafram 2 - User Goal 1](assets/images/CP4/user_flow_diagrams/ug2_ufd1.png)
+
+
+#### Flujos Comunes
+
+##### User Goal: Publicar pregunta en foro comunitario
+
+Interfaces y secuencia:
+
+  1. Registrarse en SmartCrop
+  2. Si ya tiene una cuenta, inicia sesión.
+  3. Ingresa al Dashboard de SmarCrop
+  4. Ingresa a "Foro"
+  6. Crear nuevo "Post"
+  7. Publicar post
+
+![User Flow Diafram Common - User Goal 1](assets/images/CP4/user_flow_diagrams/ugC_ufd1.png)
+
+
+<br><br>
 
 ## 4.5. Web Applications Prototyping
 
