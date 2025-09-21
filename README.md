@@ -23,8 +23,8 @@
 
 - Ivan Fernando Sanchez Guevara - u202218181
 - Matias Rodolfo Salcedo Champi - u202319698
-- 
-- 
+- Jhosep Jamil Argomedo Camacho - u20231d978
+- Sebastian Ramirez Tello - u202316122
 
 ### agosto, 2025
 </div>
