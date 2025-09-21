@@ -3346,12 +3346,337 @@ management:
 ## 5.2. Landing Page, Services & Applications Implementation
 
 ## 5.2.1. Sprint 1
-
 ### 5.2.1.1. Sprint Planning 1 
+<div class="container">
+    <table>
+        <thead>
+            <tr class="header-row">
+                <th colspan="1">Sprint #</th>
+                <th colspan="1">Date</th>
+                <th colspan="1">Time</th>
+                <th colspan="1">Location</th>
+                <th colspan="1">Prepared By</th>
+                <th colspan="1">Attendees</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="data-row">
+                <td>1</td>
+                <td>18/09/2025</td>
+                <td>16:00 PM</td>
+                <td>Reunión virtual <br>mediante la <br>aplicación Meet</td>
+                <td>Fernando Sanchez</td>
+                <td>
+                    <ul class="attendees-list">
+                        <li>Jamil Argomedo</li>
+                        <li>Matias Rodolfo</li>
+                        <li>Ivan Fernando</li>
+                        <li>Sebastian Ramirez</li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr class="sprint-details">
+                <th>Sprint 1 Goal</th>
+                <th>Sprint 1 Velocity</th>
+                <th>Sum of <br>Story Points</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Elaborar y diseñar una landing page atractiva e informativa para la aplicación KapakID</td>
+                <td>9</td>
+                <td>9</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+
 ### 5.2.1.2. Aspect Leaders and Collaborators
+En esta sección se presenta la **Leadership-and-Collaboration Matrix (LACX)**, que indica para cada aspecto del Sprint quién es líder (**L**) y quiénes actúan como colaboradores (**C**).  
+Los aspectos considerados en el Sprint 1 son:  
+- Startup Profile / Conceptualización del Proyecto  
+- Lean UX / Hypothesis  
+- Planificación del Informe (TB1)  
+- Colaboración, revisión por pares y calidad  
+- Desarrollo de la Landing Page
+
+<table>
+    <thead>
+        <tr>
+            <th>Team Member (Last Name, First Name)</th>
+            <th>GitHub Username</th>
+            <th>Startup Profile</th>
+            <th>Lean UX / Hypothesis</th>
+            <th>TB1 Planificación Informe</th>
+            <th>Revisión y Calidad</th>
+            <th>Landing Page</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Ivan Fernando Sanchez Guevara</td>
+            <td>DonFernando1</td>
+            <td>L</td>
+            <td>C</td>
+            <td>C</td>
+            <td>C</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>Salcedo Champi, Matías Rodolfo</td>
+            <td>Matiasg23</td>
+            <td>C</td>
+            <td>L</td>
+            <td>C</td>
+            <td>C</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>Jhosep Jamil Argomedo Camacho</td>
+            <td>JosephAC</td>
+            <td>C</td>
+            <td>C</td>
+            <td>L</td>
+            <td>C</td>
+            <td>L</td>
+        </tr>
+        <tr>
+            <td>Sebastian Ramirez Tello</td>
+            <td>SRT0808</td>
+            <td>C</td>
+            <td>C</td>
+            <td>C</td>
+            <td>L</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>Emilia Mercedes Duran Santander</td>
+            <td>noacepto</td>
+            <td>C</td>
+            <td>C</td>
+            <td>C</td>
+            <td>C</td>
+            <td>C</td>
+        </tr>
+    </tbody>
+</table>
+
+#### Observaciones
+- El equipo adoptó un modelo de liderazgo distribuido: cada aspecto del Sprint tuvo un responsable principal (L) y varios colaboradores (C).  
+- Esta distribución permitió avanzar en paralelo y garantizar la consistencia entre la documentación y la implementación técnica.  
+- La Landing Page contó con un **líder técnico especializado**, asegurando la traducción del diseño conceptual en un artefacto desplegable.  
+- La organización de líderes y colaboradores mantiene relación directa con la posterior asignación de tareas en el Sprint Backlog.
 ### 5.2.1.3. Sprint Backlog 1
+<div class="container">
+    <h1>Sprint Backlog 1 – Proyecto SmartCrop</h1>
+    <div class="sprint-goal-box">
+        <h3>Sprint Goal</h3>
+        <p>Construir el <strong>MVP (Producto Mínimo Viable)</strong> inicial de SmartCrop que permita a los agricultores controlar remotamente el sistema de riego, monitorear sus cultivos mediante dispositivos IoT, y recibir recomendaciones inteligentes para optimizar la producción. El objetivo principal es validar la propuesta de valor de la startup: un sistema integral y automatizado que minimice el desperdicio de agua, maximice el rendimiento de los cultivos y simplifique la gestión agrícola para el agricultor.</p>
+    </div>
+    <h2>Control de Estado del Sprint 1</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>User Story</th>
+                <th>Work-Item / Task</th>
+                <th>Description</th>
+                <th>Estimation (Hours)</th>
+                <th>Assigned To</th>
+                <th>Status (To-do / In-Process / To-Review / Done)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>US-01</strong>: Controlar el sistema de riego de forma remota</td>
+                <td>T01</td>
+                <td>Implementar endpoint <code>POST /irrigation/control</code> en backend</td>
+                <td>6h</td>
+                <td>Salcedo Champi, Matias Rodolfo</td>
+                <td>To-do</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>T02</td>
+                <td>Diseñar y desarrollar la interfaz de control de riego en el frontend</td>
+                <td>8h</td>
+                <td>Sánchez Guevara, Ivan Fernando</td>
+                <td>To-do</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>T03</td>
+                <td>Configurar la comunicación con el dispositivo IoT para activar el riego</td>
+                <td>6h</td>
+                <td>Argomedo Camacho, Jhosep Jamil</td>
+                <td>To-do</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>T04</td>
+                <td>Probar el flujo completo de activación y desactivación de riego</td>
+                <td>4h</td>
+                <td>Ramirez Tello, Sebastian</td>
+                <td>To-do</td>
+            </tr>
+            <tr>
+                <td><strong>US-02</strong>: Monitorear cultivos con dispositivos IoT</td>
+                <td>T05</td>
+                <td>Implementar el servicio de backend para guardar lecturas de sensores</td>
+                <td>5h</td>
+                <td>Salcedo Champi, Matias Rodolfo</td>
+                <td>To-do</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>T06</td>
+                <td>Diseñar el dashboard de monitoreo con gráficos de temperatura y humedad</td>
+                <td>7h</td>
+                <td>Sánchez Guevara, Ivan Fernando</td>
+                <td>To-do</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>T07</td>
+                <td>Configurar y recibir video en tiempo real desde la cámara IoT</td>
+                <td>6h</td>
+                <td>Argomedo Camacho, Jhosep Jamil</td>
+                <td>To-do</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>T08</td>
+                <td>Crear el servicio de validación de datos de sensores para alertar valores extremos</td>
+                <td>4h</td>
+                <td>Ramirez Tello, Sebastian</td>
+                <td>To-do</td>
+            </tr>
+            <tr>
+                <td><strong>US-03</strong>: Recibir recomendaciones inteligentes</td>
+                <td>T09</td>
+                <td>Integrar la API de detección de plagas/enfermedades en backend</td>
+                <td>8h</td>
+                <td>Salcedo Champi, Matias Rodolfo</td>
+                <td>To-do</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>T10</td>
+                <td>Desarrollar la lógica de negocio para generar recomendaciones (riego, nutrientes, etc.)</td>
+                <td>7h</td>
+                <td>Argomedo Camacho, Jhosep Jamil</td>
+                <td>To-do</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>T11</td>
+                <td>Diseñar y desarrollar la sección de recomendaciones en el frontend</td>
+                <td>7h</td>
+                <td>Sánchez Guevara, Ivan Fernando</td>
+                <td>To-do</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>T12</td>
+                <td>Crear la tabla de la base de datos para almacenar el historial de recomendaciones</td>
+                <td>3h</td>
+                <td>Ramirez Tello, Sebastian</td>
+                <td>To-do</td>
+            </tr>
+            <tr>
+                <td><strong>US-04</strong>: Gestión de perfiles de usuario y cultivos</td>
+                <td>T13</td>
+                <td>Crear endpoints <code>POST /users/register</code> y <code>POST /users/login</code></td>
+                <td>6h</td>
+                <td>Salcedo Champi, Matias Rodolfo</td>
+                <td>To-do</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>T14</td>
+                <td>Diseñar el formulario de registro/login y la página de perfil de usuario</td>
+                <td>5h</td>
+                <td>Ramirez Tello, Sebastian</td>
+                <td>To-do</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>T15</td>
+                <td>Implementar la lógica para crear y editar un nuevo perfil de cultivo</td>
+                <td>6h</td>
+                <td>Argomedo Camacho, Jhosep Jamil</td>
+                <td>To-do</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>T16</td>
+                <td>Validar los datos de entrada en el registro y en la creación de cultivos</td>
+                <td>3h</td>
+                <td>Sánchez Guevara, Ivan Fernando</td>
+                <td>To-do</td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="summary-table">
+        <thead>
+            <tr>
+                <th colspan="2">Resumen de Estimaciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>US-01</td>
+                <td>24h</td>
+            </tr>
+            <tr>
+                <td>US-02</td>
+                <td>22h</td>
+            </tr>
+            <tr>
+                <td>US-03</td>
+                <td>25h</td>
+            </tr>
+            <tr>
+                <td>US-04</td>
+                <td>20h</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="observations-box">
+        <h3>Observaciones</h3>
+        <ul>
+            <li>La carga de trabajo de <strong>80 horas</strong> está balanceada para los 4 miembros del equipo, con un promedio de 20 horas por persona.</li>
+            <li>Las tareas están diseñadas para que los equipos de <strong>backend, frontend y QA</strong> puedan trabajar en paralelo, optimizando el flujo de trabajo.</li>
+            <li>El repositorio de GitHub para el proyecto es: <a href="https://github.com/SmartCrop-EcoCrop/Project" style="color:white;">https://github.com/SmartCrop-EcoCrop/Project</a>.</li>
+            <li>El estado de las tareas se actualizará continuamente en el tablero de control del sprint.</li>
+        </ul>
+    </div>
+</div>
+
 ### 5.2.1.4. Development Evidence for Sprint Review
 ### 5.2.1.5. Execution Evidence for Sprint Review
 ### 5.2.1.6. Services Documentation Evidence for Sprint Review
+En este sprint no fue contemplada la evidencia de implementacion de servicios
 ### 5.2.1.7. Software Deployment Evidence for Sprint Review
+Durante la **entrega del Sprint 1**, se realizó el despliegue inicial de la **Landing Page de SmartCrop**.  
+El despliegue corresponde a una versión **parcialmente completa**, donde se implementaron las secciones principales (Home, Beneficios, Casos de Éxito y Contacto), aunque se identificaron algunos errores menores y áreas de mejora que se abordarán en futuros sprints.
+
+**Enlace de acceso al despliegue:**  
+[Landing Page de KapakID](https://f1ntrack.github.io/landingPagePrueba/)
+
+| Aspecto evaluado      | Estado Sprint 1 | Observaciones |
+|------------------------|-----------------|---------------|
+| Disponibilidad         | ✔ Online        | Accesible mediante GitHub Pages. |
+| Home                   | ✔ Implementado  | Requiere optimización en tiempos de carga de imágenes. |
+| Beneficios             | ✔ Implementado  | Sección clara, pendiente ajuste tipográfico. |
+| Casos de Éxito         | ✔ Implementado  | Contenido simulado, se integrará real en Sprint 2. |
+| Contacto               | ✔ Implementado  | Falta validación completa en formulario. |
+| Bugs/Errores conocidos | ✖ Presentes     | Inconsistencias en responsive design (móviles). |
+
+---
 ### 5.2.1.8. Team Collaboration Insights during Sprint
