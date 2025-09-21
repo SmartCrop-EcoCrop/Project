@@ -29,87 +29,71 @@
 
 ### **Integrantes**
 
-Ivan Fernando Sanchez Guevara - u202218181 <br>
-Matias Rodolfo Salcedo Champi - u202319698 <br>
-Jhosep Jamil Argomedo Camacho - u20231d978 <br>
-Sebastian Ramirez Tello - u202316122
+Argomedo Camacho, Jhosep Jamil - u20231D978 <br>
+Salcedo Champi, Matias Rodolfo  - u202319698 <br>
+Sanchez Guevara, Ivan Fernando  - u202218181 <br>
+Ramirez Tello, Sebastian - u202316122
+
+<br>
 
 ### Septiembre, 2025
+
 </div>
 
 <br><br><br><br>
 
-**Url del proyecto**: https://github.com/SmartCrop-EcoCrop
-
-
 ## Registro de Versiones del Informe
 
-<table>
-  <thead>
-    <tr>
-      <th>Version</th>
-      <th>Fecha</th>
-      <th>Autor</th>
-      <th>Descripción</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>TB1</td>
-      <td></td>
-      <td></td>
-      <td>Creación organización y repositorios en GitHub para proyecto final</td>
-    </tr>
-    <tr>
-      <td>TB1</td>
-      <td>13/09/25</td>
-      <td>Fernando Sanchez</td>
-      <td>Desarrollo del Capitulo 1 del informe</td>
-    </tr>
-    <tr>
-      <td>TB1</td>
-      <td></td>
-      <td></td>
-      <td>Documentación completa (5.2.1 - 5.2.1.8)</td>
-    </tr>
-    <tr>
-      <td>TB1</td>
-      <td></td>
-      <td></td>
-      <td>Desarrollo del Capitulo 3 del informe 4.8</td>
-    </tr>
-    <tr>
-      <td>TB1</td>
-      <td>19/09/2025</td>
-      <td>Matias Rodolfo Salcedo Champi</td>
-      <td>Desarrollo del capitulo 2 del informe</td>
-    </tr>
-  </tbody>
-</table>
-       
+| **Versión** | **Fecha** | **Autor** | **Descripción de modificación**  |
+| ----------- | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| TB1         | 1809/25   | Argomedo Camacho, Jhosep Jamil (U20231D978); <br> García Salamanca, Andrés Felipe (U202523463); <br> González Custodio, Carlos Alberto (U202020230); <br> Julca Cruz, Renso Anthony (U202121579); <br> Ramírez Tello, Sebastian (U202316122) | Adición de capítulos: <br> **Capítulo I:** Introducción <br> **Capítulo II:** Requirements Elicitation & Analysis <br> **Capítulo III:** Requirements Specification <br> **Capítulo IV:** Product Design <br> **Capítulo V:** Product Implementation, Validation & Deployment <br> **Sprint 1:** Landing Page <br> Conclusiones <br> Bibliografía |
+
+<br><br><br><br>
 
 ## Project Report Collaboration Insights
 
-|  URL de la organización del proyecto  |             URL del repositorio del reporte          |
-| :-----------------------------------: |:----------------------------------------------------:| 
-| https://github.com/SmartCrop-EcoCrop | https://github.com/SmartCrop-EcoCrop/Project |
+### Repositorio de Informe del Proyecto:
+El informe del proyecto se ha desarrollado de manera colaborativa en el repositorio de GitHub. Cada miembro del equipo fue responsable de diferentes secciones del informe, y se utilizó el control de versiones para realizar commits y revisiones de manera constante.
 
-|          URL del repositorio de la landing page           |
-|:---------------------------------------------------------:|
-| https://smartcrop-ecocrop.github.io/smartcrop.github.io/|
+- ***Distribución de Tareas:***
+El equipo dividió el informe en secciones específicas, asignando responsabilidades a cada miembro. Las tareas se distribuyeron según las fortalezas de cada uno.
 
-|          URL del repositorio del frontend          |
-|:---------------------------------------------------------:|
-|   |
+- ***Colaboración Continua:***
+Cada miembro realizó commits y revisiones mediante pull requests, asegurando la integración de las aportaciones de todos. La redacción se revisó y mejoró iterativamente a lo largo del proyecto.
 
-|          URL del repositorio del backend          |
-|:---------------------------------------------------------:|
-|   |
+- ***Finalización del Informe:***
+Una vez completadas todas las secciones, el informe se revisó en conjunto antes de realizar el commit final con la versión de entrega.
 
+### Evidencias de la Colaboración
+A continuación, se muestran evidencias gráficas que ilustran la participación de cada miembro:
+
+#### Repositorios del proyecto:
+
+|              **URL de la organización del proyecto**             |                  **URL del repositorio del reporte**                  |
+| :--------------------------------------------------------------: | :-------------------------------------------------------------------: |
+| [SmartCrop-EcoCrop GitHub](https://github.com/SmartCrop-EcoCrop) | [Project Report GitHub](https://github.com/SmartCrop-EcoCrop/Project) |
+
+---
+
+### URLs del Repositorio
+
+|                    **URL del repositorio de la landing page**                   |                   **URL del repositorio del frontend**                  |                 **URL del repositorio del backend**                 |
+| :-----------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :-----------------------------------------------------------------: |
+| [Landing Page GitHub](https://github.com/SmartCrop-EcoCrop/smartcrop.github.io) | [Frontend GitHub](https://github.com/SmartCrop-EcoCrop/web-application) | [Backend GitHub](https://github.com/SmartCrop-EcoCrop/web-services) |
+
+---
+
+### URLs de Otros Repositorios Importantes
+
+|                        **URL de criterios de aceptación**                        |
+| :------------------------------------------------------------------------------: |
+| [Acceptance Tests GitHub](https://github.com/SmartCrop-EcoCrop/acceptance-tests) |
+
+---
+
+<br><br><br><br>
 
 ## Contenido
-
-## Tabla de contenidos
 
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
@@ -190,28 +174,6 @@ Sebastian Ramirez Tello - u202316122
             - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
             - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
             - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-        - [5.2.2. Sprint 2](#522-sprint-1)
-            - [5.2.2.1. Sprint Planning 1](#5221-sprint-planning-1)
-            - [5.2.2.2. Sprint Backlog 1](#5222-sprint-backlog-1)
-            - [5.2.2.3. Development Evidence for Sprint Review](#5223-development-evidence-for-sprint-review)
-            - [5.2.2.4. Testing Suite Evidence for Sprint Review](#5224-testing-suite-evidence-for-sprint-review)
-            - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
-            - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
-            - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
-            - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
-        - [5.2.3. Sprint 3](#523-sprint-3)
-            - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
-            - [5.2.3.2. Sprint Backlog 3](#5232-sprint-backlog-3)
-            - [5.2.3.3. Development Evidence for Sprint Review](#5233-development-evidence-for-sprint-review)
-            - [5.2.3.4. Testing Suite Evidence for Sprint Review](#5234-testing-suite-evidence-for-sprint-review)
-            - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
-            - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
-            - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
-            - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
-        - [5.2.4. Validation Interviews](#524-validation-interviews)
-          - [5.2.4.1. Diseño de Entrevistas](#5241-diseño-de-entrevistas)
-          - [5.2.4.2. Registro de Entrevistas](#5242-registro-de-entrevistas)
-          - [5.2.4.3. Evaluaciones según heurísticas](#5243-evaluaciones-según-heurísticas)
         
         - [5.2.5. Video About-the-Team](#525-video-about-the-team)
         - [5.2.6. Video About-the-Product](#526-video-about-the-product)
@@ -220,6 +182,7 @@ Sebastian Ramirez Tello - u202316122
 - [Anexos](#anexos)
 
 
+<br><br><br><br>
 
 ## Student Outcome
 
@@ -232,40 +195,57 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de
 conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
 del ABET – EAC - Student Outcome 3.
 
+He completado las entradas para los dos estudiantes faltantes, **Jhosep Jamil Argomedo Camacho** y **Sebastian Ramírez Tello**, siguiendo el formato que ya tenías. Aquí está la tabla completa:
 
- | Criterio especifico                                                          | Acciones Realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Conclusiones |
-| :--------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
-| 1. Comunica oralmente con efectividad a diferentes rangos de audiencia. | Matias Rodolfo Salcedo Champi <br> TB: Estuve pendiente de las observaciones de mis compañeros, escuchando con atención los detalles que señalaban sobre posibles errores o mejoras. Gracias a eso pude ajustar mi parte del trabajo, corregir fallos de manera oportuna y al mismo tiempo proponer soluciones que facilitaron la integración del proyecto en general. <br><br> **Ivan Fernando Sanchez Guevara** <br> TB: Durante el desarrollo del avance estuvimos pendientes de la información y percances que tuvo cada miembro, permitiendo tener una mejor organización a la hora de solucionar los temas y realizar poder realizar todas las actividades en el tiempo indicado. <br><br> ** ** <br> TB:  <br><br> ** ** <br> TB: <br><br> | Matias Rodolfo Salcedo Champi <br> TB: Comprendí que escuchar activamente las observaciones no solo ayuda a mejorar lo que uno hace, sino que también fortalece la calidad del proyecto, ya que cada integrante aporta un punto de vista distinto que enriquece el resultado final.<br><br>**Ivan Fernando Sanchez Guevara** <br> TB: El aprendizaje obtenido durante el trabajo de este entregable es de la gran importancia de tener una comunicación fluida y persistente con mi equipo para la distribucion de deberes, plantear las reuniones con todos entre otras cosas. sin olvidar de siempre mantener un orden como tener organización al respecto.<br><br> ** ** <br> TB: <br><br> ** ** <br> TB: <br> | ** ** <br> TB: <br><br> ** ** <br> TB: <br><br> ** ** <br> TB: <br><br> ** ** <br> TB: <br>  |
-| 2. Comunica por escrito con efectividad a diferentes rangos de audiencia | Matias Rodolfo Salcedo Champi <br> TB:A través de la redacción de los avances pude expresar de manera clara los objetivos alcanzados y las tareas pendientes, lo que permitió que el equipo mantuviera un orden y lograra identificar qué aspectos debían reforzarse para cumplir con el trabajo en el plazo establecido. <br><br> **Ivan Fernando Sanchez**<br> TB: Gracias al feedback recibida de los usuarios nos ayudo a realizar una mejora respecto al proyecto tanto como equipo del proyecto como desarrolladores de Software al poder complacer las principales necesidades de nuestros usuarios. <br><br> ** ** <br> TB:  <br><br> ** **<br> TB: <br><br> | Matias Rodolfo Salcedo Champi <br> TB: Aprendí que una buena comunicación escrita dentro del equipo facilita el control del progreso y evita confusiones sobre lo que ya se realizó y lo que falta por completar.  <br><br> **Ivan Fernando Sanchez Guevara**<br> TB: Por medio del desarrollo del trabajo parcial, pude comprender la importancia de identificar una solución innovadora como efectivamente implementada pud, refugios e incluso adoptantes los cuales necesitaban una solución fresca la cual sirva para optimizar su labor diaria y poder expanderse a nuevos rumbos. <br><br> ** ** <br> TB: <br><br> ** ** <br> TB: <br> |
+---
 
-## Capítulo I: Introducción
+### **Student Outcome – ABET EAC – Student Outcome 5: Capacidad de comunicarse efectivamente con un rango de audiencias**
 
-### 1.1. Startup Profile
+| **Criterio Específico**   | **Acciones Realizadas**   | **Conclusiones** |
+| ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1. Comunica oralmente con efectividad a diferentes rangos de audiencia.**   | **Matias Rodolfo Salcedo Champi** <br> TB: Estuve pendiente de las observaciones de mis compañeros, escuchando con atención los detalles que señalaban sobre posibles errores o mejoras. Gracias a eso pude ajustar mi parte del trabajo, corregir fallos de manera oportuna y al mismo tiempo proponer soluciones que facilitaron la integración del proyecto en general. <br><br> **Ivan Fernando Sanchez Guevara** <br> TB: Durante el desarrollo del avance estuvimos pendientes de la información y percances que tuvo cada miembro, permitiendo tener una mejor organización a la hora de solucionar los temas y realizar todas las actividades en el tiempo indicado. <br><br> **Jhosep Jamil Argomedo Camacho** <br> TB: Durante el proceso de integración del proyecto, pude ofrecer comentarios constructivos a mis compañeros, con el objetivo de mejorar cada sección del trabajo y garantizar que los diferentes componentes fueran alineados y cohesivos. <br><br> **Sebastian Ramírez Tello** <br> TB: Siempre estuve dispuesto a colaborar y escuchar las ideas de mis compañeros, de modo que, a través del trabajo en equipo, pudiéramos resolver cualquier problema de manera eficiente. Participé activamente en las discusiones y en la planificación de las tareas. | **Matias Rodolfo Salcedo Champi** <br> TB: Comprendí que escuchar activamente las observaciones no solo ayuda a mejorar lo que uno hace, sino que también fortalece la calidad del proyecto, ya que cada integrante aporta un punto de vista distinto que enriquece el resultado final. <br><br> **Ivan Fernando Sanchez Guevara** <br> TB: El aprendizaje obtenido durante el trabajo de este entregable es de gran importancia: tener una comunicación fluida y persistente con mi equipo para la distribución de deberes, plantear reuniones con todos los miembros, entre otras cosas, sin olvidar siempre el orden y organización. <br><br> **Jhosep Jamil Argomedo Camacho** <br> TB: Aprendí que una comunicación clara y efectiva no solo mejora la calidad del trabajo, sino que también ayuda a alcanzar los objetivos del equipo de manera más eficiente. Estar disponible para resolver dudas y aclarar puntos cruciales fue esencial para mantener el avance del proyecto. <br><br> **Sebastian Ramírez Tello** <br> TB: El trabajo en equipo y la comunicación activa me ayudaron a identificar áreas de mejora tanto en el proyecto como en la colaboración dentro del equipo. Comprendí que la comunicación constante y la retroalimentación son esenciales para que un proyecto se desarrolle con éxito. |
+| **2. Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **Matias Rodolfo Salcedo Champi** <br> TB: A través de la redacción de los avances pude expresar de manera clara los objetivos alcanzados y las tareas pendientes, lo que permitió que el equipo mantuviera un orden y lograra identificar qué aspectos debían reforzarse para cumplir con el trabajo en el plazo establecido. <br><br> **Ivan Fernando Sanchez Guevara** <br> TB: Gracias al feedback recibido de los usuarios, nos ayudó a realizar mejoras respecto al proyecto tanto como equipo como desarrolladores de software, al poder complacer las principales necesidades de nuestros usuarios. <br><br> **Jhosep Jamil Argomedo Camacho** <br> TB: Redacté los informes de avance con el fin de mantener al equipo informado sobre los progresos y áreas pendientes, lo que permitió un seguimiento efectivo de cada etapa del proyecto. <br><br> **Sebastian Ramírez Tello** <br> TB: Me encargué de escribir los resúmenes de las tareas realizadas y de las decisiones importantes tomadas durante el proyecto. Esto permitió que todo el equipo estuviera al tanto del avance y facilitó la integración de nuevas ideas o sugerencias.                                                                                                                                   | **Matias Rodolfo Salcedo Champi** <br> TB: Aprendí que una buena comunicación escrita dentro del equipo facilita el control del progreso y evita confusiones sobre lo que ya se realizó y lo que falta por completar. <br><br> **Ivan Fernando Sanchez Guevara** <br> TB: A través del desarrollo del trabajo parcial, pude comprender la importancia de identificar una solución innovadora que realmente cumpliera con las necesidades de nuestros usuarios, optimizando su labor diaria y ayudándolos a expandirse en nuevas direcciones. <br><br> **Jhosep Jamil Argomedo Camacho** <br> TB: La comunicación escrita clara y concisa permitió mantener el enfoque en los objetivos del proyecto, ayudando a que todos los miembros estuvieran alineados y trabajando en las mismas metas. <br><br> **Sebastian Ramírez Tello** <br> TB: Comprendí que la comunicación escrita es clave para transmitir de manera efectiva el progreso y las conclusiones alcanzadas, lo que facilita la comprensión y la toma de decisiones para los siguientes pasos del proyecto.                                                                                                                                                                                                                                                   |
+<br><br><br><br>
+
+# Capítulo I: Introducción
+
+## 1.1. Startup Profile
 
 
-#### 1.1.1. Descripción de la Startup
+### 1.1.1. Descripción de la Startup
 
 Somos EcoCrop, una empresa nacida por la union de estudiantes de la Universidad Peruana de Ciencias Aplicadas (UPC), dedicada a moldear la agricultura a través de la tecnología. Nuestra misión es mejorar la calidad y cantidad de la producción de empresas agrícolas mediante el desarrollo de soluciones digitales. Nuestro producto es una aplicación webb, llamada SmartCrop, que utiliza tecnologia IoT para el procesamiento de imágenes para identificar plagas de cultivos como tambien implementar sensores para medir la temperatura y ayudar a los agricultores a evitar que sus cultivos se marchiten.
+
 La aplicación SmartCrop permite a los agricultores estar al tanto de sus cultivos con camaras istaladas para tener una imágenes de cultivos, identificar automáticamente las plagas existentes en tiempo real, Medir la temperatura de la zona de cultivos para monitorear si necesitan ser movidas por bajas temperaturas o cubrirlas por exceso de sol o altas temperaturas, y sin olvidar el recibir información detallada sobre el huerto, así como guías prácticas y medidas de control recomendadas. SmartCrop ayuda con el control activo de plagas, como medicion de temperatura y promueve un uso más eficaz y sostenible de los recursos agrícolas.
+
 Además, nuestra aplicación proporciona actualizaciones en tiempo real sobre métodos de control de plagas,recomendaciones para temperaturas altas o bajas, facilita el contacto con empresas especializadas en el control de plagas, informe meteolologico confiable y proporciona una red de agricultores para compartir sus conocimientos. Todo esto se hace a través de una interfaz intuitiva y herramientas para optimizar la producción agrícola.
 
-**Misión:**
+#### **Misión:**
 
 Nuestra misión es Moldear la agricultura a por medio de la tecnología para mejorar la calidad y la producción agrícola. Trabajamos para elaborar soluciones digitales innovadoras que permitan facilitar a los agricultores como identificar y controlar eficazmente las plagas como el estado del clima, promoviendo así la sostenibilidad y el uso responsable de los recursos agrícolas.
 
-**Visión:**
+#### **Visión:**
 
 Nuestra visión es ser el principalmente un soporte para los agricultores, promoviendo una agricultura más efectiva y rapida como sostenible. Nuestro objetivo es construir un ecosistema agrícola que abarque todo el mundo donde el conocimiento y las herramientas digitales mejoren la resguarden el medio ambiente, productividad y garanticen la seguridad respecto a la alimencion.
 
 
 #### 1.1.2. Perfiles de integrantes del equipo
 
-| <div align="center">Foto</div> | <div align="center">Descripción</div> |
-|------|-------------|
-| <p align="center"><img width="auto" height="auto" src="images/matiassalcedo.jpg"> </p> | Soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), actualmente cursando el 5to ciclo de la carrera.Durante mi formación he adquirido conocimientos en diversas tecnologías y buenas prácticas de desarrollo. Mis principales fortalezas se encuentran en C++, HTML y Java, lenguajes en los que me desenvuelvo con mayor seguridad, aplicando conceptos de programación estructurada y orientada a objetos, así como el diseño de interfaces y el desarrollo de aplicaciones. Adicionalmente, he trabajado con SQL para la gestión de bases de datos, y con tecnologías web que me permiten tener una visión integral del desarrollo de software. Me considero una persona responsable, comprometida y con facilidad para el trabajo en equipo, cualidades que me impulsan a mejorar constantemente.  |
-| <p align="center"><img width="auto" height="auto" src="images/commons/Fernandoprofile.png"></p> | Mi Nombre es Fernando Sanchez Guevara, tengo 21 años, actualmente me encuentro en el quinto ciclo de la carrera de Ingeniería de Software. Me considero alguien disiplinado respecto con la puntualidad y desarrollar de la mejor manera los deberes asignados. Ademas, me preocupo por mi equipo, tratando de que no tengan ningun problema respecto al trabajo, y darles la mano para poder ayudar cuando lo necesiten. | 
-| <p align="center"><img width="auto" height="auto" src=""></p>  |                                                                                                                                          |
-| <p align="center"><img width="auto" height="auto" src=""></p>         | |
+Aquí tienes la tabla actualizada con las descripciones y fotos de los integrantes que faltaban, según la información proporcionada:
+
+---
+
+### **Integrantes del Proyecto**
+
+| <div align="center">Foto</div>  | <div align="center">Descripción</div>   |
+| ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p align="center"><img width="auto" height="auto" src="images/matiassalcedo.jpg"> </p>          | Soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), actualmente cursando el 5to ciclo de la carrera. Durante mi formación he adquirido conocimientos en diversas tecnologías y buenas prácticas de desarrollo. Mis principales fortalezas se encuentran en C++, HTML y Java, lenguajes en los que me desenvuelvo con mayor seguridad, aplicando conceptos de programación estructurada y orientada a objetos, así como el diseño de interfaces y el desarrollo de aplicaciones. Adicionalmente, he trabajado con SQL para la gestión de bases de datos, y con tecnologías web que me permiten tener una visión integral del desarrollo de software. Me considero una persona responsable, comprometida y con facilidad para el trabajo en equipo, cualidades que me impulsan a mejorar constantemente. |
+| <p align="center"><img width="auto" height="auto" src="images/commons/Fernandoprofile.png"></p> | Mi Nombre es Fernando Sánchez Guevara, tengo 21 años, actualmente me encuentro en el quinto ciclo de la carrera de Ingeniería de Software. Me considero alguien disciplinado respecto a la puntualidad y a desarrollar de la mejor manera los deberes asignados. Además, me preocupo por mi equipo, tratando de que no tengan ningún problema respecto al trabajo, y darles la mano para poder ayudar cuando lo necesiten.  |
+| <p align="center"><img width="auto" height="auto" src="assets/images/common/team/jhosep_argomedo.jpg"></p>          | Mi nombre es Jhosep Argomedo Camacho, actualmente cursando el 6to ciclo de la carrera de Ingeniería de Software. Tengo conocimientos avanzados en HTML, CSS y JavaScript, así como en el diseño de interfaces utilizando Figma. También domino metodologías ágiles y herramientas de versionamiento como Git. Me considero una persona organizada, proactiva y con buen manejo del trabajo en equipo, lo cual me permite adaptarme fácilmente a diferentes situaciones y necesidades dentro del proyecto.   |
+| <p align="center"><img width="auto" height="auto" src="assets/images/common/team/sebastian_ramirez.png"></p>        | Mi nombre es Sebastián Ramírez Tello, actualmente cursando el 6to ciclo de la carrera de Ingeniería de Software. Poseo conocimientos en bases de datos, lenguajes web y herramientas de versionamiento como Git. Además, tengo experiencia en la implementación de metodologías ágiles, específicamente SCRUM, para el desarrollo de proyectos de software. Me considero un profesional comprometido con el éxito del equipo y con el desarrollo de soluciones innovadoras y eficientes.  |
+
+---
+
 
 ### 1.2. Solution Profile
 
@@ -494,7 +474,7 @@ Creemos que implementar una comunidad dentro de la aplicación donde los agricul
 | **Canales** | - **Tienda de Aplicaciones webb** <br> - **Cooperativas agrícolas** <br> - **Redes Sociales y Marketing Digital** <br> - **Ventos agrícolas y ferias** |
 | **Ventos agrícolas y ferias** | - **Agricultores** <br> - **Empresas de insumos agrícolas** <br> - **Instituciones de investigación y desarrollo agrícola.** <br>- **Cooperativas y asociaciones agrícolas**  |
 | **Estructura de costes** | - **Desarrollo de la aplicación** <br> - **Marketing y publicidad** <br> - **Mantenimiento de la aplicación** <br>- **Soporte al cliente y operaciones**  |
-| **Fuente de ingresos** | - **Descargas Premium y Suscripciones** <br> - **Publicidad In-App** <br> - **Colaboraciones y Patrocinios**  |
+| **Fuente de ingresos** | - **Publicidad In-App** <br> - **Colaboraciones y Patrocinios**  |
  
 ### 1.3. Segmentos objetivos
 
@@ -517,6 +497,9 @@ Este segmento se refiere a organizaciones que agrupan a múltiples agricultores 
 - Localización: América Latina, con un enfoque en regiones con un alto nivel de organización agrícola.
 - Estadísticas: Las cooperativas representan una parte importante de la producción agrícola en muchas regiones y están interesadas en adoptar nuevas tecnologías para mejorar su competitividad.
 - Problema: Las cooperativas necesitan soluciones efectivas y escalables para apoyar a sus miembros en el manejo de plagas y la optimización de la producción, pero a menudo carecen de las herramientas necesarias.
+
+
+<br><br><br><br>
 
 <h2>Capítulo 2: Análisis de Usuarios y Contexto Competitivo</h2>
 <h3>2.1. Competidores</h3>
@@ -637,7 +620,6 @@ Analizar la competencia en el mercado de aplicaciones agrícolas. Comparar forta
 </section>
 <!-- 2.2 Entrevistas - Diseño de entrevistas -->
 <section id="cap-2-2-entrevistas">
-  <h1>Capítulo 2: Entrevistas</h1>
 
   <h2 id="2-2-1">2.2.1. Diseño de entrevistas</h2>
   <p>Se elaboró un guion de entrevistas con preguntas abiertas, dirigidas a agricultores, asociaciones locales y empresas de insumos agrícolas. Las preguntas buscan identificar necesidades, procesos actuales, fricciones y expectativas respecto a una solución digital (EcoCrop - SmartCrop), enfocada en detección de plagas, monitoreo climático y uso de sensores IoT.</p>
@@ -1711,14 +1693,12 @@ Para GreenSprout Innovations, utilizaremos un lenguaje que refleje nuestros valo
 | **Marketing y promoción** | Entusiasta y motivador | "Únete a la revolución agrícola con nuestras soluciones innovadoras" |
 | **Documentación** | Formal pero claro | "La implementación del sistema requiere los siguientes pasos técnicos" |
 
-### 4.1.2. Web Style Guidelines
 
 <br><br>
 ## 4.2. Information Architecture
 
 En esta sección se establecen las decisiones y sustento que dirigen la organización del contenido en las experiencias web y móvil de EcoCrop SmartCrop, incluyendo la Landing Page y las aplicaciones. Las propuestas están orientadas a que los visitantes y usuarios se adapten con facilidad a la funcionalidad de cada producto y puedan encontrar todo lo que necesiten sin esfuerzo.
 
----
 
 ## 4.2.1. Organization Systems
 
@@ -2428,13 +2408,13 @@ Esta sección presenta los wireframes de nuestra Startup, diseñados aplicando p
 Se prioriza una arquitectura de información clara y herramientas especializadas para garantizar una experiencia de usuario fluida y eficiente.
 
 <img width="1102" height="773" alt="Diagrama" src="https://github.com/user-attachments/assets/c0c1fdf0-84c8-4a9d-990d-6b7030c0986f" />
+
 [FIGMA]([https://www.figma.com/design/d0Sli9JvzTQ1D3KAfiZ5j3/Untitled?node-id=14-1166&t=TtypjMW7nooE7PlE-1](https://www.figma.com/design/jILSIe6KlS8YXDDpyLKZ1C/SmartCrop---Application-Web?node-id=0-1&t=2SHdntReYkLBJrUJ-1))
 
 <br><br>
 
 ### 4.4.3. Web Applications Mock-ups
 
-<<<<<<< HEAD
 #### Vista de Registro
 ![Vista de registro](assets/images/CP4/applicatiob_web-mock_up/register.png)
 
@@ -2548,80 +2528,27 @@ El diagrama de componentes se enfoca presisamente en la arquitectura interna de 
 
 ### 4.7.2. Class Dictionary
 
-### -AGRICULTOR  
-Representa al usuario principal de la plataforma. Puede registrar cultivos, recibir alertas, interactuar en la comunidad, consultar expertos y gestionar sus dispositivos IoT.
+| **Entidad**   | **Descripción**   |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **AGRICULTOR**        | Representa al usuario principal de la plataforma. Puede registrar cultivos, recibir alertas, interactuar en la comunidad, consultar expertos y gestionar sus dispositivos IoT.      |
+| **CULTIVO**           | Entidad que contiene toda la información sobre los cultivos registrados por el agricultor, incluyendo su tipo, ubicación, estado y los dispositivos asociados para monitoreo.       |
+| **PLANTA**            | Representa una planta específica dentro de un cultivo. Permite registrar su nombre científico, etapa de crecimiento y nivel de riesgo ante plagas.                                  |
+| **DISPOSITIVOIOT**    | Agrupa los sensores y cámaras conectados a los cultivos. Permite enviar datos en tiempo real sobre temperatura, movimiento o condiciones del entorno.                               |
+| **CAMARAVIGILANCIA**  | Dispositivo especializado que permite capturar imágenes del cultivo y detectar movimiento. Está vinculado a un cultivo a través de su dispositivo base.                             |
+| **SENSORTEMPERATURA** | Sensor que registra la temperatura actual del entorno del cultivo. Puede detectar cambios bruscos que afecten la salud de las plantas.                                              |
+| **ALERTA**            | Mensajes generados automáticamente por sensores o el sistema ante eventos críticos como plagas, cambios climáticos o riesgos para el cultivo. Se envían directamente al agricultor. |
+| **NOTIFICACION**      | Mensajes enviados al agricultor para informar sobre eventos relevantes, actualizaciones del sistema, respuestas de expertos o interacciones en la comunidad.                        |
+| **PUBLICACION**       | Representa una publicación dentro de la red social de agricultores. Puede incluir consejos, experiencias, imágenes o preguntas abiertas a la comunidad.                             |
+| **COMENTARIO**        | Contiene los mensajes que un agricultor deja en una publicación. Permite la interacción directa entre usuarios para compartir ideas o resolver dudas.                               |
+| **CONSULTA**          | Registro de una pregunta técnica enviada por un agricultor a un experto. Incluye el mensaje, la fecha, y la respuesta proporcionada por el especialista.                            |
+| **EXPERTO**           | Persona especializada en temas agrícolas, plagas o clima. Responde consultas técnicas y está vinculada a una empresa de soporte.                                                    |
+| **EMPRESAANTIPLAGA**  | Entidad que agrupa expertos en control de plagas o asesoría meteorológica. Ofrece ayuda especializada a los agricultores registrados.                                               |
+| **FORO**              | Espacio temático donde los agricultores pueden debatir, compartir experiencias o resolver problemas comunes. Cada foro agrupa múltiples mensajes.                                   |
+| **MENSAJE**           | Contenido textual publicado por un agricultor dentro de un foro. Permite el intercambio de ideas y soluciones entre miembros de la comunidad.                                       |
 
 ---
 
-### -CULTIVO  
-Entidad que contiene toda la información sobre los cultivos registrados por el agricultor, incluyendo su tipo, ubicación, estado y los dispositivos asociados para monitoreo.
-
----
-
-### -PLANTA  
-Representa una planta específica dentro de un cultivo. Permite registrar su nombre científico, etapa de crecimiento y nivel de riesgo ante plagas.
-
----
-
-### -DISPOSITIVOIOT  
-Agrupa los sensores y cámaras conectados a los cultivos. Permite enviar datos en tiempo real sobre temperatura, movimiento o condiciones del entorno.
-
----
-
-### -CAMARAVIGILANCIA  
-Dispositivo especializado que permite capturar imágenes del cultivo y detectar movimiento. Está vinculado a un cultivo a través de su dispositivo base.
-
----
-
-### -SENSORTEMPERATURA  
-Sensor que registra la temperatura actual del entorno del cultivo. Puede detectar cambios bruscos que afecten la salud de las plantas.
-
----
-
-### -ALERTA  
-Mensajes generados automáticamente por sensores o el sistema ante eventos críticos como plagas, cambios climáticos o riesgos para el cultivo. Se envían directamente al agricultor.
-
----
-
-### -NOTIFICACION  
-Mensajes enviados al agricultor para informar sobre eventos relevantes, actualizaciones del sistema, respuestas de expertos o interacciones en la comunidad.
-
----
-
-### -PUBLICACION  
-Representa una publicación dentro de la red social de agricultores. Puede incluir consejos, experiencias, imágenes o preguntas abiertas a la comunidad.
-
----
-
-### -COMENTARIO  
-Contiene los mensajes que un agricultor deja en una publicación. Permite la interacción directa entre usuarios para compartir ideas o resolver dudas.
-
----
-
-### -CONSULTA  
-Registro de una pregunta técnica enviada por un agricultor a un experto. Incluye el mensaje, la fecha, y la respuesta proporcionada por el especialista.
-
----
-
-### -EXPERTO  
-Persona especializada en temas agrícolas, plagas o clima. Responde consultas técnicas y está vinculada a una empresa de soporte.
-
----
-
-### -EMPRESAANTIPLAGA  
-Entidad que agrupa expertos en control de plagas o asesoría meteorológica. Ofrece ayuda especializada a los agricultores registrados.
-
----
-
-### -FORO  
-Espacio temático donde los agricultores pueden debatir, compartir experiencias o resolver problemas comunes. Cada foro agrupa múltiples mensajes.
-
----
-
-### -MENSAJE  
-Contenido textual publicado por un agricultor dentro de un foro. Permite el intercambio de ideas y soluciones entre miembros de la comunidad.
-
-
+<br><br>
 
 ## 4.8. Database Design
 ### 4.8.1. Database Diagrams
@@ -4204,11 +4131,8 @@ En este sprint no fue contemplada la evidencia de implementacion de servicios
 <p>El despliegue corresponde a una versión parcialmente completa, donde se implementaron las secciones principales (Home, Partners, Servicios, Sobre Nosotros, Testimonios y Contacto), aunque se identificaron algunos errores menores y áreas de mejora que se abordarán en futuros sprints.</p>
 
 <h3>Enlace de acceso al despliegue:</h3>
-<<<<<<< HEAD
-<p><a href="https://smartcrop-ecocrop.github.io/smartcrop.github.io/" target="_blank">Landing Page de SmartCrop-EcoCrop</a></p>
-=======
-<p><a href="https://smartcrop-ecocrop.github.io/smartcrop.github.io" target="_blank">Landing Page de SmartCrop-EcoCrop</a></p>
->>>>>>> 9c3d07f4ddf82a9fc29b4997770932f948a8937c
+
+[Clic para Landing Page](https://smartcrop-ecocrop.github.io/smartcrop.github.io/)
 
 <table>
   <thead>
@@ -4290,7 +4214,7 @@ En este sprint no fue contemplada la evidencia de implementacion de servicios
 
 <h3>Evidencia Gráfica del Trabajo en Equipo</h3>
 <h4>Evidencia Colaborativa</h4>
-<img src="images/topcommiters.png" alt="Evidencia Colaborativa del trabajo en equipo" style="width:100%; height:auto;">
+<img src="assets/images/common/evidence/contributors.png" alt="Evidencia Colaborativa del trabajo en equipo" style="width:100%; height:auto;">
 
 <h3>Observaciones del Trabajo Colaborativo</h3>
 <ul>
@@ -4307,7 +4231,8 @@ En este sprint no fue contemplada la evidencia de implementacion de servicios
 
 <p>El equipo ha mostrado una organización adecuada, distribuyendo responsabilidades de forma clara y utilizando prácticas ágiles basadas en sprints. Esto ha permitido avanzar de manera incremental y documentada. Sin embargo, se identifica la necesidad de incorporar <b>feedback real de usuarios finales</b> para validar las hipótesis de valor y usabilidad. El éxito del proyecto dependerá no solo de la calidad técnica y del diseño, sino también de su aceptación y pertinencia en el contexto social y tecnológico en el que busca posicionarse.</p>
 
-### Video About-the-Team. 
+<br><br>
+
 ## Bibliografía
 
 - Nielsen Norman Group. *10 Usability Heuristics for User Interface Design*.  
@@ -4336,6 +4261,8 @@ En este sprint no fue contemplada la evidencia de implementacion de servicios
 
 - Google Web Fundamentals. *Web Performance Optimization Guidelines*.  
   Disponible en: [https://developers.google.com/web/fundamentals/performance](https://developers.google.com/web/fundamentals/performance)
+
+<br><br>
 
 ## Anexos
 
