@@ -2451,10 +2451,22 @@ Interfaces y secuencia:
 ## 4.5. Web Applications Prototyping
 
 ## 4.6. Domain-Driven Software Architecture
-### 4.6.1. Design-Level Event Storming
-### 4.6.2. Software Architecture Context Diagram
-### 4.6.3. Software Architecture Container Diagrams
-### 4.6.4. Software Architecture Components Diagrams
+En esta sección, presentamos la arquitectura de software para nuestro proyecto SmartCrop . Hemos planteado e diseñado esta arquitectura con un enfoque centrado en el dominio, asegurando que los aspectos principales e críticos de nuestra plataforma estén bien representados y que este alienadas con las necesidades de nuestros usuarios. A continuación, mostramos diagramas clave que describen cómo los diferentes componentes de nuestro sistema interactúan entre sí y con actores externos:
+### 4.6.1. Software Architecture Context Diagram
+El diagrama de contexto de la plataforma SmartCrop proporciona una vista general de las interacciones clave entre el sistema central —que incluye dispositivos IoT y sus actores externos. Este sistema está diseñado para monitorear, notificar y recomendar acciones a los agricultores en Perú, conectándolos con organizaciones especializadas en control de plagas y meteorología. El diagrama identifica a los actores principales, como el Agricultor, que busca proteger sus cultivos mediante información precisa, y las Organizaciones Meteorológicas y de Control de Plagas, que gestionan alertas, recomendaciones y responden a consultas técnicas. También se destacan las integraciones externas esenciales, como la implementación de sensores IoT en las zonas agrícolas, el Servicio de Clima y Control de Plagas para monitoreo en tiempo real, el Servicio de Correo Electrónico para enviar notificaciones automatizadas, y las Redes Sociales, que permiten compartir experiencias y resolver dudas entre agricultores. Esta vista de alto nivel permite comprender cómo SmartCrop se conecta y colabora con su entorno digital y humano, facilitando decisiones informadas y sostenibles en el campo.
+
+<img src="assets/images/CP4/DDD/ContextSystem.jpg">
+
+### 4.6.2. Software Architecture Container Diagrams
+El diagrama de contenedores profundiza en la estructura interna de SmartCrop a, mostrando cómo está compuesta por varios contenedores de software que colaboran para ofrecer una experiencia completa. La Aplicación Web, desarrollada en React, permite a los usuarios interactuar con la plataforma, explorar las pestañas de red social, temperatura, aletar y notificacion, etc. Esta interfaz se comunica con una API desarrollada en Node.js, que actúa como intermediaria entre la interfaz de usuario y los servicios del backend. La Base de Datos en PostgreSQL almacena información crítica sobre usuarios,  dispositivos IoT, Registro de plaga, cambios climaticos y empresas. Además, se incluyen contenedores para para el Servicio de Clima(Open-Meteo) y el Servicio de Correo Electrónico (SendGrid) , que permiten mostrar ubicaciones geográficas y enviar las notificaciones respectivas,sin olvidar el servicio de anti plagas(Apicontrol) , entre otras. Este diagrama proporciona una comprensión clara de cómo las partes técnicas del sistema se organizan y se comunican entre sí.
+
+<img src="assets/images/CP4/DDD/Containers.png">
+
+### 4.6.3. Software Architecture Components Diagrams
+
+El diagrama de componentes se enfoca presisamente en la arquitectura interna de la API de SmartCrop, que es responsable de realizar la lógica de negocio de la plataforma. La API está compuesta por varios componentes especializados desarrollados en Node.js, cada uno enfocado en un dominio específico. El componente de Gestión de Agricultores maneja los perfiles de agricultores y autenticación de estas; Gestión de Peste  informa sobre las peste por medio de imagen y da consejos de como prevenirlas; Gestión de Temperatura Gestiona como informa la temperatura actual como sus cambios repentinos; Gestión de Aparatos IoT Opera y Recopila información respecto a las cámaras o sensores de temperatura para determinar alerta y recomendaciones; y Gestión de Red Social, maneja todo lo que corresponde a publicar post, escribir comentario y valorizarlos . Estos componentes interactúan entre sí siguiendo una lógica funcional clara: los Agricultores que gestionan la temperatura y posibles plaga, los aparatos IoT que incluyen la supervicion de la temperatura y camaras para las plagas, y Red sociales que pueden estar acompañadas respectoa informacion conseguida pro los aparatos IoT. Esta segmentación Muestra un enfoque de diseño que esta basado en el dominio, donde los componentes en cuestión encapsula una responsabilidad clara y conjunta dentro de la plataforma.
+
+<img src="assets/images/CP4/DDD/ComponentsAPI.png">
 
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
@@ -3784,3 +3796,17 @@ El despliegue corresponde a una versión **parcialmente completa**, donde se imp
 
 ---
 ### 5.2.1.8. Team Collaboration Insights during Sprint
+
+
+
+
+
+
+
+
+
+## Conclusiones
+### Conclusiones y recomendaciones.
+### Video About-the-Team.
+## Bibliografía
+## Anexos
