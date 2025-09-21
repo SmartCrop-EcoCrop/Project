@@ -2396,7 +2396,11 @@ A continuación, se presenta cada una de las pantallas diseñadas para la landin
 
 ### 4.4.3. Web Applications Mock-ups
 
-<!-- DESARROLLO -->
+#### Vista de Registro
+![Vista de registro](assets/images/CP4/applicatiob_web-mock_up/register.png)
+
+#### Vista de Iniciar Sesión
+![Vista de registro](assets/images/CP4/applicatiob_web-mock_up/login.png)
 
 <br><br>
 
