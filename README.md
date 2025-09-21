@@ -84,11 +84,12 @@
 
 |  URL de la organización del proyecto  |             URL del repositorio del reporte          |
 | :-----------------------------------: |:----------------------------------------------------:| 
-| (link del todo) | link(repo) |
+| https://github.com/SmartCrop-EcoCrop | https://github.com/SmartCrop-EcoCrop/Project |
 
 |          URL del repositorio de la landing page           |
 |:---------------------------------------------------------:|
-| link(landing page) |
+| https://smartcrop-ecocrop.github.io/smartcrop.github.io/
+ |
 
 |          URL del repositorio del frontend          |
 |:---------------------------------------------------------:|
