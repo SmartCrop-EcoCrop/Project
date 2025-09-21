@@ -3775,7 +3775,61 @@ Los aspectos considerados en el Sprint 1 son:
 </div>
 
 ### 5.2.1.4. Development Evidence for Sprint Review
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Autor</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Commited on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>SmartCrop-EcoCrop/smartcrop.github.io</td>
+      <td>feature/landing-home-hero</td>
+      <td>JoshepAC</td>
+      <td>2ddcb93</td>
+      <td>feat: implement landing home hero section</td>
+      <td>Se desarrolló e implementó la sección principal 'hero' de la página de inicio, incluyendo el diseño y la integración inicial.</td>
+      <td>20/09/2025</td>
+    </tr>
+    <tr>
+      <td>SmartCrop-EcoCrop/smartcrop.github.io</td>
+      <td>feature/landing-partners-footer-responsive</td>
+      <td>Matiasg23</td>
+      <td>6bca31c</td>
+      <td>feat: add partners and responsive footer</td>
+      <td>Se agregaron los componentes de socios y el pie de página con un diseño completamente adaptable para todos los dispositivos.</td>
+      <td>20/09/2025</td>
+    </tr>
+    <tr>
+      <td>SmartCrop-EcoCrop/smartcrop.github.io</td>
+      <td>feature/landing-service-about-us</td>
+      <td>SRT0808</td>
+      <td>69c76c4</td>
+      <td>feat: create service and about us pages</td>
+      <td>Se crearon las páginas 'Servicios' y 'Sobre Nosotros', incluyendo su estructura, contenido inicial y navegación.</td>
+      <td>20/09/2025</td>
+    </tr>
+    <tr>
+      <td>SmartCrop-EcoCrop/smartcrop.github.io</td>
+      <td>landing-testimonials-contact-form</td>
+      <td>DonFernando1</td>
+      <td>d39b9dd</td>
+      <td>feat: add testimonials and contact form</td>
+      <td>Se implementó la sección de testimonios y un formulario de contacto funcional para la página principal.</td>
+      <td>20/09/2025</td>
+    </tr>
+  </tbody>
+</table>
+
 ### 5.2.1.5. Execution Evidence for Sprint Review
+En esta sección se presenta la evidencia de lo desarrollado durante el Sprint 1, correspondiente al avance de la Landing Page de SmartCrop-EcoCrop.
+La entrega incluye la página de inicio (sección hero), la sección de socios y el pie de página responsive, las páginas de Servicios y Sobre Nosotros, y la sección de testimonios con un formulario de contacto.
 ### 5.2.1.6. Services Documentation Evidence for Sprint Review
 En este sprint no fue contemplada la evidencia de implementacion de servicios
 ### 5.2.1.7. Software Deployment Evidence for Sprint Review
